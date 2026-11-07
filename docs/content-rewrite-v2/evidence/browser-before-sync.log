@@ -1,0 +1,61 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:academic:browser
+> playwright test -c playwright.academic.config.ts
+
+[WebServer] (node:6816) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 23 tests using 1 worker
+
+(node:6828) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/academic-showcase.spec.ts:11:44 › Built academic artifact: every route, Reader and responsive layout 320 (14.4s)
+  ✓   2 tests/academic-showcase.spec.ts:11:44 › Built academic artifact: every route, Reader and responsive layout 390 (14.2s)
+  ✓   3 tests/academic-showcase.spec.ts:11:44 › Built academic artifact: every route, Reader and responsive layout 768 (14.2s)
+  ✓   4 tests/academic-showcase.spec.ts:11:44 › Built academic artifact: every route, Reader and responsive layout 1024 (14.3s)
+  ✓   5 tests/academic-showcase.spec.ts:11:44 › Built academic artifact: every route, Reader and responsive layout 1440 (16.7s)
+  ✓   6 tests/academic-showcase.spec.ts:45:1 › Built artifact interactions: search, filters, history, Flow, TOC, related, image dialog and privacy (3.4s)
+  ✓   7 tests/academic-showcase.spec.ts:67:1 › Every emitted static file resolves, all SVG text fits, and reference DOI remains whole (3.1s)
+  ✘   8 tests/garden-interactions.spec.ts:5:1 › Garden: real movement, pointer depth, sticky navigation, flower, companion and lantern flight (8.7s)
+(node:7303) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   9 tests/garden-interactions.spec.ts:37:1 › Reader: chapters, active TOC, reading progress, quiet surface, back to top (3.1s)
+  ✓  10 tests/garden-interactions.spec.ts:45:1 › Reduced motion and manual switch remain consistent across routes (1.5s)
+  ✓  11 tests/garden-interactions.spec.ts:55:1 › Synthesized touch, keyboard focus, mobile TOC and illustration coverage (1.7s)
+  ✓  12 tests/garden-interactions.spec.ts:65:1 › Measured performance: local artifact navigation, resources, frame pacing and layout stability (1.7s)
+  ✓  13 tests/garden-interactions.spec.ts:72:1 › Editorial visual review at five widths, image loading and basic accessibility (7.1s)
+(node:7616) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  14 tests/living-garden.spec.ts:8:1 › Living desktop: visible petals, articulated flowers, gust, following and free drag (7.3s)
+  ✓  15 tests/living-garden.spec.ts:20:1 › Ten themed scenes: click, internal motion, pointer depth, offscreen pause and keyboard (21.5s)
+  ✓  16 tests/living-garden.spec.ts:23:1 › Synthesized mobile touch: scene taps, Mây drag, scroll gesture and reduced-motion feedback (7.0s)
+  ✓  17 tests/living-garden.spec.ts:35:1 › Five widths: no overflow, no nested scene controls, Reader retained and axe (6.9s)
+  ✓  18 tests/scene-depth.spec.ts:17:1 › Wisteria desktop: localized hand force, different regions and damped return (5.0s)
+  ✓  19 tests/scene-depth.spec.ts:23:1 › Wisteria mobile: synthesized finger sweeps produce local, not global response (4.0s)
+  ✓  20 tests/scene-depth.spec.ts:27:35 › Independent painted scene layers, props and settling 390 (22.0s)
+  ✓  21 tests/scene-depth.spec.ts:27:35 › Independent painted scene layers, props and settling 768 (22.5s)
+  ✓  22 tests/scene-depth.spec.ts:27:35 › Independent painted scene layers, props and settling 1440 (25.2s)
+  ✓  23 tests/scene-depth.spec.ts:34:1 › Reduction stops hand springs and scene motion; Reader uses gentler depth (1.4s)
+
+
+  1) tests/garden-interactions.spec.ts:5:1 › Garden: real movement, pointer depth, sticky navigation, flower, companion and lantern flight 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: false
+    Received: true
+
+      25 |  await page.evaluate(()=>window.scrollTo(0,1900));await expect(page.locator('.floating-may')).toHaveAttribute('data-visible','true',{timeout:4000})
+      26 |  const companion=page.getByRole('button',{name:'Chào Mây, người bạn đồng hành'});const cbox=(await companion.boundingBox())!
+    > 27 |  const overlaps=await page.evaluate(({x,y,width,height})=>Array.from(document.querySelectorAll('h1,h2,h3,p,a,input,textarea,label,summary')).filter(el=>!el.closest('.floating-may')).some(el=>{const r=el.getBoundingClientRect();return r.width>0&&r.height>0&&x<r.right&&x+width>r.left&&y<r.bottom&&y+height>r.top}),cbox);expect(overlaps).toBe(false)
+         |                                                                                                                                                                                                                                                                                                                                                 ^
+      28 |  await companion.click();await expect(companion).toHaveAttribute('data-action','happy')
+      29 |  await page.goto('./#/#tam-tinh');const input=page.getByLabel('Điều bạn muốn gửi theo ánh đèn');await input.fill('PRIVATE_GARDEN_CANARY');await page.getByRole('button',{name:'Thả một ngọn đèn'}).click();await expect(input).toHaveValue('')
+      30 |  const lantern=page.locator('.released-lantern');await expect(lantern).toHaveCount(1)
+        at /workspace/Kho-ng-gian-Insight/prototype/tests/garden-interactions.spec.ts:27:337
+
+    Error Context: test-results-academic/garden-interactions-Garden-005a1-ompanion-and-lantern-flight/error-context.md
+
+  1 failed
+    tests/garden-interactions.spec.ts:5:1 › Garden: real movement, pointer depth, sticky navigation, flower, companion and lantern flight 
+  22 passed (3.8m)

@@ -1,0 +1,57 @@
+[
+  {
+    "check": "npm run content:manifest -- --check",
+    "exitCode": 0,
+    "seconds": 0.46
+  },
+  {
+    "check": "npm run test:f0",
+    "exitCode": 0,
+    "seconds": 4.59
+  },
+  {
+    "check": "npm run test:r1",
+    "exitCode": 0,
+    "seconds": 7.38
+  },
+  {
+    "check": "npm run test:c1",
+    "exitCode": 0,
+    "seconds": 10.39
+  },
+  {
+    "check": "npm run test:w1",
+    "exitCode": 0,
+    "seconds": 7.91
+  },
+  {
+    "check": "npm run test:d1",
+    "exitCode": 0,
+    "seconds": 7.58
+  },
+  {
+    "check": "npm run test:g1",
+    "exitCode": 0,
+    "seconds": 6.17
+  },
+  {
+    "check": "npm run test:p2",
+    "exitCode": 0,
+    "seconds": 11.6
+  },
+  {
+    "check": "npm run test:w2",
+    "exitCode": 0,
+    "seconds": 8.43
+  },
+  {
+    "check": "npm run build",
+    "exitCode": 0,
+    "seconds": 17.02
+  },
+  {
+    "check": "npm run test:content",
+    "exitCode": 0,
+    "seconds": 2.76
+  }
+]

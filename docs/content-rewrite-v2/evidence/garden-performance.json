@@ -1,0 +1,8 @@
+{
+  "environment": "Local Chromium headless, 390px, no network/CPU throttling; not Lighthouse or physical-device evidence",
+  "domContentLoadedMs": 206.80000000004657,
+  "cls": 0.00018029048629600894,
+  "initialResourceBytes": 3034971,
+  "medianFrameMs": 16.699999999999932,
+  "p95FrameMs": 16.799999999999955
+}

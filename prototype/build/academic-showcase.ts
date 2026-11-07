@@ -1,4 +1,5 @@
 // Build-only policy. This module never changes F0 publication state or evidence.
+import { loadAcademicRewrite } from './academic-rewrite.ts'
 import { readFileSync } from 'node:fs'
 import { basename, resolve } from 'node:path'
 import type { Catalogue, Article } from '../editorial/schema.ts'
@@ -29,12 +30,14 @@ export function createAcademicShowcase(root:string) {
     const asset=a.assets[0]
     assertRecord(root,prior.asset.record,{kind:'assetRights',subjectId:asset.id,revision:asset.revision,contentHash:asset.sha256,revisionHash:a.revisionHash},prior.asset.record.at)
   }
-  const articles:Article[]=compileSourceArticles(root,manifest.articles,publicAssetUrl).map(a=>{
+  const rewritten=loadAcademicRewrite(root,manifest)
+  const articles:Article[]=compileSourceArticles(root,rewritten,publicAssetUrl).map(a=>{
     const document=structuredClone(a.document)
     document.trace=[]
-    document.localLinks=document.localLinks?.map(l=>({source:l.source,target:'#publication-information'}))
+    document.localLinks=[]
     // Preserve original draft status; no synthetic publishedAt or review records.
-    return {...a.card,illustration:Math.max(0,registry.topics.findIndex(t=>t.articleSlugs.includes(a.slug))),id:a.id,collection:a.metadata.collection,updated:'',sections:[],sources:[],document,relatedSlugs:a.metadata.relatedArticleIds.flatMap(id=>manifest.articles.filter(b=>b.id===id).map(b=>b.slug))}
+    const {revision:_internalRevision,...card}=a.card
+    return {...card,illustration:Math.max(0,registry.topics.findIndex(t=>t.articleSlugs.includes(a.slug))),id:a.id,collection:a.metadata.collection,updated:'',sections:[],sources:[],document,relatedSlugs:a.metadata.relatedArticleIds.flatMap(id=>manifest.articles.filter(b=>b.id===id).map(b=>b.slug))}
   })
   const selected=validateWeeklyRegistry(registry,new Set(articles.map(a=>a.slug)),root,Date.now())
   requireThat(selected.length===10 && accepted.topics.length===10,'showcase exact topic scope')
@@ -46,6 +49,6 @@ export function createAcademicShowcase(root:string) {
   const topics=selected.map(({id,slug,title,description,startsAt,endsAt,articleSlugs})=>({id,slug,title,description,startsAt,endsAt,articleSlugs}))
   const weekly:WeeklyView={showcase:true,selectedAt:selected[0].startsAt,reason:'empty',currentId:topics[0].id,topics,articles}
   const catalogue:Catalogue={articles,topics:[]}
-  const assets=manifest.articles.flatMap(a=>a.assets.map(asset=>({url:publicAssetUrl(a.id,asset.sha256,basename(asset.path)),bytes:readReference(root,asset)})))
-  return {catalogue,weekly,assets,manifest,policy}
+  const assets=rewritten.flatMap(a=>a.assets.map(asset=>({url:publicAssetUrl(a.id,asset.sha256,basename(asset.path)),bytes:readReference(root,asset)})))
+  return {catalogue,weekly,assets,manifest,policy,rewritten}
 }

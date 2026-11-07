@@ -6,7 +6,7 @@ import { createAcademicShowcase } from './academic-showcase.ts'
 function normalize(s:string){return s.replace(/\\u([\da-f]{4})/gi,(_,h)=>String.fromCharCode(parseInt(h,16))).replace(/\\[nrt]/g,' ').replace(/\\["'\\/]/g,s=>s.slice(1)).normalize('NFC').replace(/\s+/g,' ').trim()}
 export function showcaseBoundary(root:string, release=createAcademicShowcase(root)) {
   const allowed=normalize(JSON.stringify([release.catalogue,release.weekly])+release.assets.map(a=>a.bytes.toString()).join(' '))
-  const markers=[FIXTURE_SENTINEL,'virtual:p2-fixture','virtual:w2-preview','__r1_assets','expertReview','learnerReview','publicationAuthorization','source-manifest.json','academic-showcase-policy.json','publication-records/','docs/phase-3/','"evidence":','"by":"Chủ dự án']
+  const markers=[FIXTURE_SENTINEL,'virtual:p2-fixture','virtual:w2-preview','__r1_assets','expertReview','learnerReview','publicationAuthorization','source-manifest.json','academic-showcase-policy.json','academic-rewrite.json','academic-content-v2','Bản nháp để duyệt','Chưa duyệt nội dung cuối','publication-records/','docs/phase-3/','docs/content-rewrite-v2/','"evidence":','"by":"Chủ dự án']
   const withheldHashes=new Set<string>(),allowedAssets=new Set<string>()
   for(const a of release.manifest.articles)for(const f of Object.values(a.dossiers)){
     const bytes=readReference(root,f);withheldHashes.add(f.sha256)
@@ -20,7 +20,7 @@ export function showcaseBoundary(root:string, release=createAcademicShowcase(roo
   return {markers:[...new Set(markers)],withheldHashes,allowedAssets}
 }
 export function assertShowcaseModule(ids:string[]) {
-  requireThat(ids.every(id=>!/(?:^|[/\\])(?:tests|preview|weekly-preview)(?:[/\\]|$)|virtual:(?:[rcwpdg][\d]+-(?:fixture|preview))|p2-preview|editorial[/\\](?:source-manifest|weekly|academic-showcase-policy)\.json/.test(id)),'non-production module in showcase graph')
+  requireThat(ids.every(id=>!/(?:^|[/\\])(?:tests|preview|weekly-preview)(?:[/\\]|$)|virtual:(?:[rcwpdg][\d]+-(?:fixture|preview))|p2-preview|editorial[/\\](?:source-manifest|weekly|academic-showcase-policy|academic-rewrite)\.json/.test(id)),'non-production module in showcase graph')
 }
 export function scanAcademicShowcase(root:string,output:string) {
   const release=createAcademicShowcase(root),boundary=showcaseBoundary(root,release)
@@ -41,6 +41,7 @@ export function scanAcademicShowcase(root:string,output:string) {
   requireThat(js.length===1 && files.filter(f=>f.endsWith('.css')).length===1,'unexpected code chunks in showcase output')
   const code=js.join('\n')
   for(const a of release.catalogue.articles){requireThat(code.includes(a.slug)&&code.includes(a.title)&&code.includes(a.document!.sourceHash),'showcase article missing from artifact: '+a.slug)}
+  for(const a of release.manifest.articles)requireThat(!code.includes(a.contentHash),'obsolete article source hash in artifact: '+a.id)
   for(const t of release.weekly.topics)requireThat(code.includes(t.slug)&&code.includes(t.title),'showcase topic missing from artifact')
   requireThat(readFileSync(resolve(output,'index.html'),'utf8').includes('noindex, nofollow'),'showcase noindex missing')
   return {mode:'academic-showcase',articles:29,svg:29,topics:10,files:files.length,digest:sha256(files.sort().map(f=>relative(output,f)+'\0'+sha256(readFileSync(f))).join('\n'))}

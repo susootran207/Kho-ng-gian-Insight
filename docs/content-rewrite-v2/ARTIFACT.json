@@ -1,0 +1,13 @@
+{
+  "file": "Academic-Showcase-content-v2.zip",
+  "sha256": "a9be84b1a78da89244a87790d87a3e4ac6d248b11ee0e5fdf058db095fefff50",
+  "bytes": 4531515,
+  "files": 68,
+  "articles": 29,
+  "svg": 29,
+  "topics": 10,
+  "outputDirectory": "prototype/dist-academic",
+  "sourceBaseline": "ad22186aa03053ff6050a8cefa65eacd9885bd68",
+  "buildDigest": "3905d7dd8031575dd1c24876552d839014382c94e32c375f9a87a3799de289a5",
+  "deployed": false
+}

@@ -23,8 +23,10 @@ test('Garden: real movement, pointer depth, sticky navigation, flower, companion
  await page.mouse.move(0,110);await expect(feature).toHaveAttribute('data-tracking','false')
  // At this wide viewport the fixed companion must find a safe gutter after hero.
  await page.evaluate(()=>window.scrollTo(0,1900));await expect(page.locator('.floating-may')).toHaveAttribute('data-visible','true',{timeout:4000})
- const companion=page.getByRole('button',{name:'Chào Mây, người bạn đồng hành'});const cbox=(await companion.boundingBox())!
- const overlaps=await page.evaluate(({x,y,width,height})=>Array.from(document.querySelectorAll('h1,h2,h3,p,a,input,textarea,label,summary')).filter(el=>!el.closest('.floating-may')).some(el=>{const r=el.getBoundingClientRect();return r.width>0&&r.height>0&&x<r.right&&x+width>r.left&&y<r.bottom&&y+height>r.top}),cbox);expect(overlaps).toBe(false)
+ const companion=page.getByRole('button',{name:'Chào Mây, người bạn đồng hành'})
+ // Visibility changes before the scroll-triggered 650ms rest and 1s transform settle.
+ // Keep the no-overlap assertion, measuring the current box until placement settles.
+ await expect.poll(async()=>{const cbox=(await companion.boundingBox())!;return page.evaluate(({x,y,width,height})=>Array.from(document.querySelectorAll('h1,h2,h3,p,a,input,textarea,label,summary')).filter(el=>!el.closest('.floating-may')).some(el=>{const r=el.getBoundingClientRect();return r.width>0&&r.height>0&&x<r.right&&x+width>r.left&&y<r.bottom&&y+height>r.top}),cbox)},{timeout:4000}).toBe(false)
  await companion.click();await expect(companion).toHaveAttribute('data-action','happy')
  await page.goto('./#/#tam-tinh');const input=page.getByLabel('Điều bạn muốn gửi theo ánh đèn');await input.fill('PRIVATE_GARDEN_CANARY');await page.getByRole('button',{name:'Thả một ngọn đèn'}).click();await expect(input).toHaveValue('')
  const lantern=page.locator('.released-lantern');await expect(lantern).toHaveCount(1)

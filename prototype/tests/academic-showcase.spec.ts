@@ -2,10 +2,12 @@ import { test, expect } from '@playwright/test'
 import { readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { compileSourceArticles } from '../build/source-reader'
+import { createAcademicShowcase } from '../build/academic-showcase'
 import { publicAssetUrl } from '../build/public-library'
 const root=resolve('..'),manifest=JSON.parse(readFileSync(resolve(root,'prototype/editorial/source-manifest.json'),'utf8'))
 const weekly=JSON.parse(readFileSync(resolve(root,'prototype/editorial/weekly.json'),'utf8'))
-const compiled=compileSourceArticles(root,manifest.articles,publicAssetUrl)
+const release=createAcademicShowcase(root)
+const compiled=compileSourceArticles(root,release.rewritten,publicAssetUrl)
 for(const width of [320,390,768,1024,1440])test('Built academic artifact: every route, Reader and responsive layout '+width,async({page,request})=>{
  await page.setViewportSize({width,height:1000});await page.emulateMedia({reducedMotion:'reduce'})
  const failures:string[]=[],errors:string[]=[]
@@ -22,13 +24,14 @@ for(const width of [320,390,768,1024,1440])test('Built academic artifact: every 
   const expected:string[]=[];function walk(n:any){expected.push(n.id);n.children?.forEach(walk)};walk(a.document.root)
   const actual=await page.locator('[data-source-id]').evaluateAll(es=>es.map(e=>e.getAttribute('data-source-id')))
   expect([...new Set(actual)].sort()).toEqual(expected.sort())
+  await expect(page.locator('.article-prose')).not.toContainText(/Bản nháp|draft-r\d|Hồ sơ nguồn|Đối chiếu nhận định|Tình huống An/);await expect(page.locator('.article-prose')).toContainText(a.card.description)
   expect(await page.locator('.article-prose table').count()).toBe(a.document.root.children!.filter(n=>n.type==='table').length)
   tables+=await page.locator('.article-prose table').count();nodes+=actual.length
   const ids=new Set(await page.locator('[id]').evaluateAll(es=>es.map(e=>e.id)))
   for(const href of await page.locator('.article-prose a[href*="#"],.table-of-contents a').evaluateAll(es=>es.map(e=>(e as HTMLAnchorElement).getAttribute('href')!))){const anchor=href.split('#').at(-1)!;if(!href.startsWith('#/bai-viet/')||href.split('#').length<3)continue;expect(ids.has(decodeURIComponent(anchor)),a.slug+' '+href).toBeTruthy()}
   await fits()
  }
- expect(tables).toBe(25);expect(nodes).toBeGreaterThan(4000)
+ expect(tables).toBe(compiled.reduce((n,a)=>n+a.document.root.children!.filter(n=>n.type==='table').length,0));expect(nodes).toBeGreaterThan(1000)
  await page.screenshot({path:`test-results-academic/reader-${width}.png`,fullPage:false})
  await page.goto('./#/chuyen-de');await expect(page.locator('h1')).toHaveText('Lịch chuyên đề minh họa');await expect(page.locator('.topic-spread')).toHaveCount(10);await fits()
  for(const t of weekly.topics){await page.goto('./#/chuyen-de/'+t.slug);await expect(page.locator('h1')).toHaveText(t.title);await page.reload();await expect(page.locator('.library-entry')).toHaveCount(t.articleSlugs.length);await expect(page.locator('.draft-label').first()).toContainText('Nội dung mô phỏng');await fits()}
@@ -36,7 +39,7 @@ for(const width of [320,390,768,1024,1440])test('Built academic artifact: every 
  await page.goto('./#/');await page.screenshot({path:`test-results-academic/home-${width}.png`,fullPage:false})
  expect(errors).toEqual([]);expect(failures).toEqual([])
  // Raw source, evidence, registries and dev entry points remain unavailable.
- for(const a of manifest.articles)for(const f of [a.source,...Object.values(a.dossiers)] as {path:string}[])expect((await request.get('./'+f.path)).status()).toBe(404)
+ for(const a of [...manifest.articles,...release.rewritten])for(const f of [a.source,...Object.values(a.dossiers)] as {path:string}[])expect((await request.get('./'+f.path)).status()).toBe(404)
  for(const path of ['editorial/source-manifest.json','editorial/academic-showcase-policy.json','editorial/weekly.json','preview/index.html','weekly-preview/index.html','src/main.tsx','@vite/client','assets/index.js.map','docs/phase-3/publication-records/r10/KGNT-C01-editorial.json'])expect((await request.get('./'+path)).status()).toBe(404)
 })
 test('Built artifact interactions: search, filters, history, Flow, TOC, related, image dialog and privacy',async({page})=>{
@@ -59,4 +62,30 @@ test('Built artifact interactions: search, filters, history, Flow, TOC, related,
  await input.fill('PRIVATE_CANARY_DO_NOT_STORE');await page.getByRole('button',{name:'Thả một ngọn đèn'}).click();await expect(input).toHaveValue('')
  await input.fill('PRIVATE_CANARY_DO_NOT_STORE');await page.reload();await expect(input).toHaveValue('')
  expect(await page.evaluate(()=>Object.values({...localStorage,...sessionStorage}).join(' ').includes('PRIVATE_CANARY'))).toBe(false);expect(network).toEqual([])
+})
+
+test('Every emitted static file resolves, all SVG text fits, and reference DOI remains whole',async({page,request})=>{
+ const {readdirSync}=await import('node:fs')
+ function files(dir:string):string[]{return readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.isDirectory()?files(dir+'/'+e.name):[dir+'/'+e.name])}
+ for(const file of files('dist-academic')){
+  const path=file.slice('dist-academic/'.length),response=await request.get('./'+path)
+  expect(response.status(),path).toBe(200)
+  expect((await response.body()).length,path).toBeGreaterThan(0)
+  if(path.endsWith('.svg')){
+   expect(response.headers()['content-type']).toContain('image/svg+xml')
+   await page.goto('./'+path)
+   const outside=await page.locator('svg').evaluate(svg=>{
+    const box=(svg as SVGSVGElement).viewBox.baseVal
+    return [...svg.querySelectorAll('text')].filter(t=>{const b=t.getBBox();return b.x<box.x-1||b.y<box.y-1||b.x+b.width>box.x+box.width+1||b.y+b.height>box.y+box.height+1}).map(t=>t.textContent)
+   })
+   expect(outside,path).toEqual([])
+  }
+ }
+ await page.goto('./#/bai-viet/dien-thoai-va-chu-y')
+ await expect(page.locator('a[href="https://doi.org/10.1016/S1364-6613(03)00028-7"]')).toHaveCount(1)
+ for(const width of [390,1440]){
+  await page.setViewportSize({width,height:1000});await page.goto('./#/bai-viet/hom-nay-minh-cam-thay-gi')
+  await page.locator('.reader-chapter').first().scrollIntoViewIfNeeded()
+  await page.screenshot({path:`test-results-academic/rewrite-c01-body-${width}.png`,fullPage:false})
+ }
 })

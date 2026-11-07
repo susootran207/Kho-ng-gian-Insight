@@ -98,6 +98,13 @@ jobs:
         id: academic
         run: npm run build:academic
 
+      - name: Install browser for built academic smoke tests
+        run: npx playwright install --with-deps chromium
+
+      - name: Open academic build in browser (all articles, topics, interactions)
+        id: academic_browser
+        run: CHROMIUM_PATH="$(node -e "console.log(require('playwright').chromium.executablePath())")" npm run test:academic:browser
+
       - name: Report PASS / FAIL / BLOCKED
         if: ${{ always() }}
         working-directory: .
@@ -118,13 +125,14 @@ jobs:
           BUILD: ${{ steps.build.outcome }}
           PUBLICATION: ${{ steps.publication.outcome }}
           ACADEMIC: ${{ steps.academic.outcome }}
+          ACADEMIC_BROWSER: ${{ steps.academic_browser.outcome }}
         run: |
           {
             echo '## CI verification'
             echo
             echo '| Check | Result |'
             echo '| --- | --- |'
-            for check in CHECKOUT NODE INSTALL MANIFEST F0 R1 C1 W1 D1 G1 P2 W2 TYPECHECK BUILD PUBLICATION ACADEMIC; do
+            for check in CHECKOUT NODE INSTALL MANIFEST F0 R1 C1 W1 D1 G1 P2 W2 TYPECHECK BUILD PUBLICATION ACADEMIC ACADEMIC_BROWSER; do
               outcome="${!check}"
               case "$outcome" in
                 success) result=PASS ;;
