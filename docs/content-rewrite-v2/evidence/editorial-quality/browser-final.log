@@ -1,0 +1,39 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:academic:browser
+> playwright test -c playwright.academic.config.ts
+
+[WebServer] (node:18945) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 24 tests using 1 worker
+
+(node:18957) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/academic-showcase.spec.ts:11:44 › Built academic artifact: every route, Reader and responsive layout 320 (13.1s)
+  ✓   2 tests/academic-showcase.spec.ts:11:44 › Built academic artifact: every route, Reader and responsive layout 390 (13.9s)
+  ✓   3 tests/academic-showcase.spec.ts:11:44 › Built academic artifact: every route, Reader and responsive layout 768 (15.5s)
+  ✓   4 tests/academic-showcase.spec.ts:11:44 › Built academic artifact: every route, Reader and responsive layout 1024 (15.6s)
+  ✓   5 tests/academic-showcase.spec.ts:11:44 › Built academic artifact: every route, Reader and responsive layout 1440 (16.0s)
+  ✓   6 tests/academic-showcase.spec.ts:45:1 › Built artifact interactions: search, filters, history, Flow, TOC, related, image dialog and privacy (3.2s)
+  ✓   7 tests/academic-showcase.spec.ts:67:1 › Every emitted static file resolves, all SVG text fits, and reference DOI remains whole (3.1s)
+  ✓   8 tests/academic-showcase.spec.ts:93:1 › Figure descriptions: native disclosure, accessible image descriptions, dialog and no-CSS fallback (4.8s)
+  ✓   9 tests/garden-interactions.spec.ts:5:1 › Garden: real movement, pointer depth, sticky navigation, flower, companion and lantern flight (19.7s)
+  ✓  10 tests/garden-interactions.spec.ts:39:1 › Reader: chapters, active TOC, reading progress, quiet surface, back to top (2.2s)
+  ✓  11 tests/garden-interactions.spec.ts:47:1 › Reduced motion and manual switch remain consistent across routes (1.5s)
+  ✓  12 tests/garden-interactions.spec.ts:57:1 › Synthesized touch, keyboard focus, mobile TOC and illustration coverage (1.6s)
+  ✓  13 tests/garden-interactions.spec.ts:67:1 › Measured performance: local artifact navigation, resources, frame pacing and layout stability (1.8s)
+  ✓  14 tests/garden-interactions.spec.ts:74:1 › Editorial visual review at five widths, image loading and basic accessibility (7.6s)
+(node:19600) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  15 tests/living-garden.spec.ts:8:1 › Living desktop: visible petals, articulated flowers, gust, following and free drag (8.4s)
+  ✓  16 tests/living-garden.spec.ts:20:1 › Ten themed scenes: click, internal motion, pointer depth, offscreen pause and keyboard (21.6s)
+  ✓  17 tests/living-garden.spec.ts:23:1 › Synthesized mobile touch: scene taps, Mây drag, scroll gesture and reduced-motion feedback (7.1s)
+  ✓  18 tests/living-garden.spec.ts:35:1 › Five widths: no overflow, no nested scene controls, Reader retained and axe (7.5s)
+  ✓  19 tests/scene-depth.spec.ts:17:1 › Wisteria desktop: localized hand force, different regions and damped return (4.1s)
+  ✓  20 tests/scene-depth.spec.ts:23:1 › Wisteria mobile: synthesized finger sweeps produce local, not global response (4.1s)
+  ✓  21 tests/scene-depth.spec.ts:27:35 › Independent painted scene layers, props and settling 390 (22.0s)
+  ✓  22 tests/scene-depth.spec.ts:27:35 › Independent painted scene layers, props and settling 768 (22.4s)
+  ✓  23 tests/scene-depth.spec.ts:27:35 › Independent painted scene layers, props and settling 1440 (26.2s)
+  ✓  24 tests/scene-depth.spec.ts:34:1 › Reduction stops hand springs and scene motion; Reader uses gentler depth (1.6s)
+
+  24 passed (4.1m)

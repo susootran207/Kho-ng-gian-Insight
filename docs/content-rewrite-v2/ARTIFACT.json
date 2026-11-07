@@ -1,13 +1,14 @@
 {
   "file": "Academic-Showcase-content-v2.zip",
-  "sha256": "a9be84b1a78da89244a87790d87a3e4ac6d248b11ee0e5fdf058db095fefff50",
-  "bytes": 4531515,
+  "sha256": "6264509e54af7a4cab5c392f8cbd1d6883c4906b36e7671d1fd0d3e87adc869c",
+  "bytes": 4594306,
   "files": 68,
   "articles": 29,
   "svg": 29,
   "topics": 10,
   "outputDirectory": "prototype/dist-academic",
   "sourceBaseline": "ad22186aa03053ff6050a8cefa65eacd9885bd68",
-  "buildDigest": "3905d7dd8031575dd1c24876552d839014382c94e32c375f9a87a3799de289a5",
+  "buildDigest": "1e7e6d65491ef130ff71c9b991416e9b75bb013e7164de954ec279fe677d6975",
+  "editorialRevisionBaseline": "6db2c0775ba76c976bbfadc93ac4ccbd4a7e654f",
   "deployed": false
 }

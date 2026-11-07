@@ -1,50 +1,50 @@
-# Ma trận đường dẫn và nội dung
+# Đường dẫn sau Editorial Quality Revision
 
-Các slug và quan hệ chuyên đề giữ nguyên baseline. Bản build/bộ kiểm trình duyệt kiểm trực tiếp từng URL bên dưới, gồm reload ở năm kích thước.
+Giữ mọi slug và liên kết chuyên đề; hash nguồn bên dưới là bản mới.
 
-| Bài | URL hash | SHA-256 nguồn mới |
+| Bài | URL hash | SHA-256 nguồn |
 |---|---|---|
-| KGNT-C01 | `/#/bai-viet/hom-nay-minh-cam-thay-gi` | `6324ce36c6889cd35ea13d7975946a28811f7bb29b00863e3c36b1cfa2babf4f` |
-| KGNT-C02 | `/#/bai-viet/lo-lang-truoc-gio-hoc` | `b4e39598471d1b9fde52a718d27e69d1152f2c74c3b4a7723327544457e96597` |
-| KGNT-C03 | `/#/bai-viet/dung-ve-phia-minh` | `66b20d5df419e22cf870c753b7dee591ab3766598e402bbae83ad825a8dd6c60` |
-| KGNT-C04 | `/#/bai-viet/con-gian-truoc-loi-noi` | `cb6e86c245fdd7809fdb589b16518b4941d7b991dd969cfb4784a7ba76f138f4` |
-| KGNT-C05 | `/#/bai-viet/khi-mua-thi-den-gan` | `0bc6fdd17f0536adc6e33a11452465f48471083bb24ad655cd7b8d776f54cb89` |
-| KGNT-C06 | `/#/bai-viet/chua-bat-dau-hoc` | `a3a94baff99cb57588c48074c184d7e16b73ff526fb908750c9ddb645cbe2989` |
-| KGNT-C07 | `/#/bai-viet/hoc-va-nho-lau` | `3e651416d31feca3e618fe50358cca5ea9d918b3bc4bb08e4faf2da0ce5ebfa3` |
-| KGNT-C08 | `/#/bai-viet/sau-bai-kiem-tra` | `9b01950cf97224f301134fb906bfdef71c8727ab6ac9ac403d53ca38c5f20af7` |
-| KGNT-C09 | `/#/bai-viet/o-giua-lop` | `d4f08e1ec30c0a532fa559e094472f2638c456cfec86beff10cc4ad99c5700bd` |
-| KGNT-C10 | `/#/bai-viet/bat-dong-tinh-ban` | `aaacdb8ce2227f32ed79b1b26cf5e402314d084b0279591ce20b9cab5721358f` |
-| KGNT-C11 | `/#/bai-viet/treu-choc-va-bat-nat` | `4fdc9c3a1783f752cdc9e5a9b0eee9984b1b7e2c9a8e3d62f8839ae92ccc6930` |
-| KGNT-C12 | `/#/bai-viet/noi-khong-ton-trong` | `13d950493d435159e4f3ea7a7813473cc5bb0783b578c463b6b14c278add08d5` |
-| KGNT-C13 | `/#/bai-viet/ky-vong-o-nha` | `5f1b08b33397d14dce63538a33e3864555b83c22a53e55a7adb8e5b1bde57b8b` |
-| KGNT-C14 | `/#/bai-viet/tro-chuyen-voi-nguoi-lon` | `8616319e2916951bb51c28795f5f2947a97ff3f89a9e84e9e77786e3058df22b` |
-| KGNT-C15 | `/#/bai-viet/tim-them-su-giup-do` | `fafeadf9370c4afdac701afc3ecb2d9b32b36aebcbe4c7b1ec65225ac5e694e8` |
-| KGNT-C16 | `/#/bai-viet/khi-ban-rat-buon` | `39c1bde9ba5147a6e94d5f1bb00e5314122595cb8100a7ca111fe2c39ca326b3` |
-| KGNT-C17 | `/#/bai-viet/dem-dai-minh-chua-ngu` | `6534f437fe6769f285bbaff3b21fb191bb3476079bdb4d07ac3e3388be9fb0b9` |
-| KGNT-C18 | `/#/bai-viet/nghi-mot-chut` | `a25e2cf23c9ce51973acdc4c87ad7cfcb13b628fe458d9ede0cac228f70d8952` |
-| KGNT-C19 | `/#/bai-viet/tin-hieu-co-the` | `4bc3498d6ccf18a56c58d9020cc556586244b0a8953f1e7cd84d75f8ab65459a` |
-| KGNT-C20 | `/#/bai-viet/van-dong-giua-ngay-hoc` | `3bb66b5c95d7f486e7c98f36a01a88bf5d725ea37965bbbd6bd59727255836b2` |
-| KGNT-C21 | `/#/bai-viet/so-sanh-tren-mang` | `ab03126fe43bbd1d1947f9962fd0c0fb383d496db8d34820bfa997b864d1ae2b` |
-| KGNT-C22 | `/#/bai-viet/dien-thoai-va-chu-y` | `31f3b3c334411f75dc25ca17ab9963bffec3ea6ff488fdc0cfbea9786160a1a7` |
-| KGNT-C23 | `/#/bai-viet/lop-moi-truong-moi` | `0699dfb58c03819d8257dc763028bd04851281065d83b94589ad7ebc3a31997c` |
-| KGNT-C24 | `/#/bai-viet/kham-pha-tuong-lai` | `1d88f391020a09d047287c74b1c451ea2f494a24ab923145582418d0baf00118` |
-| KGNT-E01 | `/#/bai-viet/mbti-va-16-kieu-tinh-cach` | `570234a7036f66a25356980a3822b60b7e1944ab2e31c166f9cd17654bcc3577` |
-| KGNT-E02 | `/#/bai-viet/big-five` | `7ede434076b929e9bb7fe2c79d93e7658d7a07c8d7f8e8b66156ae63cf98dec3` |
-| KGNT-E03 | `/#/bai-viet/holland-riasec` | `de265942ce79103a28cf0d2d84ab88e339c05785480a2a7c742f342a5333e1ed` |
-| KGNT-E04 | `/#/bai-viet/stress-va-cong-cu-sang-loc` | `2784a6faf91ad2c5656e2c65321288f8183998d951aeb980215599da43f40b84` |
-| KGNT-E05 | `/#/bai-viet/phong-cach-hoc-tap` | `aea6f2a2ae25ed31e586a7d59c545d567d0cf5720095270d65b3a88186dce562` |
+| KGNT-C01 | `/#/bai-viet/hom-nay-minh-cam-thay-gi` | `36acaccd04d796e61f5ad36874c4bf6a7ad7dfab3558f97fe55fa2eea97c513d` |
+| KGNT-C02 | `/#/bai-viet/lo-lang-truoc-gio-hoc` | `9730ee8dc524e4e773bbffd219688073cd0e3a83ad599a0b1d4fc0166e71ddaf` |
+| KGNT-C03 | `/#/bai-viet/dung-ve-phia-minh` | `81c25c4fdeda3a407757a46f22bff9445c35b19100684ebe411ea37f6f879c57` |
+| KGNT-C04 | `/#/bai-viet/con-gian-truoc-loi-noi` | `2ce2d5a683efd813de96b46cf0e10e7f9184f59c6ba3633cc7f6e3fa4aba4a36` |
+| KGNT-C05 | `/#/bai-viet/khi-mua-thi-den-gan` | `06f2d43b651627d9ad65dcc4b6e4f478a69addd19d704503f9c31180e5436644` |
+| KGNT-C06 | `/#/bai-viet/chua-bat-dau-hoc` | `442a774aea4fbe0e0d7cf868338dcd30d6cc9daa523b543ecebc5261c4817c01` |
+| KGNT-C07 | `/#/bai-viet/hoc-va-nho-lau` | `8f8796ce0cd348260b9ad08fc6367428abc4650cbcd70fec7adf9b5a388f8f47` |
+| KGNT-C08 | `/#/bai-viet/sau-bai-kiem-tra` | `ad6686f770434d0b6f1ddf0350a6ec96438f19a9dbfd9cd3e65b89d0511a46c6` |
+| KGNT-C09 | `/#/bai-viet/o-giua-lop` | `f70b597a808a748277e7e6664a7c703002a8ca4937b3b6e472bf6a83b46152b6` |
+| KGNT-C10 | `/#/bai-viet/bat-dong-tinh-ban` | `17e6ba5541bc90a56734c075c9ea5ad9b1b43b2e31f7a2bd1d9da426f22b5a53` |
+| KGNT-C11 | `/#/bai-viet/treu-choc-va-bat-nat` | `de2fe3ac336ed4ec06f4d535c3ddc846b31a6f71781b63d87575f53e2e425622` |
+| KGNT-C12 | `/#/bai-viet/noi-khong-ton-trong` | `86ed9e758f0df393a3f5f78c5210f97e3a844ecc344d79b8f0a784f3bbc0067c` |
+| KGNT-C13 | `/#/bai-viet/ky-vong-o-nha` | `d91484c8960c77c4fdd171ae5dfc7682c894817d5241b977a164c901a15ae6f5` |
+| KGNT-C14 | `/#/bai-viet/tro-chuyen-voi-nguoi-lon` | `48dae4b3d4892901e5dc26aa2a4d0a7d35c0e98bdb668ef12bf19f5716654e17` |
+| KGNT-C15 | `/#/bai-viet/tim-them-su-giup-do` | `c83b63a2a1427c8820ef668d81726dab1396a8248f23e5bd37382c425d7cee76` |
+| KGNT-C16 | `/#/bai-viet/khi-ban-rat-buon` | `16871edeba3aebf95b3007a0fadbd7868a1ac49c42399a8c8701a02477ba8f41` |
+| KGNT-C17 | `/#/bai-viet/dem-dai-minh-chua-ngu` | `2f285f09f13074fa8501eef3bad667ec5ea87fe6314e2c1ca20b61e3feae5d03` |
+| KGNT-C18 | `/#/bai-viet/nghi-mot-chut` | `3f2dc4ddfe2e1d2ee56efd2194975c3e9ec5417722bb94095cf2c4ea60767fca` |
+| KGNT-C19 | `/#/bai-viet/tin-hieu-co-the` | `8123e3174425ed70dfe8681cbec9fa6bfc329ba706188bfe156a2bf33108e716` |
+| KGNT-C20 | `/#/bai-viet/van-dong-giua-ngay-hoc` | `63510ea45a4b26156015026ea52135644710fb850c9d53831e0e0e8d524b06ce` |
+| KGNT-C21 | `/#/bai-viet/so-sanh-tren-mang` | `0d84b80ffd0c7445c41bff1641ece178932a4eddc1b746ccd70a9e71467082a8` |
+| KGNT-C22 | `/#/bai-viet/dien-thoai-va-chu-y` | `a22a0985e37b88b642478dad384a7dc8c239c8fae549310b3c3c89ae8dea659e` |
+| KGNT-C23 | `/#/bai-viet/lop-moi-truong-moi` | `cfac5a7675278844da280f1e0e0e9004255e7c28c4088679206ae2fe042885fe` |
+| KGNT-C24 | `/#/bai-viet/kham-pha-tuong-lai` | `04d1cc05f6b8925b5d161704cddf5af5e131c45bea9d41e7316984058c2664c1` |
+| KGNT-E01 | `/#/bai-viet/mbti-va-16-kieu-tinh-cach` | `655177c2bc23a705dfb6a79d6a048e686cc67b113bb9111481eacf111ceb8007` |
+| KGNT-E02 | `/#/bai-viet/big-five` | `20349c7f2cfaa525f710675fa15466183ca85336398cc3a3559a9b13c6ad6618` |
+| KGNT-E03 | `/#/bai-viet/holland-riasec` | `d40824874a4a79c0589f7e740a9b512ce57d4cdc89f00839a7a4942bc7259ac3` |
+| KGNT-E04 | `/#/bai-viet/stress-va-cong-cu-sang-loc` | `e571f8c07480308551cf22c6e8fd7c730137365325c319c5bb09fde635da57e3` |
+| KGNT-E05 | `/#/bai-viet/phong-cach-hoc-tap` | `5fa8fecce32774b01e7478b696b445c2ea3d7fe3470f3fc1d606857abc8587e0` |
 
-## 10 chuyên đề
+## Chuyên đề
 
-| Chuyên đề | URL hash | Số bài |
-|---|---|---|
-| Bắt đầu ở một nơi mới | `/#/chuyen-de/bat-dau-o-mot-noi-moi` | 3 |
-| Gọi tên điều đang đến | `/#/chuyen-de/goi-ten-dieu-dang-den` | 3 |
-| Gần nhau và có ranh giới | `/#/chuyen-de/gan-nhau-va-co-ranh-gioi` | 3 |
-| Khi bạn cần một người nghe | `/#/chuyen-de/khi-ban-can-mot-nguoi-nghe` | 3 |
-| Giữ nhịp cho ngày học | `/#/chuyen-de/giu-nhip-cho-ngay-hoc` | 3 |
-| Học theo việc cần làm | `/#/chuyen-de/hoc-theo-viec-can-lam` | 3 |
-| Mạng, điện thoại và sự chú ý | `/#/chuyen-de/mang-dien-thoai-va-su-chu-y` | 3 |
-| Trước mùa kiểm tra | `/#/chuyen-de/truoc-mua-kiem-tra` | 3 |
-| Sau điểm số, mình đi tiếp | `/#/chuyen-de/sau-diem-so-minh-di-tiep` | 3 |
-| Tìm hiểu mình, mở hướng đi | `/#/chuyen-de/tim-hieu-minh-mo-huong-di` | 4 |
+| Tiêu đề | URL hash |
+|---|---|
+| Bắt đầu ở một nơi mới | `/#/chuyen-de/bat-dau-o-mot-noi-moi` |
+| Gọi tên điều đang đến | `/#/chuyen-de/goi-ten-dieu-dang-den` |
+| Gần nhau và có ranh giới | `/#/chuyen-de/gan-nhau-va-co-ranh-gioi` |
+| Khi bạn cần một người nghe | `/#/chuyen-de/khi-ban-can-mot-nguoi-nghe` |
+| Giữ nhịp cho ngày học | `/#/chuyen-de/giu-nhip-cho-ngay-hoc` |
+| Học theo việc cần làm | `/#/chuyen-de/hoc-theo-viec-can-lam` |
+| Mạng, điện thoại và sự chú ý | `/#/chuyen-de/mang-dien-thoai-va-su-chu-y` |
+| Trước mùa kiểm tra | `/#/chuyen-de/truoc-mua-kiem-tra` |
+| Sau điểm số, mình đi tiếp | `/#/chuyen-de/sau-diem-so-minh-di-tiep` |
+| Tìm hiểu mình, mở hướng đi | `/#/chuyen-de/tim-hieu-minh-mo-huong-di` |

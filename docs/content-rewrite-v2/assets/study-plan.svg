@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="1450" viewBox="0 0 640 1450" role="img" aria-labelledby="plan-title plan-desc" lang="vi">
-<title id="plan-title">Một buổi học có chỗ điều chỉnh</title>
+<title id="plan-title">Kế hoạch ôn có ưu tiên, điều kiện học, thời gian nghỉ và chỗ điều chỉnh.</title>
 <desc id="plan-desc">Phiếu gồm yêu cầu, nguồn lực, việc ưu tiên, thời gian nghỉ và ngủ, cùng chỗ điều chỉnh. Không có lịch giờ cố định cho mọi học sinh.</desc>
 <rect width="640" height="1450" fill="#f7f3e9"/>
 <g font-family="Noto Sans, DejaVu Sans, sans-serif" fill="#333e32">
@@ -28,9 +28,9 @@
 <text x="52" y="1087" font-size="26">Có thể quay lại sửa các ô trên.</text>
 <text x="32" y="1173" font-size="28">Không cần lấp kín buổi tối.</text>
 <text x="32" y="1214" font-size="28">Không có số phút đúng cho tất cả.</text>
-<text x="32" y="1273" font-size="26">Phiếu học tập tự biên soạn</text>
-<text x="32" y="1314" font-size="24">Tham khảo theo phạm vi bài:</text>
+<text x="32" y="1273" font-size="26">Điều chỉnh theo thời gian thực có.</text>
+<text x="32" y="1314" font-size="24">Tham khảo:</text>
 <text x="32" y="1351" font-size="24">Jagiello và cs. (2025); Dunlosky và cs. (2013);</text>
 <text x="32" y="1388" font-size="24">Paruthi và cs. (2016).</text>
-<text x="32" y="1425" font-size="24">Minh họa · Không phải chương trình điều trị</text>
+<text x="32" y="1425" font-size="24">Chừa chỗ cho giấc ngủ và hỗ trợ.</text>
 </g></svg>

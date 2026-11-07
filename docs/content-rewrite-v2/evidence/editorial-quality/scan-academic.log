@@ -1,0 +1,12 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 scan:academic
+> node --experimental-strip-types scripts/check-academic.mts
+
+{
+  "mode": "academic-showcase",
+  "articles": 29,
+  "svg": 29,
+  "topics": 10,
+  "files": 68,
+  "digest": "1e7e6d65491ef130ff71c9b991416e9b75bb013e7164de954ec279fe677d6975"
+}

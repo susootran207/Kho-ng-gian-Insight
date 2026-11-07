@@ -103,7 +103,10 @@ jobs:
 
       - name: Open academic build in browser (all articles, topics, interactions)
         id: academic_browser
-        run: CHROMIUM_PATH="$(node -e "console.log(require('playwright').chromium.executablePath())")" npm run test:academic:browser
+        run: |
+          export CHROMIUM_PATH="$(node -e "console.log(require('playwright').chromium.executablePath())")"
+          npm run test:academic:browser
+          npm run test:r1:browser
 
       - name: Report PASS / FAIL / BLOCKED
         if: ${{ always() }}

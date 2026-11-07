@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="638" viewBox="0 0 320 638" role="img" aria-labelledby="title desc" xml:lang="vi">
-<title id="title">Giận và lựa chọn hành động</title>
+<title id="title">Nhận biết cơn giận, tạm dừng an toàn và chọn cách trao đổi.</title>
 <desc id="desc">Các vùng nhắc nhận biết cơn giận, cân nhắc tạm dừng an toàn rồi chọn cách trao đổi hoặc tìm hỗ trợ. Mong muốn hành động khác với hành vi đã thực hiện.</desc>
 <rect width="320" height="638" fill="#fffdf7"/>
 <g font-family="DejaVu Sans, sans-serif" fill="#333e32">
@@ -18,8 +18,8 @@
 <text x="32" y="428" font-size="18" font-weight="700">3 · CHỌN KHI SẴN SÀNG</text>
 <text x="32" y="455" font-size="16">Nói về việc cần sửa hoặc nhờ</text>
 <text x="32" y="480" font-size="16">người lớn hỗ trợ.</text>
-<text x="20" y="538" font-size="16">Có thể nhờ người lớn ngay. Số chỉ</text>
-<text x="20" y="563" font-size="16">cách đọc bài tập, không giai đoạn</text>
-<text x="20" y="588" font-size="16">cảm xúc hay hạn hết giận.</text>
+<text x="20" y="538" font-size="16">Có thể nhờ người lớn ngay.</text>
+<text x="20" y="563" font-size="16">Cảm xúc có thể còn mạnh; giữ</text>
+<text x="20" y="588" font-size="16">an toàn trước khi bàn tiếp.</text>
 </g>
 </svg>

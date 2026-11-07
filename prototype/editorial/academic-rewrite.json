@@ -9,10 +9,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C01.md",
-        "sha256": "6324ce36c6889cd35ea13d7975946a28811f7bb29b00863e3c36b1cfa2babf4f"
+        "sha256": "36acaccd04d796e61f5ad36874c4bf6a7ad7dfab3558f97fe55fa2eea97c513d"
       },
-      "contentHash": "6324ce36c6889cd35ea13d7975946a28811f7bb29b00863e3c36b1cfa2babf4f",
-      "revisionHash": "40108556e203b8e402883c37481150d0f889a4c6eebc0159f710f86b947ecb99",
+      "contentHash": "36acaccd04d796e61f5ad36874c4bf6a7ad7dfab3558f97fe55fa2eea97c513d",
+      "revisionHash": "5e55899ab6ab4ad8c266a80fead4cabcaa9a34dd5d8a741ac6dc21a253323697",
       "metadata": {
         "title": "Hôm nay mình đang cảm thấy gì?",
         "collection": "core",
@@ -41,7 +41,8 @@
       "referenceUrls": [
         "https://www.nimh.nih.gov/health/publications/children-and-mental-health",
         "https://doi.org/10.3389/fpsyg.2021.700298",
-        "https://doi.org/10.1177/0539018405058216"
+        "https://doi.org/10.1177/0539018405058216",
+        "https://doi.org/10.1037/1089-2680.2.3.271"
       ],
       "dossiers": {
         "REFERENCES": {
@@ -68,10 +69,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/experience-map.svg",
-          "sha256": "a6160c7d4a1adc17ce4081fb8e90f92be3e58f01a74215323bfaf8d7098656b6",
+          "sha256": "ba4ecb9f9b0e12700af6b93d322a890392d5a1047f597255fde2dc8c591f8ef7",
           "id": "C01-V1",
           "revision": "academic-content-v2",
-          "alt": "Bối cảnh liên hệ với bốn vùng: cảm xúc tự nhận biết, suy nghĩ, tín hiệu cơ thể và hành vi. Các đường nét đứt nối mỗi vùng với bối cảnh, không biểu thị trình tự hoặc quan hệ nhân quả.",
+          "alt": "Bốn vùng quan sát cảm xúc, suy nghĩ, cơ thể và hành vi trong cùng bối cảnh.",
           "rights": null
         }
       ],
@@ -85,10 +86,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C02.md",
-        "sha256": "b4e39598471d1b9fde52a718d27e69d1152f2c74c3b4a7723327544457e96597"
+        "sha256": "9730ee8dc524e4e773bbffd219688073cd0e3a83ad599a0b1d4fc0166e71ddaf"
       },
-      "contentHash": "b4e39598471d1b9fde52a718d27e69d1152f2c74c3b4a7723327544457e96597",
-      "revisionHash": "83e8b05528961d81f3bb8d71a804ed7a643f609619559e8ee58208ccbc1bc5bc",
+      "contentHash": "9730ee8dc524e4e773bbffd219688073cd0e3a83ad599a0b1d4fc0166e71ddaf",
+      "revisionHash": "6c84e01ba363a8ac270acc44d5df476b12b52ef81339f88dd76279879de49c9d",
       "metadata": {
         "title": "Khi lo lắng ghé đến trước giờ học",
         "collection": "core",
@@ -144,10 +145,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/before-class-options.svg",
-          "sha256": "0d9f278a94d721d7805d926a038238fea98557c0156207cd4a8693b3cd41773f",
+          "sha256": "47b3d9d64cde37a8126863c32dd00edb184461a02d298723195eaf27a99a94e3",
           "id": "C02-V1",
           "revision": "academic-content-v2",
-          "alt": "Thẻ trước giờ học tách điều người học nhận thấy, điều còn chưa biết, một việc khả thi và người có thể hỗ trợ; không có điểm số hoặc ngưỡng chẩn đoán.",
+          "alt": "Nhận biết điều đang lo, chọn bước tham gia và người có thể hỗ trợ.",
           "rights": null
         }
       ],
@@ -161,10 +162,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C03.md",
-        "sha256": "66b20d5df419e22cf870c753b7dee591ab3766598e402bbae83ad825a8dd6c60"
+        "sha256": "81c25c4fdeda3a407757a46f22bff9445c35b19100684ebe411ea37f6f879c57"
       },
-      "contentHash": "66b20d5df419e22cf870c753b7dee591ab3766598e402bbae83ad825a8dd6c60",
-      "revisionHash": "3750519eeaa16caa6a100a327b541d3d6a83b4c8ae9ed5988d38ebc1ab1e6b9a",
+      "contentHash": "81c25c4fdeda3a407757a46f22bff9445c35b19100684ebe411ea37f6f879c57",
+      "revisionHash": "bda1d21a0098bb766e22d5819bc21d85a344a1aec46dbf1535a16532af62ea9a",
       "metadata": {
         "title": "Một sai sót không kể hết về bạn",
         "collection": "core",
@@ -220,10 +221,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/mistake-and-response.svg",
-          "sha256": "de03aa930083c6a2d8dc0f754a7be81c473e62f6281647c99c82641e79eb7ef4",
+          "sha256": "1f8ab14066eee54c2b2d8835a7e100a7cdfbe797a31ac2801fd0786c6f2cee01",
           "id": "C03-V1",
           "revision": "academic-content-v2",
-          "alt": "Cùng một sai sót gửi nhầm tệp: giữ dữ kiện và trách nhiệm, nhận biết điều khó chịu, chọn việc sửa; tránh dùng sai sót để phán xét toàn bộ con người.",
+          "alt": "Tách sai sót cụ thể khỏi lời kết tội bản thân và chọn việc sửa.",
           "rights": null
         }
       ],
@@ -237,10 +238,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C04.md",
-        "sha256": "cb6e86c245fdd7809fdb589b16518b4941d7b991dd969cfb4784a7ba76f138f4"
+        "sha256": "2ce2d5a683efd813de96b46cf0e10e7f9184f59c6ba3633cc7f6e3fa4aba4a36"
       },
-      "contentHash": "cb6e86c245fdd7809fdb589b16518b4941d7b991dd969cfb4784a7ba76f138f4",
-      "revisionHash": "459f2c987e52c693a9977c5fe3fbc9c94d114560279df8bd0f748271fa9b991f",
+      "contentHash": "2ce2d5a683efd813de96b46cf0e10e7f9184f59c6ba3633cc7f6e3fa4aba4a36",
+      "revisionHash": "3b905e474b951732f71d3e137eb3d91dbbcf2cc0de24902f090e172a191d456b",
       "metadata": {
         "title": "Khi cơn giận đến trước lời nói",
         "collection": "core",
@@ -296,10 +297,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/pause-and-choose.svg",
-          "sha256": "14e41e975cc28dfa171e01b3523f3847b57a165b567e694bf34c9ea48eee20c6",
+          "sha256": "8290f857d2e1a0049f95f111d297856c5eb202a8731861cb3685e9edf259d112",
           "id": "C04-V1",
           "revision": "academic-content-v2",
-          "alt": "Thẻ tình huống giận phân biệt tín hiệu được kể, tạm dừng tại nơi an toàn và chọn lời nói hoặc người hỗ trợ khi sẵn sàng; không yêu cầu hết giận trong một số phút.",
+          "alt": "Nhận biết cơn giận, tạm dừng an toàn và chọn cách trao đổi.",
           "rights": null
         }
       ],
@@ -313,10 +314,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C05.md",
-        "sha256": "0bc6fdd17f0536adc6e33a11452465f48471083bb24ad655cd7b8d776f54cb89"
+        "sha256": "06f2d43b651627d9ad65dcc4b6e4f478a69addd19d704503f9c31180e5436644"
       },
-      "contentHash": "0bc6fdd17f0536adc6e33a11452465f48471083bb24ad655cd7b8d776f54cb89",
-      "revisionHash": "5bfbae0cba027d59ee7a40bce17a501ceaa6492baae27e058dde0b911bcd21b5",
+      "contentHash": "06f2d43b651627d9ad65dcc4b6e4f478a69addd19d704503f9c31180e5436644",
+      "revisionHash": "d3dbf9600126b6e7ac21897961c0fa93a19c037950619593ef99f59155059ad6",
       "metadata": {
         "title": "Khi mùa thi đến gần",
         "collection": "core",
@@ -346,7 +347,8 @@
         "https://doi.org/10.1177/1529100612453266",
         "https://doi.org/10.1007/s10578-024-01667-5",
         "https://www.nimh.nih.gov/health/publications/children-and-mental-health",
-        "https://doi.org/10.5664/jcsm.5866"
+        "https://doi.org/10.5664/jcsm.5866",
+        "https://doi.org/10.1037/1528-3542.7.2.336"
       ],
       "dossiers": {
         "REFERENCES": {
@@ -373,10 +375,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/study-plan.svg",
-          "sha256": "fd57cb6a4b7a661d3d5cbaf115b1a0f32560c84fffa50d618267b66f8ee04f90",
+          "sha256": "c27e874896f8e26aae3d3fcf135f2011530ea65c955edd5a0dd02212b77a1737",
           "id": "C05-V1",
           "revision": "academic-content-v2",
-          "alt": "Phiếu một buổi học gồm yêu cầu, điều kiện và nguồn lực, việc ưu tiên, chỗ nghỉ và giấc ngủ, điều chỉnh cùng người hỗ trợ. Không có mốc phút bắt buộc.",
+          "alt": "Kế hoạch ôn có ưu tiên, điều kiện học, thời gian nghỉ và chỗ điều chỉnh.",
           "rights": null
         }
       ],
@@ -390,10 +392,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C06.md",
-        "sha256": "a3a94baff99cb57588c48074c184d7e16b73ff526fb908750c9ddb645cbe2989"
+        "sha256": "442a774aea4fbe0e0d7cf868338dcd30d6cc9daa523b543ecebc5261c4817c01"
       },
-      "contentHash": "a3a94baff99cb57588c48074c184d7e16b73ff526fb908750c9ddb645cbe2989",
-      "revisionHash": "ad6ff241a6e3d57c1c35b2683998410fde5b4d042427ee05c5be835bc3cc33a1",
+      "contentHash": "442a774aea4fbe0e0d7cf868338dcd30d6cc9daa523b543ecebc5261c4817c01",
+      "revisionHash": "724b09bc23827d9ba2ff2cc6df749b894dfab4c6fdfb8dc0373859cdfde4997a",
       "metadata": {
         "title": "Biết cần học, nhưng vẫn chưa bắt đầu",
         "collection": "core",
@@ -450,10 +452,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/first-step.svg",
-          "sha256": "84dc9f98c98b292b3847b1fac70406f724df3e463486ab8788cd4485f8af7527",
+          "sha256": "c464f053bc8b47839015021f5da643c55d8e936b3a77bb34c970748eac15eabf",
           "id": "C06-V1",
           "revision": "academic-content-v2",
-          "alt": "Thẻ bắt đầu gồm ba câu hỏi: việc cụ thể là gì; điều kiện đã đủ chưa; nếu vướng thì hỏi hoặc đổi gì. Có thể bổ sung điều kiện trước khi học.",
+          "alt": "Ba câu hỏi để chọn một bước khởi đầu có thể thực hiện.",
           "rights": null
         }
       ],
@@ -467,10 +469,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C07.md",
-        "sha256": "3e651416d31feca3e618fe50358cca5ea9d918b3bc4bb08e4faf2da0ce5ebfa3"
+        "sha256": "8f8796ce0cd348260b9ad08fc6367428abc4650cbcd70fec7adf9b5a388f8f47"
       },
-      "contentHash": "3e651416d31feca3e618fe50358cca5ea9d918b3bc4bb08e4faf2da0ce5ebfa3",
-      "revisionHash": "275c9f35e4b0c05ca13d0dc09e5ecc1567031b0c09ced14306ab309b0989e79c",
+      "contentHash": "8f8796ce0cd348260b9ad08fc6367428abc4650cbcd70fec7adf9b5a388f8f47",
+      "revisionHash": "540ecec673690c166c43df5240bc25dc164d3f041c76086aa3ce420c0fb99a44",
       "metadata": {
         "title": "Học nhiều chưa chắc đã nhớ lâu",
         "collection": "core",
@@ -526,10 +528,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/return-to-learn.svg",
-          "sha256": "0894bfa20d84b261c75a77af330e0962cf9360db0036b63a459e98681e7f489a",
+          "sha256": "cc8b3bfb0348b43044569e7fa6bc10ce3957eaee7061559dc78200ec4acbb90b",
           "id": "C07-V1",
           "revision": "academic-content-v2",
-          "alt": "Ba lần gặp cùng nhóm từ: học và thử ở buổi này; tự trả lời rồi kiểm ở buổi khác; quay lại phần còn vướng ở lần sau nếu có điều kiện. Không có số ngày hoặc đường cong ghi nhớ.",
+          "alt": "Gặp lại nội dung qua các buổi, thử nhớ và kiểm tra phần còn vướng.",
           "rights": null
         }
       ],
@@ -543,10 +545,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C08.md",
-        "sha256": "9b01950cf97224f301134fb906bfdef71c8727ab6ac9ac403d53ca38c5f20af7"
+        "sha256": "ad6686f770434d0b6f1ddf0350a6ec96438f19a9dbfd9cd3e65b89d0511a46c6"
       },
-      "contentHash": "9b01950cf97224f301134fb906bfdef71c8727ab6ac9ac403d53ca38c5f20af7",
-      "revisionHash": "780d99db51a96cae48866faa8e96af501b3adf6daf86f5aec181295cd137bdc9",
+      "contentHash": "ad6686f770434d0b6f1ddf0350a6ec96438f19a9dbfd9cd3e65b89d0511a46c6",
+      "revisionHash": "a2e2de34f8926806f17535b62d51cceeae17d72fe5ccda54709927d05bc0910d",
       "metadata": {
         "title": "Sau một bài kiểm tra không như mong đợi",
         "collection": "core",
@@ -601,10 +603,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/read-feedback.svg",
-          "sha256": "2df2a23caf004b89790f4baba760a06a7ae15a313663e260c1b11c7c7fbffddf",
+          "sha256": "62123396a9d47bce1b897834c937cb49c3c6f5c791525b63dcc718d407858acc",
           "id": "C08-V1",
           "revision": "academic-content-v2",
-          "alt": "Phiếu đọc phản hồi có ba vùng: yêu cầu của bài; thông tin tại một chỗ cụ thể; bước sửa hoặc câu hỏi cần làm rõ.",
+          "alt": "Từ yêu cầu và phản hồi cụ thể tới một bước sửa bài.",
           "rights": null
         }
       ],
@@ -618,10 +620,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C09.md",
-        "sha256": "d4f08e1ec30c0a532fa559e094472f2638c456cfec86beff10cc4ad99c5700bd"
+        "sha256": "f70b597a808a748277e7e6664a7c703002a8ca4937b3b6e472bf6a83b46152b6"
       },
-      "contentHash": "d4f08e1ec30c0a532fa559e094472f2638c456cfec86beff10cc4ad99c5700bd",
-      "revisionHash": "09e8492af5f1b40ed1d935c5cfeea4cac4c44f26bc6588f63b2f48350741f61f",
+      "contentHash": "f70b597a808a748277e7e6664a7c703002a8ca4937b3b6e472bf6a83b46152b6",
+      "revisionHash": "58ddddff48a7ee6f2bce7e7d6ad64e18216909e9852f9f881fd380d1f602a7f6",
       "metadata": {
         "title": "Ở giữa lớp, vẫn thấy một mình",
         "collection": "core",
@@ -677,10 +679,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/connection-options.svg",
-          "sha256": "11c18902309186924edc88090c06c336269d31e759882627d1ee6ed7b75ca1ee",
+          "sha256": "c08725694b987a8d502153ec4e1e90411af86a948dc8b1265efdbbd48258f43e",
           "id": "C09-V1",
           "revision": "academic-content-v2",
-          "alt": "Hai tình huống ở cùng hay ngồi riêng không tự cho biết cô đơn; thẻ lựa chọn giữ lời nhân vật kể, một bước kết nối khả thi và người hỗ trợ nếu cần.",
+          "alt": "Ở cùng nhóm và ngồi riêng không tự cho biết mức cô đơn.",
           "rights": null
         }
       ],
@@ -694,10 +696,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C10.md",
-        "sha256": "aaacdb8ce2227f32ed79b1b26cf5e402314d084b0279591ce20b9cab5721358f"
+        "sha256": "17e6ba5541bc90a56734c075c9ea5ad9b1b43b2e31f7a2bd1d9da426f22b5a53"
       },
-      "contentHash": "aaacdb8ce2227f32ed79b1b26cf5e402314d084b0279591ce20b9cab5721358f",
-      "revisionHash": "88c2ab20be75281c2abbd1d9fc73ec7e6b8ef151db70470f0dee57d0180cf9e7",
+      "contentHash": "17e6ba5541bc90a56734c075c9ea5ad9b1b43b2e31f7a2bd1d9da426f22b5a53",
+      "revisionHash": "adfe5c8cedeee887531504ccb50d48f8bd4f67d5649ed89769074467456da839",
       "metadata": {
         "title": "Một bất đồng có làm mất tình bạn?",
         "collection": "core",
@@ -753,10 +755,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/disagreement-dialogue.svg",
-          "sha256": "06f6c5b604f220c2a5b1ca2eba670f3b1680b8d02b2479b77d34666e6cee68a9",
+          "sha256": "142c123b6821f3d270989e81c0cc38c2aad821cb1bb8e67ef88b1723cfbb369c",
           "id": "C10-V1",
           "revision": "academic-content-v2",
-          "alt": "Hội thoại báo tường phân biệt sự việc, điều muốn làm rõ và câu hỏi kiểm lại ý bạn; có lựa chọn tạm dừng hoặc tìm người lớn khi trao đổi không an toàn.",
+          "alt": "Một lượt trao đổi có sự việc, đề nghị và câu hỏi nghe lại ý bạn.",
           "rights": null
         }
       ],
@@ -770,10 +772,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C11.md",
-        "sha256": "4fdc9c3a1783f752cdc9e5a9b0eee9984b1b7e2c9a8e3d62f8839ae92ccc6930"
+        "sha256": "de2fe3ac336ed4ec06f4d535c3ddc846b31a6f71781b63d87575f53e2e425622"
       },
-      "contentHash": "4fdc9c3a1783f752cdc9e5a9b0eee9984b1b7e2c9a8e3d62f8839ae92ccc6930",
-      "revisionHash": "6d48aba674eafe00e6e3c227c5ccf67a1a1abb88fad3e7b9af37ca72d8aba539",
+      "contentHash": "de2fe3ac336ed4ec06f4d535c3ddc846b31a6f71781b63d87575f53e2e425622",
+      "revisionHash": "3e123882e9560d75820787918680f2c60466af92da96fa7c91d7d7cc08b2c9a2",
       "metadata": {
         "title": "Khi lời trêu chọc không còn là đùa",
         "collection": "core",
@@ -803,7 +805,8 @@
         "https://doi.org/10.5498/wjp.v7.i1.60",
         "https://www.stopbullying.gov/prevention/on-the-spot",
         "https://www.stopbullying.gov/kids/what-you-can-do",
-        "https://www.stopbullying.gov/bullying/what-is-bullying"
+        "https://www.stopbullying.gov/bullying/what-is-bullying",
+        "https://www.stopbullying.gov/bullying/roles-kids-play"
       ],
       "dossiers": {
         "REFERENCES": {
@@ -830,10 +833,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/support-without-confronting.svg",
-          "sha256": "0b4fdf821c167c26672b2f6fd9156f1b0cec08b23df960a3599f6f6684c9c65f",
+          "sha256": "b6a37b27b04e6f81207017da60bb4518a77cb0db00642eed06ca5e8346b141a0",
           "id": "C11-V1",
           "revision": "academic-content-v2",
-          "alt": "Thẻ hỗ trợ có phần kể việc đã xảy ra, người lớn có thể giúp và phương án nếu người đầu bỏ qua; riêng người chứng kiến có lựa chọn báo điều trực tiếp biết, không tự đối đầu.",
+          "alt": "Vai trò tìm người lớn hỗ trợ của người bị nhắm đến và người chứng kiến.",
           "rights": null
         }
       ],
@@ -847,10 +850,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C12.md",
-        "sha256": "13d950493d435159e4f3ea7a7813473cc5bb0783b578c463b6b14c278add08d5"
+        "sha256": "86ed9e758f0df393a3f5f78c5210f97e3a844ecc344d79b8f0a784f3bbc0067c"
       },
-      "contentHash": "13d950493d435159e4f3ea7a7813473cc5bb0783b578c463b6b14c278add08d5",
-      "revisionHash": "9f273120511aa2c8f016cd11072c3e662dfcb37d05a03dd0359d386f7fcdc887",
+      "contentHash": "86ed9e758f0df393a3f5f78c5210f97e3a844ecc344d79b8f0a784f3bbc0067c",
+      "revisionHash": "6325e60634330f31ee138cb450b34b950fae1f554de4e53a4f9bf3d76c63774f",
       "metadata": {
         "title": "Nói “không” mà vẫn tôn trọng nhau",
         "collection": "core",
@@ -905,10 +908,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/no-with-an-exit.svg",
-          "sha256": "48d5dab55d7c1e0cb8a70a8366b5d8e3e2921d907aa39022e4cd23bc9aa8d5ac",
+          "sha256": "6abf17aabef32907d422333b6c2eecf21176fd21b7e2c20da5b3f7e68ebd3d7b",
           "id": "C12-V1",
           "revision": "academic-content-v2",
-          "alt": "Thẻ từ chối gồm điều không muốn tham gia, một câu nói rõ, lựa chọn dừng hoặc rời đến nơi phù hợp khi an toàn và người có thể hỗ trợ; không bắt buộc giải thích chuyện riêng.",
+          "alt": "Giới hạn rõ, lời từ chối và cách dừng hoặc tìm hỗ trợ.",
           "rights": null
         }
       ],
@@ -922,10 +925,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C13.md",
-        "sha256": "5f1b08b33397d14dce63538a33e3864555b83c22a53e55a7adb8e5b1bde57b8b"
+        "sha256": "d91484c8960c77c4fdd171ae5dfc7682c894817d5241b977a164c901a15ae6f5"
       },
-      "contentHash": "5f1b08b33397d14dce63538a33e3864555b83c22a53e55a7adb8e5b1bde57b8b",
-      "revisionHash": "5c7fb7129e297a4c6166147b4db8c37c5fee9d9537283cd527daae810a338e7e",
+      "contentHash": "d91484c8960c77c4fdd171ae5dfc7682c894817d5241b977a164c901a15ae6f5",
+      "revisionHash": "6ecae2a0d42e913a866b5b3cadebbe3650053397bb0f61d72821eed5adc538b6",
       "metadata": {
         "title": "Khi kỳ vọng ở nhà làm mình thấy nặng",
         "collection": "core",
@@ -981,10 +984,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/expectations-and-support.svg",
-          "sha256": "9b69bf94d8661836e50dbd4b9b40343cd7a47f5e617c216358c2a1073b2bc974",
+          "sha256": "881e1a1ac82be334efae1b99b953a3202db9612edcf5e98b9fcb582364b8c8b8",
           "id": "C13-V1",
           "revision": "academic-content-v2",
-          "alt": "Hai phương án cân nhắc: khi trao đổi an toàn thì chuẩn bị việc, nhu cầu và lời nhờ; khi không an toàn thì tìm người lớn khác, không phải thử thuyết phục trước.",
+          "alt": "Mong đợi, điều kiện học và lựa chọn người giúp theo mức an toàn.",
           "rights": null
         }
       ],
@@ -998,10 +1001,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C14.md",
-        "sha256": "8616319e2916951bb51c28795f5f2947a97ff3f89a9e84e9e77786e3058df22b"
+        "sha256": "48dae4b3d4892901e5dc26aa2a4d0a7d35c0e98bdb668ef12bf19f5716654e17"
       },
-      "contentHash": "8616319e2916951bb51c28795f5f2947a97ff3f89a9e84e9e77786e3058df22b",
-      "revisionHash": "c7e13692a98f1a0070ba300a31208d3953511df7dd250747a0db66bde45ec8e5",
+      "contentHash": "48dae4b3d4892901e5dc26aa2a4d0a7d35c0e98bdb668ef12bf19f5716654e17",
+      "revisionHash": "583bb409c65c7fe2d819f9fc59fb60c5563adf52e5ffae232c4bb0952fc2d910",
       "metadata": {
         "title": "Bắt đầu một cuộc trò chuyện khó với người lớn",
         "collection": "core",
@@ -1058,10 +1061,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/conversation-options.svg",
-          "sha256": "921b7e9cc8d55a3ca6741003c9e8fde15dd547ce5fcf9e3b95489dd99c739263",
+          "sha256": "7b5af5fd76eaa5fe787ddd9ba53753d161a2ccdce314d4afdec6997089e132a9",
           "id": "C14-V1",
           "revision": "academic-content-v2",
-          "alt": "Thẻ trò chuyện có phần chuẩn bị người, lúc và việc muốn nhờ; ba phương án khi người lớn đang bận, hiểu khác ý, hoặc không phù hợp hay không an toàn.",
+          "alt": "Chuẩn bị lời mở đầu và các cách tiếp tục khi cuộc trao đổi chưa phù hợp.",
           "rights": null
         }
       ],
@@ -1075,10 +1078,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C15.md",
-        "sha256": "fafeadf9370c4afdac701afc3ecb2d9b32b36aebcbe4c7b1ec65225ac5e694e8"
+        "sha256": "c83b63a2a1427c8820ef668d81726dab1396a8248f23e5bd37382c425d7cee76"
       },
-      "contentHash": "fafeadf9370c4afdac701afc3ecb2d9b32b36aebcbe4c7b1ec65225ac5e694e8",
-      "revisionHash": "905416e5823dcfe7578e1fcf2024d2d86c8e5947fc0732d0f6759eb4c3bfca97",
+      "contentHash": "c83b63a2a1427c8820ef668d81726dab1396a8248f23e5bd37382c425d7cee76",
+      "revisionHash": "a061bc16d918301d1790e44d6a9e4d834d8f45e1185d70605d1f9e1da0a0729c",
       "metadata": {
         "title": "Khi nào mình nên tìm thêm sự giúp đỡ?",
         "collection": "core",
@@ -1134,10 +1137,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/support-role-map.svg",
-          "sha256": "522e3149541d4387ea62d0126bc33877ca3fb8d4adc0a2c992adfda43885ef07",
+          "sha256": "cccf928f7cad75bad9aabafe17d984b2b0ae29299264da9226912f86c5b20ba2",
           "id": "C15-V1",
           "revision": "academic-content-v2",
-          "alt": "Bản đồ ba vai trò hỗ trợ: giáo viên giúp việc học và tìm lựa chọn ở trường; người tham vấn có đào tạo giúp trao đổi trong phạm vi chuyên môn; nhân viên y tế đánh giá sức khỏe và phối hợp khi cần. Có thể tìm người khác, không phải đi theo thứ tự.",
+          "alt": "Ba vai trò hỗ trợ việc học, tham vấn và sức khỏe có thể phối hợp.",
           "rights": null
         }
       ],
@@ -1151,10 +1154,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C16.md",
-        "sha256": "39c1bde9ba5147a6e94d5f1bb00e5314122595cb8100a7ca111fe2c39ca326b3"
+        "sha256": "16871edeba3aebf95b3007a0fadbd7868a1ac49c42399a8c8701a02477ba8f41"
       },
-      "contentHash": "39c1bde9ba5147a6e94d5f1bb00e5314122595cb8100a7ca111fe2c39ca326b3",
-      "revisionHash": "2b4af4a9ef9f3258d3f1b0cca71cf0ec63c22a01b08e854f7b9d57ca2047feb8",
+      "contentHash": "16871edeba3aebf95b3007a0fadbd7868a1ac49c42399a8c8701a02477ba8f41",
+      "revisionHash": "5f3f39e89bf1793ed6e132a650826f12ca8e0a7ebff485cd4d1bc0b377dfe1ed",
       "metadata": {
         "title": "Khi một người bạn nói rằng bạn ấy đang rất buồn",
         "collection": "core",
@@ -1210,10 +1213,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/listen-and-share-support.svg",
-          "sha256": "706410ef72857374f4032d2bc14cbd888dc1dd446248c10c4847d0f19e96f913",
+          "sha256": "d060b285db89aade20d4029011fe4c4d00fc1fe749aa35dc037a72f5e0aee301",
           "id": "C16-V1",
           "revision": "academic-content-v2",
-          "alt": "Thẻ hỗ trợ bạn có ba vùng: nghe và hỏi điều bạn muốn; nói giới hạn và nhờ người lớn khi cần; giữ riêng tư nhưng không hứa giữ kín khi có nguy cơ gây hại.",
+          "alt": "Lắng nghe bạn, giữ giới hạn và tìm người lớn khi an toàn bị đe dọa.",
           "rights": null
         }
       ],
@@ -1227,10 +1230,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C17.md",
-        "sha256": "6534f437fe6769f285bbaff3b21fb191bb3476079bdb4d07ac3e3388be9fb0b9"
+        "sha256": "2f285f09f13074fa8501eef3bad667ec5ea87fe6314e2c1ca20b61e3feae5d03"
       },
-      "contentHash": "6534f437fe6769f285bbaff3b21fb191bb3476079bdb4d07ac3e3388be9fb0b9",
-      "revisionHash": "5903b1a6ef388e83a57fcf99c73a8fd7220c60c08c93bef2803945982641baf1",
+      "contentHash": "2f285f09f13074fa8501eef3bad667ec5ea87fe6314e2c1ca20b61e3feae5d03",
+      "revisionHash": "f63197f214a1b10f062f3b777f5c253291cb4f3ff18c11199bb25b01ad681b63",
       "metadata": {
         "title": "Đêm dài, mình chưa ngủ",
         "collection": "core",
@@ -1260,7 +1263,8 @@
         "https://www.nhlbi.nih.gov/health/insomnia/diagnosis",
         "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
         "https://www.nhlbi.nih.gov/health/sleep-deprivation/body-clock",
-        "https://doi.org/10.5664/jcsm.5866"
+        "https://doi.org/10.5664/jcsm.5866",
+        "https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects"
       ],
       "dossiers": {
         "REFERENCES": {
@@ -1287,10 +1291,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/sleep-context.svg",
-          "sha256": "f01a386efb0e91e8d1d37065604d29e8dbc75cfff4178ac0c402d95af773ffba",
+          "sha256": "cc2db4157e675bb5ae85f2d90046fe6ee4754e67eef1ba471f58a51411a1bca6",
           "id": "C17-V1",
           "revision": "academic-content-v2",
-          "alt": "Sơ đồ gồm nhóm A về bối cảnh ngủ theo bối cảnh: nhu cầu ngủ theo tuổi, lịch học và việc nhà, môi trường ngủ dùng chung; nhóm B về bài tập: tách dữ kiện với điều chưa biết, chọn thay đổi khả thi, xác định hỗ trợ hoặc điều chỉnh.",
+          "alt": "Nhu cầu ngủ, lịch sinh hoạt, môi trường và các câu hỏi điều chỉnh.",
           "rights": null
         }
       ],
@@ -1304,10 +1308,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C18.md",
-        "sha256": "a25e2cf23c9ce51973acdc4c87ad7cfcb13b628fe458d9ede0cac228f70d8952"
+        "sha256": "3f2dc4ddfe2e1d2ee56efd2194975c3e9ec5417722bb94095cf2c4ea60767fca"
       },
-      "contentHash": "a25e2cf23c9ce51973acdc4c87ad7cfcb13b628fe458d9ede0cac228f70d8952",
-      "revisionHash": "270b00cb4b610076e19b049612924a745be0d1ba4e1d539d3bdc6334e0b7bd8a",
+      "contentHash": "3f2dc4ddfe2e1d2ee56efd2194975c3e9ec5417722bb94095cf2c4ea60767fca",
+      "revisionHash": "35c83fe58af4d387fee74a2866e76a768e1114c85a3f2370391de101873b3532",
       "metadata": {
         "title": "Nghỉ một chút có phải là lười?",
         "collection": "core",
@@ -1363,10 +1367,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/rest-options.svg",
-          "sha256": "0d678b49e8b3089bc3d9b86b629e45b17f25c93f0f6968958e8c0b3fcfcebbff",
+          "sha256": "aa2472aebf711abf70229b4a76dc5adc6b8812d4dd1998e8167da8fbc8c06d62",
           "id": "C18-V1",
           "revision": "academic-content-v2",
-          "alt": "Ba phần chọn khoảng nghỉ: tạm dừng một yêu cầu; chọn cách nghỉ khả thi; xem lại nhiệm vụ và hỗ trợ. Không cần chứng minh nghỉ giúp tăng năng suất.",
+          "alt": "Chọn cách nghỉ theo nhu cầu và xem lại việc học sau đó.",
           "rights": null
         }
       ],
@@ -1380,10 +1384,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C19.md",
-        "sha256": "4bc3498d6ccf18a56c58d9020cc556586244b0a8953f1e7cd84d75f8ab65459a"
+        "sha256": "8123e3174425ed70dfe8681cbec9fa6bfc329ba706188bfe156a2bf33108e716"
       },
-      "contentHash": "4bc3498d6ccf18a56c58d9020cc556586244b0a8953f1e7cd84d75f8ab65459a",
-      "revisionHash": "dd361dbd3c45f6e48c94c2076865b78c627ba2a5f0d36ae1efc4f72e1ab3a1d7",
+      "contentHash": "8123e3174425ed70dfe8681cbec9fa6bfc329ba706188bfe156a2bf33108e716",
+      "revisionHash": "670dd91421c3baa5e8955fc1030e357e340dd7135be56a5e9218ab399a15176e",
       "metadata": {
         "title": "Cơ thể đang nhắc mình điều gì?",
         "collection": "core",
@@ -1438,10 +1442,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/body-signal-context.svg",
-          "sha256": "66eb3957296cc5459fb5034e418a6e60ac1d9c851c793a505792f019742976d8",
+          "sha256": "64958cd5dee7adea33b3c676af8ff566141a0ab542ade326b269b9250e5ec126",
           "id": "C19-V1",
           "revision": "academic-content-v2",
-          "alt": "Thẻ đọc tín hiệu cơ thể gồm điều người học nhận thấy, nguyên nhân chưa xác định và người có thể hỗ trợ; một tín hiệu không trỏ duy nhất đến stress hoặc một bệnh.",
+          "alt": "Mô tả tín hiệu cơ thể, nguyên nhân còn mở và người có thể giúp.",
           "rights": null
         }
       ],
@@ -1455,10 +1459,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C20.md",
-        "sha256": "3bb66b5c95d7f486e7c98f36a01a88bf5d725ea37965bbbd6bd59727255836b2"
+        "sha256": "63510ea45a4b26156015026ea52135644710fb850c9d53831e0e0e8d524b06ce"
       },
-      "contentHash": "3bb66b5c95d7f486e7c98f36a01a88bf5d725ea37965bbbd6bd59727255836b2",
-      "revisionHash": "2d1910c13680e077b77aa8d3b5003beb382f111c078e36c037a8b32b78128582",
+      "contentHash": "63510ea45a4b26156015026ea52135644710fb850c9d53831e0e0e8d524b06ce",
+      "revisionHash": "cc8493762cf905be6ace52d4872ccabb7348a2a2fcec9e06c57187295aa00f50",
       "metadata": {
         "title": "Một khoảng vận động giữa ngày học",
         "collection": "core",
@@ -1514,10 +1518,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/movement-options.svg",
-          "sha256": "a72cb247c7d520c9cb65cc5f603ae54b713ff7c7fb12a3c4fe5fdbc1ae153ad7",
+          "sha256": "5cd38da86c36dee3c48c968b1d333befb1a57af7a40dae2cbb603f5d635eb296",
           "id": "C20-V1",
           "revision": "academic-content-v2",
-          "alt": "Thẻ lựa chọn vận động gồm người và điều kiện đang có, hoạt động quen thuộc phù hợp, cùng phương án đổi cách, nghỉ hoặc hỏi hỗ trợ; không có bài tập hoặc số phút bắt buộc.",
+          "alt": "Xem điều kiện, chọn vận động phù hợp và điều chỉnh khi cần.",
           "rights": null
         }
       ],
@@ -1531,10 +1535,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C21.md",
-        "sha256": "ab03126fe43bbd1d1947f9962fd0c0fb383d496db8d34820bfa997b864d1ae2b"
+        "sha256": "0d84b80ffd0c7445c41bff1641ece178932a4eddc1b746ccd70a9e71467082a8"
       },
-      "contentHash": "ab03126fe43bbd1d1947f9962fd0c0fb383d496db8d34820bfa997b864d1ae2b",
-      "revisionHash": "242afbf83acd22a86bd8274a2021824b7b3a66f01eec99a513d102f0cbf6c5b1",
+      "contentHash": "0d84b80ffd0c7445c41bff1641ece178932a4eddc1b746ccd70a9e71467082a8",
+      "revisionHash": "298d85ec5b577326c024036d7c3fe2c6914dcb0001cad8afe91cb0b2b1fdf667",
       "metadata": {
         "title": "Lướt mạng rồi thấy mình kém hơn",
         "collection": "core",
@@ -1590,10 +1594,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/post-and-missing-context.svg",
-          "sha256": "151a1f9b58756df9d279eee1af930aac98ce1a769c1e488402fd49f1fb5ba871",
+          "sha256": "a69c4cde0f5d8d823845bd20a5600d09249dc2a68a9b58f00132f307518c17a7",
           "id": "C21-V1",
           "revision": "academic-content-v2",
-          "alt": "Sơ đồ tách bài đăng đã thấy, điều chưa biết ngoài khung hình, kết luận đang suy rộng và một lựa chọn sử dụng mạng phù hợp; không xếp hạng người đăng hoặc người xem.",
+          "alt": "Điều bài đăng cho thấy, phần chưa biết và kết luận đang thêm vào.",
           "rights": null
         }
       ],
@@ -1607,10 +1611,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C22.md",
-        "sha256": "31f3b3c334411f75dc25ca17ab9963bffec3ea6ff488fdc0cfbea9786160a1a7"
+        "sha256": "a22a0985e37b88b642478dad384a7dc8c239c8fae549310b3c3c89ae8dea659e"
       },
-      "contentHash": "31f3b3c334411f75dc25ca17ab9963bffec3ea6ff488fdc0cfbea9786160a1a7",
-      "revisionHash": "b02d9ec43341a9c84847ee46fb3fae58819dfeee068e8718f8c320d85e2c6b78",
+      "contentHash": "a22a0985e37b88b642478dad384a7dc8c239c8fae549310b3c3c89ae8dea659e",
+      "revisionHash": "5601129c83c5a4a82cde8a5ec6106911fd2784dcf14c3061d77225d942f5a7eb",
       "metadata": {
         "title": "Điện thoại cứ kéo mình ra khỏi trang vở",
         "collection": "core",
@@ -1665,10 +1669,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/study-and-contact.svg",
-          "sha256": "780015eacf2cc849987196d669e3e7fe1522bc9f01fefc9d3ea0a95be275541b",
+          "sha256": "c2fe2dc556c95186c36ed54a1335400653fad848f9c64cdb500ecb25b2ae8e88",
           "id": "C22-V1",
           "revision": "academic-content-v2",
-          "alt": "Ba thẻ về ví dụ bị ngắt khi đọc, kế hoạch giảm phần không cần mà giữ liên lạc thiết yếu, cùng dấu quay lại và khoảng nghỉ; không có điểm số hoặc lịch phút tối ưu.",
+          "alt": "Giữ liên lạc cần thiết, giảm ngắt và đánh dấu chỗ quay lại học.",
           "rights": null
         }
       ],
@@ -1682,10 +1686,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C23.md",
-        "sha256": "0699dfb58c03819d8257dc763028bd04851281065d83b94589ad7ebc3a31997c"
+        "sha256": "cfac5a7675278844da280f1e0e0e9004255e7c28c4088679206ae2fe042885fe"
       },
-      "contentHash": "0699dfb58c03819d8257dc763028bd04851281065d83b94589ad7ebc3a31997c",
-      "revisionHash": "d84a1fa385f71d546cfb211d975925c2f5b3e7d3a3c8522b0e19a0be6bcf0d63",
+      "contentHash": "cfac5a7675278844da280f1e0e0e9004255e7c28c4088679206ae2fe042885fe",
+      "revisionHash": "f368c4ea2248d49ea3a3633ddfaf1f7ea4808843a98b7713d1e5585d98f1f7e0",
       "metadata": {
         "title": "Lớp mới, trường mới, mình bắt đầu từ đâu?",
         "collection": "core",
@@ -1740,10 +1744,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/new-school-map.svg",
-          "sha256": "97e45eda15833a708e560832153bfdd8bea13e8cab56112166ccf5243e61fce8",
+          "sha256": "760d6ddeb67d5f0262ced624e4e21c3b5784be4411872f05c6e6ca4b5d2124e7",
           "id": "C23-V1",
           "revision": "academic-content-v2",
-          "alt": "Ba câu hỏi làm quen: điều gì đang mới, hỏi ai về một việc cụ thể, và xác nhận hoặc tìm lựa chọn khác thế nào; không có hạn thích nghi.",
+          "alt": "Bản đồ câu hỏi về nơi chốn, cách làm việc và người có thể hỏi.",
           "rights": null
         }
       ],
@@ -1757,10 +1761,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/C24.md",
-        "sha256": "1d88f391020a09d047287c74b1c451ea2f494a24ab923145582418d0baf00118"
+        "sha256": "04d1cc05f6b8925b5d161704cddf5af5e131c45bea9d41e7316984058c2664c1"
       },
-      "contentHash": "1d88f391020a09d047287c74b1c451ea2f494a24ab923145582418d0baf00118",
-      "revisionHash": "47a9540a7e4656af50912f9ed8fa1b944ddb23e06803f9165d73cdd18ae329d6",
+      "contentHash": "04d1cc05f6b8925b5d161704cddf5af5e131c45bea9d41e7316984058c2664c1",
+      "revisionHash": "9d156f28c560f46c176f284ab3c03daa5e059dd6d47c4519cb3bd6e5ffa53a04",
       "metadata": {
         "title": "Chưa biết mình muốn trở thành ai cũng được",
         "collection": "core",
@@ -1815,10 +1819,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/exploration-and-reflection.svg",
-          "sha256": "23b6cfd38310596209b094ff28f055b629f79196bd30b257236649965317124f",
+          "sha256": "2bbb29f46fa088842990df7be5ebe4886b75262d9c48127063b17cc935924033",
           "id": "C24-V1",
           "revision": "academic-content-v2",
-          "alt": "Phiếu khám phá gồm câu hỏi muốn tìm hiểu, cách thử phù hợp điều kiện, điều nhận ra và bước tiếp; không có mũi tên tới một nghề định sẵn.",
+          "alt": "Tìm điều muốn biết, thử phù hợp, nhìn lại và chọn bước tiếp.",
           "rights": null
         }
       ],
@@ -1832,10 +1836,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/E01.md",
-        "sha256": "570234a7036f66a25356980a3822b60b7e1944ab2e31c166f9cd17654bcc3577"
+        "sha256": "655177c2bc23a705dfb6a79d6a048e686cc67b113bb9111481eacf111ceb8007"
       },
-      "contentHash": "570234a7036f66a25356980a3822b60b7e1944ab2e31c166f9cd17654bcc3577",
-      "revisionHash": "3b3ea109e54aa1b24dbee03ccc7e54d74ba082ac3ce684d465ebc5199b3cbea0",
+      "contentHash": "655177c2bc23a705dfb6a79d6a048e686cc67b113bb9111481eacf111ceb8007",
+      "revisionHash": "08d992b8aaf940b88e261b3bbdf206fb9c6a4a0ff1b6fec04b89825628f54830",
       "metadata": {
         "title": "MBTI và 16 kiểu tính cách: hiểu và đọc kết quả thế nào?",
         "collection": "extension",
@@ -1866,7 +1870,8 @@
         "https://doi.org/10.1002/jcad.70006",
         "https://www.themyersbriggs.com/en-US/Support/MBTI-Facts",
         "https://www.16personalities.com/articles/our-theory",
-        "https://doi.org/10.1111/spc3.12434"
+        "https://doi.org/10.1111/spc3.12434",
+        "https://www.myersbriggs.org/my-mbti-personality-type/the-mbti-preferences/"
       ],
       "dossiers": {
         "REFERENCES": {
@@ -1893,10 +1898,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/tool-result-conclusion.svg",
-          "sha256": "1d79ed1e6e4588a73095f92e8a3a87422e392d6bb8fa2b5c34c8afbc1cba6aa3",
+          "sha256": "776d845db20c1023e44024f9fe8605544f965c066072c5e8944faa5dadecb823",
           "id": "E01-V1",
           "revision": "academic-content-v2",
-          "alt": "Ba vùng đọc kết quả: xác định công cụ và phiên bản, xem kết quả thực báo, kiểm kết luận định rút ra; không nối mã tính cách tới nghề hoặc năng lực cố định.",
+          "alt": "Ba câu hỏi về công cụ tính cách, kết quả và kết luận có thể rút ra.",
           "rights": null
         }
       ],
@@ -1910,10 +1915,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/E02.md",
-        "sha256": "7ede434076b929e9bb7fe2c79d93e7658d7a07c8d7f8e8b66156ae63cf98dec3"
+        "sha256": "20349c7f2cfaa525f710675fa15466183ca85336398cc3a3559a9b13c6ad6618"
       },
-      "contentHash": "7ede434076b929e9bb7fe2c79d93e7658d7a07c8d7f8e8b66156ae63cf98dec3",
-      "revisionHash": "bc822b5eb8c39a9a2c52754405598ef4e772f4d578b3872f6b3a29034aa35e0b",
+      "contentHash": "20349c7f2cfaa525f710675fa15466183ca85336398cc3a3559a9b13c6ad6618",
+      "revisionHash": "b607059ddf7e78fb2157450075144d1a8dc3beddd9cc037d6ae19ec873590fb0",
       "metadata": {
         "title": "Big Five: hiểu đặc điểm nhân cách mà không đóng khung bản thân",
         "collection": "extension",
@@ -1970,10 +1975,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/five-dimensions.svg",
-          "sha256": "443550ff2d7f26850e0076287ecd776f771c36f7d71edac6b39f91e729f2b915",
+          "sha256": "b450d2f9091c2a3f3a2d81ff05f7108797e6a162c951993bf1474e8446a41c03",
           "id": "E02-V1",
           "revision": "academic-content-v2",
-          "alt": "Năm dải liên tục có nhãn Big Five, không có điểm, vạch chuẩn hoặc vị trí cá nhân; mỗi chiều là một cách mô tả, không một nhóm người.",
+          "alt": "Năm chiều Big Five với nhiều mức biểu hiện, không có điểm cá nhân.",
           "rights": null
         }
       ],
@@ -1987,10 +1992,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/E03.md",
-        "sha256": "de265942ce79103a28cf0d2d84ab88e339c05785480a2a7c742f342a5333e1ed"
+        "sha256": "d40824874a4a79c0589f7e740a9b512ce57d4cdc89f00839a7a4942bc7259ac3"
       },
-      "contentHash": "de265942ce79103a28cf0d2d84ab88e339c05785480a2a7c742f342a5333e1ed",
-      "revisionHash": "c3101520c43c5c61e2e0b3f18424e66ce8d507ed590caaceb0e2093a155c58a7",
+      "contentHash": "d40824874a4a79c0589f7e740a9b512ce57d4cdc89f00839a7a4942bc7259ac3",
+      "revisionHash": "c65efcb9a0a9e9040cd6e9d6c6af175fbaa3543b1485f8e2b6b0d758e7b8b324",
       "metadata": {
         "title": "Holland RIASEC: khám phá sở thích nghề nghiệp",
         "collection": "extension",
@@ -2045,10 +2050,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/six-interest-directions.svg",
-          "sha256": "8ded2c930b4fa03c8aa95cb3bce3a24f8b11c1257661e541037e2971d43ee7cc",
+          "sha256": "364ae4305b587a0393d042741ebc2d9b10de4ed78429608a9a50b13f13d0d592",
           "id": "E03-V1",
           "revision": "academic-content-v2",
-          "alt": "Sáu thẻ R, I, A, S, E, C diễn tả những hướng hoạt động để tìm hiểu, đi cùng vùng nhắc sở thích khác năng lực và nghề định sẵn; không có điểm hoặc mã cá nhân.",
+          "alt": "Sáu hướng sở thích RIASEC cùng các loại hoạt động để khám phá.",
           "rights": null
         }
       ],
@@ -2062,10 +2067,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/E04.md",
-        "sha256": "2784a6faf91ad2c5656e2c65321288f8183998d951aeb980215599da43f40b84"
+        "sha256": "e571f8c07480308551cf22c6e8fd7c730137365325c319c5bb09fde635da57e3"
       },
-      "contentHash": "2784a6faf91ad2c5656e2c65321288f8183998d951aeb980215599da43f40b84",
-      "revisionHash": "d8a8e0c2b5b95fcda824fc9dc8e68fb8d68e434d5e126903e211dddec565d9df",
+      "contentHash": "e571f8c07480308551cf22c6e8fd7c730137365325c319c5bb09fde635da57e3",
+      "revisionHash": "6dccf1fff0175ee43b6da1c6aa84a8a6eda07280cec51bc80e9e25d11f2485c7",
       "metadata": {
         "title": "Stress và công cụ sàng lọc: một con số nói được gì?",
         "collection": "extension",
@@ -2124,10 +2129,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/score-context-support.svg",
-          "sha256": "8acc8d6997ab844c2db82badd978bf6b59b35de933610be4840683b2d77205c0",
+          "sha256": "eff61c21f13953f626d1c3fc65f442c7fcbf4c34039bc81bcd80fd620264094d",
           "id": "E04-V1",
           "revision": "academic-content-v2",
-          "alt": "Ba nhóm câu hỏi khi gặp một đầu ra tâm lý: tên và điều được đo, phiên bản/tuổi/ngôn ngữ/mục đích, người giải thích và cách giữ riêng tư; không có điểm hoặc nhánh chẩn đoán.",
+          "alt": "Các câu hỏi về điều được đo, bằng chứng và cách giải thích điểm.",
           "rights": null
         }
       ],
@@ -2141,10 +2146,10 @@
       "revision": "academic-content-v2",
       "source": {
         "path": "docs/content-rewrite-v2/articles/E05.md",
-        "sha256": "aea6f2a2ae25ed31e586a7d59c545d567d0cf5720095270d65b3a88186dce562"
+        "sha256": "5fa8fecce32774b01e7478b696b445c2ea3d7fe3470f3fc1d606857abc8587e0"
       },
-      "contentHash": "aea6f2a2ae25ed31e586a7d59c545d567d0cf5720095270d65b3a88186dce562",
-      "revisionHash": "a0828f53f04da6bc372f3d4b7c716a9f2901d1c825d31ef938890c5a645eeb40",
+      "contentHash": "5fa8fecce32774b01e7478b696b445c2ea3d7fe3470f3fc1d606857abc8587e0",
+      "revisionHash": "355b14347f4b985b556c6b00e5319589801fad09a9f52645c863981f090db4a6",
       "metadata": {
         "title": "Phong cách học tập: phân biệt sở thích với bằng chứng khoa học",
         "collection": "extension",
@@ -2201,10 +2206,10 @@
       "assets": [
         {
           "path": "docs/content-rewrite-v2/assets/claim-to-practice.svg",
-          "sha256": "7bc24733fb3964108dfbeca506c700fbfb874e8cc68025e1c30fc97c805edd11",
+          "sha256": "60a5cb8c9221a95978b319f7b03e3c4392e4579ab3deb852b6b97129930146b4",
           "id": "E05-V1",
           "revision": "academic-content-v2",
-          "alt": "Bốn phần đọc một lời khẳng định: Huy thích xem hình; cần so kết quả các cách dạy trong mỗi nhóm, không chỉ hỏi thích gì; sở thích chưa đủ kết luận; chọn cách thử theo nhiệm vụ và xem phản hồi.",
+          "alt": "Từ sở thích tới bằng chứng kiểm tra và lựa chọn cách học theo nhiệm vụ.",
           "rights": null
         }
       ],

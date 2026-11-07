@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="1270" viewBox="0 0 320 1270" role="img" aria-labelledby="title desc">
-<title id="title">Giấc ngủ và bối cảnh: bối cảnh và bài tập</title>
+<title id="title">Nhu cầu ngủ, lịch sinh hoạt, môi trường và các câu hỏi điều chỉnh.</title>
 <desc id="desc">Hai nhóm có tiêu đề và khung riêng, cách nhau một khoảng trống. Nhóm A — “Nhìn trong bối cảnh” — có ba khối: nhu cầu ngủ theo tuổi; lịch học và việc nhà; môi trường ngủ dùng chung. Nhóm B — “Làm trong bài tập” — có ba khối đánh số: tách dữ kiện với điều chưa biết; chọn thay đổi khả thi; xác định hỗ trợ hoặc điều chỉnh. Số chỉ thứ tự đọc phiếu, không phải quá trình sinh học. Sáu khối xếp dọc, không có mũi tên hoặc đường nối nhân quả.</desc>
 <rect width="320" height="1270" fill="#f7f3e9"/>
 <g fill="#333e32" font-family="DejaVu Sans, sans-serif">
@@ -41,6 +41,6 @@
 <text x="36" y="1097" font-size="16">Nói với ai, về việc gì?</text>
 <text x="36" y="1122" font-size="16">Nếu chưa làm được thì sao?</text>
 </g>
-<text x="20" y="1238" font-size="15">Sơ đồ học tập tự biên soạn.</text>
-<text x="20" y="1262" font-size="15">Không biểu thị quan hệ nhân quả.</text>
+<text x="20" y="1238" font-size="15">Xem cả lịch và điều kiện ngủ.</text>
+<text x="20" y="1262" font-size="15">Chọn thay đổi có thể duy trì.</text>
 </g></svg>

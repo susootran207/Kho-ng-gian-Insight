@@ -1,4 +1,5 @@
 // Academic edition only. Historical F0 manifest/approvals are never rewritten.
+import { academicReferences } from './academic-reference-additions.ts'
 import { readFileSync } from 'node:fs'
 import { resolve, basename } from 'node:path'
 import type { SourceArticle, SourceManifest } from '../editorial/source-contract.ts'
@@ -23,7 +24,7 @@ export function loadAcademicRewrite(root:string, base:SourceManifest):SourceArti
   requireThat(canonical(a.dossiers)===canonical(original.dossiers),'historical dossiers changed')
   const urls=[...source.matchAll(/https:\/\/[^\s]+/g)].map(m=>m[0])
   requireThat(canonical([...new Set(urls)].sort())===canonical([...a.referenceUrls].sort()),'rewrite reference URL mismatch: '+a.id)
-  requireThat(canonical(a.referenceUrls)===canonical(original.referenceUrls.map(url=>url==='https://doi.org/10.1016/S1364-6613(03'?'https://doi.org/10.1016/S1364-6613(03)00028-7':url)),'rewrite bibliography changed without explicit reconciliation: '+a.id)
+  requireThat(canonical(a.referenceUrls)===canonical(academicReferences(a.id,original.referenceUrls)),'rewrite bibliography changed without explicit reconciliation: '+a.id)
   requireThat(a.assets.length===1&&a.assets[0].rights===null&&basename(a.assets[0].path)===basename(original.assets[0].path),'rewrite asset scope/approval mismatch')
   for(const asset of a.assets){const svg=readReference(root,asset,'docs/content-rewrite-v2/assets/').toString('utf8');requireThat(!/Bản nháp|draft-r\d|C\d\d r\d/.test(svg),'internal revision in SVG')}
   return a

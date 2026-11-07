@@ -89,3 +89,35 @@ test('Every emitted static file resolves, all SVG text fits, and reference DOI r
   await page.screenshot({path:`test-results-academic/rewrite-c01-body-${width}.png`,fullPage:false})
  }
 })
+
+test('Figure descriptions: native disclosure, accessible image descriptions, dialog and no-CSS fallback',async({browser})=>{
+ const context=await browser.newContext({viewport:{width:390,height:1000},reducedMotion:'reduce'}),page=await context.newPage()
+ try{
+  for(const a of compiled){
+   await page.goto('http://127.0.0.1:4181/#/bai-viet/'+a.slug)
+   const figure=page.locator('.reader-figure'),image=figure.locator('img'),details=figure.locator('details'),description=details.locator('.reader-equivalent')
+   await expect(details).not.toHaveAttribute('open','');await expect(description).not.toBeVisible()
+   const id=await image.getAttribute('aria-describedby');expect(id).toBeTruthy();await expect(page.locator('[id="'+id+'"]')).toHaveCount(1)
+   await expect(image).toHaveAccessibleDescription((await description.textContent())!)
+   await details.locator('summary').click();await expect(description).toBeVisible()
+   await details.locator('summary').focus();await page.keyboard.press('Enter');await expect(description).not.toBeVisible()
+   expect((await image.getAttribute('alt'))!.length).toBeLessThan(180)
+  }
+  await page.goto('http://127.0.0.1:4181/#/bai-viet/hom-nay-minh-cam-thay-gi')
+  const cdp=await context.newCDPSession(page)
+  const disclosure=async()=>{const tree=await cdp.send('Accessibility.getFullAXTree');return tree.nodes.find(n=>n.name?.value==='Mô tả hình bằng chữ'&&n.properties?.some(p=>p.name==='expanded'))!}
+  const closed=await disclosure();expect(closed.ignored).toBe(false);expect(closed.properties!.find(p=>p.name==='expanded')!.value!.value).toBe(false)
+  await page.locator('.reader-description summary').click();const opened=await disclosure();expect(opened.properties!.find(p=>p.name==='expanded')!.value!.value).toBe(true)
+  const {writeFileSync}=await import('node:fs');writeFileSync('test-results-academic/figure-disclosure-ax.json',JSON.stringify({closed,opened},null,2))
+  await page.locator('.reader-description summary').click()
+  for(const width of [390,1440]){await page.setViewportSize({width,height:1000});await page.locator('.reader-figure').scrollIntoViewIfNeeded();await page.screenshot({path:`test-results-academic/figure-closed-${width}.png`});await page.locator('.reader-description summary').click();await page.screenshot({path:`test-results-academic/figure-open-${width}.png`});await page.locator('.reader-description summary').click()}
+  await page.getByRole('button',{name:'Xem hình lớn'}).click()
+  const dialog=page.locator('dialog'),viewerImage=dialog.locator('img'),viewerDetails=dialog.locator('details')
+  await expect(viewerDetails.locator('p')).not.toBeVisible();await expect(viewerImage).toHaveAccessibleDescription((await viewerDetails.locator('p').textContent())!)
+  await viewerDetails.locator('summary').click();await expect(viewerDetails.locator('p')).toBeVisible();await page.keyboard.press('Escape');await expect(dialog).not.toBeVisible()
+  const cssless=await context.newPage();await cssless.route('**/*.css',route=>route.abort());await cssless.goto('http://127.0.0.1:4181/#/bai-viet/hom-nay-minh-cam-thay-gi')
+  const raw=cssless.locator('.reader-figure details');await expect(raw.locator('p')).not.toBeVisible();await raw.locator('summary').click();await expect(raw.locator('p')).toBeVisible()
+  await expect(cssless.locator('.reader-figure img')).toHaveAccessibleDescription(await raw.locator('p').innerText())
+  await cssless.screenshot({path:'test-results-academic/figure-no-css.png'})
+ }finally{await context.close()}
+})

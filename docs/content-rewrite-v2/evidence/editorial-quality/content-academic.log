@@ -1,0 +1,21 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 content:academic
+> node --experimental-strip-types scripts/generate-academic-rewrite.mts --check && npm run test:academic
+
+Academic rewrite manifest: 29 pinned articles/assets
+
+> khong-gian-noi-tam-prototype@0.1.0 test:academic
+> node --experimental-strip-types --test --test-isolation=none tests/academic-showcase.test.mts
+
+✔ Academic showcase projects rewritten 29/29/10 and retains the historical F0 boundary (799.70338ms)
+✔ Showcase scanner rejects raw dossiers, records, sourcemaps, fixtures and foreign assets (661.762626ms)
+✔ Rewrite serves fresh source and reconciled figures while preserving every route and reference (501.567197ms)
+✔ Rewrite fails closed on tampered routes, bytes, approvals, bibliography and baseline (167.325312ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2380.311656

@@ -9,7 +9,7 @@ const path = 'tests/fixtures/reader/reader-long-figure.svg', source = readFileSy
 const asset = loadReaderAsset(process.cwd(), { path, sha256: sha256(readFileSync(path)) }, 'reader-long-figure.svg', '/__r1_assets/reader-long-figure.svg')
 const doc = compileReaderDocument(source, [asset])
 const entry = '/tests/reader-harness/index.html', route = entry + '#/r1/fixture'
-const output = resolve('../docs/phase-3/r1/screenshots')
+const output = resolve('test-results-r1/screenshots')
 for (const width of [320, 390, 768, 1440]) test('GFM DOM coverage, typography, responsive and axe at ' + width, async ({ page }) => {
   await page.setViewportSize({ width, height: 1000 })
   const errors: string[] = []; page.on('pageerror', error => errors.push(error.message))
@@ -88,6 +88,8 @@ test('long figure: keyboard open, zoom, scroll, focus trap, Escape and return fo
   await expect.poll(() => viewport.evaluate(el => el.scrollTop)).toBeGreaterThan(0)
   await page.keyboard.press('ArrowRight')
   await expect.poll(() => viewport.evaluate(el => el.scrollLeft)).toBeGreaterThan(0)
+  await page.keyboard.press('Tab'); await expect(dialog.locator('.reader-description summary')).toBeFocused()
+  await page.keyboard.press('Space'); await expect(dialog.locator('.reader-description p')).toBeVisible()
   await page.keyboard.press('Tab'); await expect(close).toBeFocused()
   await page.screenshot({ path: output + '/reader-figure-390.jpg', type: 'jpeg', quality: 80 })
   await page.keyboard.press('Escape')
@@ -105,6 +107,7 @@ test('200%-equivalent desktop reflow: 720 CSS px at DPR2, no clipped text or con
     await expect(page.locator('h1')).toBeVisible()
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBeTruthy()
     await expect(page.locator('.table-of-contents')).toHaveCSS('position', 'static')
+    await page.getByRole('button', { name: 'Mục lục bài đọc' }).click()
     await page.getByRole('navigation', { name: 'Mục lục' }).getByRole('link', { name: 'Gợi ý phản hồi', exact: true }).click()
     await expect(page.locator('#goi-y-phan-hoi')).toBeFocused()
     await expect(page.locator('.article-prose')).toContainText('Câu 3:')

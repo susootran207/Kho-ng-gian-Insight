@@ -1,3 +1,4 @@
+import { academicReferences } from '../build/academic-reference-additions.ts'
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
@@ -35,7 +36,7 @@ test('Rewrite serves fresh source and reconciled figures while preserving every 
   const old=m.articles.find(b=>b.id===a.id)!,shown=r.catalogue.articles.find(b=>b.id===a.id)!
   assert.equal(a.slug,old.slug);assert.notEqual(a.contentHash,old.contentHash)
   assert.equal(shown.document!.sourceHash,a.contentHash);assert.equal(shown.revision,undefined)
-  assert.deepEqual(a.referenceUrls,old.referenceUrls.map(url=>url==='https://doi.org/10.1016/S1364-6613(03'?'https://doi.org/10.1016/S1364-6613(03)00028-7':url));assert.deepEqual(a.metadata,old.metadata)
+  assert.deepEqual(a.referenceUrls,academicReferences(a.id,old.referenceUrls));assert.deepEqual(a.metadata,old.metadata)
   assert.equal(shown.document!.figures.length,1);assert.equal(shown.document!.localLinks!.length,0)
   assert.equal(a.assets[0].rights,null);assert.equal(a.publication,null)
   const visible=JSON.stringify(shown.document)

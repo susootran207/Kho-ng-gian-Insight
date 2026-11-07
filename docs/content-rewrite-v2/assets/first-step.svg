@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="549" viewBox="0 0 320 549" role="img" aria-labelledby="title desc" xml:lang="vi">
-<title id="title">Một bước để bắt đầu</title>
+<title id="title">Ba câu hỏi để chọn một bước khởi đầu có thể thực hiện.</title>
 <desc id="desc">Ba khối độc lập nhắc chọn việc cụ thể, xem tài liệu và thời gian có sẵn, rồi ghi cách hỏi hoặc điều chỉnh. Không có mũi tên nhân quả hay thời gian bắt buộc. Thiếu điều kiện có thể là việc cần xử lý trước, không phải lỗi của nhân vật.</desc>
 <rect width="320" height="549" fill="#fffdf7"/>
 <g font-family="DejaVu Sans, sans-serif" fill="#333e32">
@@ -17,6 +17,6 @@
 <text x="32" y="393" font-size="16">Ghi điều cần hỏi hoặc một</text>
 <text x="32" y="418" font-size="16">việc có thể đổi.</text>
 <text x="20" y="474" font-size="16">Có thể cần thêm điều kiện trước</text>
-<text x="20" y="499" font-size="16">khi học. Không chấm ý chí.</text>
+<text x="20" y="499" font-size="16">khi học. Hỏi đúng chỗ đang vướng.</text>
 </g>
 </svg>

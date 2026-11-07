@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="1140" viewBox="0 0 640 1140" role="img" aria-labelledby="map-title map-desc" lang="vi">
-<title id="map-title">Quan sát bốn vùng để đọc</title>
+<title id="map-title">Bốn vùng quan sát cảm xúc, suy nghĩ, cơ thể và hành vi trong cùng bối cảnh.</title>
 <desc id="map-desc">Bốn vùng gồm cảm xúc, suy nghĩ, tín hiệu cơ thể và hành vi cùng nối với bối cảnh. Đường nối không chỉ thứ tự hay nguyên nhân; khung ghi chép không thay thế mô hình năm thành phần của Scherer.</desc>
 <rect width="640" height="1140" fill="#f7f3e9"/>
 <g font-family="Noto Sans, DejaVu Sans, sans-serif" fill="#333e32">
@@ -32,6 +32,6 @@
 <text x="52" y="925" font-size="28">khác với điều muốn làm.</text>
 <text x="32" y="1003" font-size="24">Mỗi vùng nối với cùng bối cảnh.</text>
 <text x="32" y="1041" font-size="24">Đường nối không biểu thị nhân quả.</text>
-<text x="32" y="1080" font-size="22">Diễn giải học tập · Tham khảo Scherer (2005)</text>
-<text x="32" y="1115" font-size="22">Minh họa khái niệm · Không phải mô hình gốc</text>
+<text x="32" y="1080" font-size="22">Tham khảo Scherer (2005)</text>
+<text x="32" y="1115" font-size="22">Cảm xúc cần được đọc cùng bối cảnh.</text>
 </g></svg>

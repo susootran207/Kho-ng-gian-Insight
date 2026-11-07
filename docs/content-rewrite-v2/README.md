@@ -1,30 +1,27 @@
-# Viết lại nội dung Academic Showcase, giữ QR đã nộp
+# Academic Showcase — Editorial Quality Revision, PR #38
 
-URL chính thức: **https://wispy-silence-8006.susootran207.workers.dev/**.
-Worker giữ tên `wispy-silence-8006`; giữ workers.dev subdomain `susootran207`. Không có lệnh deploy, merge, đổi domain hoặc xóa Worker trong tác vụ.
+URL đã nộp giữ nguyên: **https://wispy-silence-8006.susootran207.workers.dev/**. Không đổi Worker/subdomain, QR, slug hoặc điều hướng. Không merge hoặc deploy.
 
-## Phạm vi và nguồn chuẩn
+Lượt này tiếp tục trực tiếp trên nhánh `content-rewrite-v2-preserve-qr`, từ bản PR `6db2c0775ba76c976bbfadc93ac4ccbd4a7e654f`, theo toàn văn yêu cầu ở [EDITORIAL-REQUEST.md](EDITORIAL-REQUEST.md). Commit F0 gốc vẫn là `ad22186aa03053ff6050a8cefa65eacd9885bd68`.
 
-29 bản đọc mới nằm trong `articles/`: C01–C24 và E01–E05. Academic Showcase biên dịch trực tiếp các tệp này, không lọc nội dung nháp lúc chạy trình duyệt. `prototype/editorial/academic-rewrite.json` ghim source hash, revision hash, SVG hash, metadata, nguồn và slug cho từng bài. `prototype/scripts/generate-academic-rewrite.mts --check` kiểm tra pins, không tự sửa pins trong CI.
+## Nội dung và rà soát
 
-Commit nền: `ad22186aa03053ff6050a8cefa65eacd9885bd68`, cũng là HEAD remote tại lúc kiểm tra. Đây là commit mã nguồn, **chưa xác nhận là commit được triển khai trên Cloudflare**. Nhánh sửa: `content-rewrite-v2-preserve-qr`.
+Nguồn 29 bài đọc mới nằm trong `articles/`. Sáu bài C01/C05/C11/C17/E01/E05 được viết lại phần thân theo các điểm nghiệm thu; 23 bài còn lại phát triển lập luận theo vấn đề riêng. Giải thích cơ chế, phân biệt khái niệm, ví dụ và cách dùng kiến thức được đặt trong mạch bài; đã đọc lại để gộp các đoạn lặp. Không dùng số mục hay độ dài làm kết luận chất lượng.
 
-Không sửa `source-manifest.json`, catalogue F0, weekly registry, các hồ sơ duyệt lịch sử, 29 bài nháp lịch sử hay HTML gốc. Kiểm tra 107 hồ sơ được bảo vệ vẫn chạy. Các hồ sơ đó chỉ chứng minh baseline lịch sử; không được dùng làm chứng nhận duyệt bản viết lại. Bản mới giữ trạng thái draft nội bộ, `publication: null`, `publishedAt: null`, không tạo chuyên gia/người học giả.
+[EDITORIAL-REVIEW.md](EDITORIAL-REVIEW.md) ghi riêng cho từng bài: kiến thức trọng tâm, điều giải thích sâu hơn, ví dụ đáng giữ, giới hạn và câu hỏi hiểu/vận dụng cùng ý cần trả lời. Đây là tự rà soát của trợ lý biên soạn, chưa là nghiệm thu bởi học sinh hoặc chuyên gia độc lập. [BEFORE-AFTER.md](BEFORE-AFTER.md) cho sáu mẫu so với bản PR trước lượt này.
 
-## Biên tập
+Giữ các nguồn cũ và bổ sung năm nguồn cho những phần cần căn cứ mới. [RESEARCH-VERIFICATION.md](RESEARCH-VERIFICATION.md) phân biệt phần đã đọc trực tiếp, nguồn giới hạn truy cập/toàn văn và nhận định cần kiểm thêm. Audit 71 URL lịch sử được giữ với đúng ý nghĩa là log truy cập, không phải chứng nhận toàn văn.
 
-Mỗi bài mở thẳng vào kiến thức, sau đó giải thích cơ chế, giới hạn bằng chứng, cách dùng trong đời sống học đường và khi nào/nhờ ai hỗ trợ. Không ép tiêu đề 5W1H vào bài nhưng trả lời các câu hỏi cần thiết theo chủ đề. Bỏ nhân vật và tình huống dài, bài tập tự chấm lặp lại, ghi chú bản nháp, liên kết dossier và mã revision khỏi phần đọc. Giữ khái niệm chuyên môn, phân biệt liên hệ với nhân quả, mô hình với công cụ, sàng lọc với chẩn đoán.
+## Hình và Reader
 
-29 SVG được giữ theo bộ minh họa hiện có, sao chép sang `assets/`; chỉnh những chữ còn phụ thuộc câu chuyện cũ, metadata nháp và mô tả tiếp cận. Không thay artwork sân vườn, CSS, component tương tác hoặc cấu trúc router. Caption vẫn giữ ghi nguồn khái niệm; thông tin sản xuất bằng AI được ghi tại đây thay vì lặp lại trong bài: các bản viết lại và chỉnh chữ SVG được trợ lý AI biên soạn, chưa có rà soát chuyên môn độc lập cho phiên bản mới.
+29 SVG giữ thiết kế, được rà lại alt, title/desc và chữ liên quan. Chú thích hiển thị ngắn, giải thích ý hình và giữ nguồn phù hợp. Thông tin học thuật cần thiết nằm trong phần giải thích hoặc tài liệu tham khảo; bỏ lời giải trình kỹ thuật ở chân hình.
 
-Tài liệu tham khảo giữ theo hồ sơ đã cung cấp. Sửa một lỗi kỹ thuật của manifest cũ: DOI Monsell bị regex cắt ở dấu ngoặc; bản academic dùng đủ `https://doi.org/10.1016/S1364-6613(03)00028-7`. Không thay DOI hay tài liệu thực trong bài gốc. E05 nêu rõ phân tích 2024 tìm thấy lợi ích trung bình nhỏ nhưng chưa đủ ủng hộ áp dụng rộng rãi, tránh diễn đạt thành không có bất kỳ hiệu ứng nào.
+Mô tả dài có native `details/summary` đóng mặc định, mở bằng chuột hoặc bàn phím. Ảnh dùng alt ngắn và `aria-describedby` tới mô tả tương ứng, kể cả trong hộp phóng lớn. Khi CSS không tải, cơ chế mở vẫn hoạt động. Vòng focus dialog gồm cả summary. Đây là thay đổi Reader được yêu cầu; không thiết kế lại giao diện.
 
-10 chuyên đề, tiêu đề, mô tả, liên kết liên quan và thứ tự hiện có được giữ. Metadata chủ đề, mùa, nhóm bài và bài liên quan khớp baseline. Mục tiêu Bloom lịch sử là thông tin nội bộ của baseline, không được trình bày như bài kiểm tra mới đã được nghiệm thu.
+## Build và bảo vệ baseline
 
-## Kiểm tra và giới hạn
+`prototype/editorial/academic-rewrite.json` ghim hash nội dung, revision, asset metadata. `academic-reference-additions.ts` khai báo rõ nguồn bổ sung; validator vẫn từ chối thay đổi khác ngoài phạm vi. Build academic dùng trực tiếp nguồn đã sửa và xuất **`prototype/dist-academic`**. Không lấy `dist` standard thay cho artifact này.
 
-Xem `VALIDATION.md`, `SOURCE-LINK-AUDIT.json` và `BEFORE-AFTER.md`. Liên kết nguồn được thử mở qua công cụ web: 55/71 trả về trang, 16/71 không truy cập được bằng công cụ. Những lỗi đó không tự chứng minh tài liệu sai hoặc URL hỏng. DOI Monsell đầy đủ được thử lại riêng và nhận 403; không công bố tất cả nguồn đạt kiểm tra truy cập trực tiếp.
+Không sửa `source-manifest.json`, catalogue F0, weekly registry, policy/hồ sơ duyệt lịch sử, nguồn bài nháp cũ, public artworks hoặc HTML gốc. Trong src chỉ sửa ArticleReader và stylesheet Markdown cho disclosure/focus. Không tạo phê duyệt giả, đổi trạng thái xuất bản F0 hoặc gán approvals cũ cho nội dung mới. Chữ/bản viết mới do trợ lý AI biên soạn; hồ sơ sản xuất nằm ở đây, ngoài phần bài đọc.
 
-Phiên làm việc chỉ nhận được yêu cầu bổ sung trong tin nhắn ngày 07/11/2026; không có toàn văn CONTENT REWRITE V2 trước đó trong lịch sử được cung cấp. Đã hỏi lại và thực hiện theo các tiêu chí cụ thể trong yêu cầu hiện tại. Cần đối chiếu thêm nếu bản V2 trước có tiêu chí khác; không ghi nhận là đã nghiệm thu một tài liệu chưa được cung cấp.
-
-Không có credentials Cloudflare. Request đến production bị proxy môi trường từ chối CONNECT 403; công cụ web cũng không mở được URL đó. Không suy ra website đang ngừng hoạt động. Loại Worker, binding, account ID và deployment/version hiện hành chưa xác minh. Xem `WORKERS-HANDOFF.md` trước bất kỳ thao tác cloud nào.
+Xem [VALIDATION.md](VALIDATION.md), [ROUTE-MATRIX.md](ROUTE-MATRIX.md), `ARTIFACT.json` và `SHA256SUMS.txt`. ZIP mới cùng hồ sơ nghiệm thu được đính kèm trong [artifacts/](artifacts/). [WORKERS-HANDOFF.md](WORKERS-HANDOFF.md) giữ hướng dẫn kiểm cấu hình thực, preview/version, rollback và QR; chưa thực hiện thao tác Cloudflare nào.

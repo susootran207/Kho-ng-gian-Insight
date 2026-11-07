@@ -1,0 +1,129 @@
+{
+  "closed": {
+    "nodeId": "669",
+    "ignored": false,
+    "role": {
+      "type": "internalRole",
+      "value": "DisclosureTriangle"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 37
+    },
+    "name": {
+      "type": "computedString",
+      "value": "Mô tả hình bằng chữ",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "attribute": "aria-label"
+        },
+        {
+          "type": "contents",
+          "value": {
+            "type": "computedString",
+            "value": "Mô tả hình bằng chữ"
+          }
+        },
+        {
+          "type": "attribute",
+          "attribute": "title",
+          "superseded": true
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "focusable",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": true
+        }
+      },
+      {
+        "name": "expanded",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": false
+        }
+      }
+    ],
+    "parentId": "665",
+    "childIds": [
+      "874",
+      "875"
+    ],
+    "backendDOMNodeId": 669
+  },
+  "opened": {
+    "nodeId": "669",
+    "ignored": false,
+    "role": {
+      "type": "internalRole",
+      "value": "DisclosureTriangle"
+    },
+    "chromeRole": {
+      "type": "internalRole",
+      "value": 37
+    },
+    "name": {
+      "type": "computedString",
+      "value": "Mô tả hình bằng chữ",
+      "sources": [
+        {
+          "type": "relatedElement",
+          "attribute": "aria-labelledby"
+        },
+        {
+          "type": "attribute",
+          "attribute": "aria-label"
+        },
+        {
+          "type": "contents",
+          "value": {
+            "type": "computedString",
+            "value": "Mô tả hình bằng chữ"
+          }
+        },
+        {
+          "type": "attribute",
+          "attribute": "title",
+          "superseded": true
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "focusable",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": true
+        }
+      },
+      {
+        "name": "focused",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": true
+        }
+      },
+      {
+        "name": "expanded",
+        "value": {
+          "type": "booleanOrUndefined",
+          "value": true
+        }
+      }
+    ],
+    "parentId": "665",
+    "childIds": [
+      "874",
+      "875"
+    ],
+    "backendDOMNodeId": 669
+  }
+}

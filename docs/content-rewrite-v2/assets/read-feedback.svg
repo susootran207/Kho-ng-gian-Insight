@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="524" viewBox="0 0 320 524" role="img" aria-labelledby="title desc" xml:lang="vi">
-<title id="title">Đọc để biết chỗ sửa</title>
+<title id="title">Từ yêu cầu và phản hồi cụ thể tới một bước sửa bài.</title>
 <desc id="desc">Ba thẻ nhắc đọc yêu cầu, nhìn một chi tiết trong bài rồi chọn việc sửa hoặc hỏi. Số chỉ thứ tự đọc phiếu; không thể hiện quan hệ nhân quả hay bảo đảm tăng điểm.</desc>
 <rect width="320" height="524" fill="#fffdf7"/>
 <g font-family="DejaVu Sans, sans-serif" fill="#333e32">
@@ -15,7 +15,7 @@
 <text x="32" y="341" font-size="18" font-weight="700">3 · Sửa hoặc hỏi</text>
 <text x="32" y="368" font-size="16">Chọn một việc rồi đối chiếu.</text>
 <text x="32" y="393" font-size="16">Chưa rõ thì hỏi lại.</text>
-<text x="20" y="449" font-size="16">Số là thứ tự đọc phiếu, không phải</text>
-<text x="20" y="474" font-size="16">mô hình hoặc lời hứa tăng điểm.</text>
+<text x="20" y="449" font-size="16">Tìm đúng chỗ mắc để chọn cách sửa,</text>
+<text x="20" y="474" font-size="16">rồi kiểm lại mức hiểu của mình.</text>
 </g>
 </svg>

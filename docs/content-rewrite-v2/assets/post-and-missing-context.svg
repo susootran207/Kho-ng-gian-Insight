@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="840" viewBox="0 0 320 840" role="img" aria-labelledby="title desc" xml:lang="vi">
-<title id="title">Một bài đăng chưa kể hết</title>
-<desc id="desc">Các thẻ tách điều bài đăng cho thấy, phần chưa biết, kết luận vượt dữ kiện và lựa chọn điều chỉnh. Một thành tích không cho biết toàn bộ cuộc sống hoặc giá trị con người.</desc>
+<title id="title">Điều bài đăng cho thấy, phần chưa biết và kết luận đang thêm vào.</title>
+<desc id="desc">Các thẻ tách điều bài đăng cho thấy, phần chưa biết, kết luận vượt dữ kiện và lựa chọn điều chỉnh. Một thành tích không cho biết toàn bộ cuộc sống hoặc giá trị đủ để kết luận về con người.</desc>
 <rect width="320" height="840" fill="#fffdf7"/>
 <g font-family="DejaVu Sans, sans-serif" fill="#333e32">
 <text x="20" y="36" font-size="22" font-weight="700">Một bài đăng chưa kể</text>
@@ -26,7 +26,7 @@
 <text x="32" y="657" font-size="16">đang cần.</text>
 <text x="20" y="715" font-size="16">Không suy ngược rằng bài đăng</text>
 <text x="20" y="740" font-size="16">giả hoặc người đăng chắc có khó</text>
-<text x="20" y="765" font-size="16">khăn. Các thẻ không chấm giá trị</text>
-<text x="20" y="790" font-size="16">con người.</text>
+<text x="20" y="765" font-size="16">khăn. Điều chưa biết vẫn chưa</text>
+<text x="20" y="790" font-size="16">đủ để kết luận về con người.</text>
 </g>
 </svg>

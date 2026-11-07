@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="973" viewBox="0 0 320 973" role="img" aria-labelledby="title desc" xml:lang="vi">
-<title id="title">Sáu hướng để tìm hiểu</title>
+<title id="title">Sáu hướng sở thích RIASEC cùng các loại hoạt động để khám phá.</title>
 <desc id="desc">Sáu thẻ ghi đầy đủ tên gốc và nghĩa ngắn của RIASEC, không xếp bậc hoặc phân giới. Dải cuối nhắc các hướng có thể cùng có mặt, sở thích chưa là phép đo năng lực hoặc quyết định nghề. Bố cục thẻ không biểu diễn khoảng cách giữa các nhóm trong mô hình lục giác.</desc>
 <rect width="320" height="973" fill="#fffdf7"/>
 <g font-family="DejaVu Sans, sans-serif" fill="#333e32">
@@ -28,8 +28,8 @@
 <text x="32" y="765" font-size="16">Sắp xếp dữ liệu/công việc theo</text>
 <text x="32" y="790" font-size="16">trình tự, quy tắc.</text>
 <text x="20" y="848" font-size="16">Có thể quan tâm nhiều hướng. Sở</text>
-<text x="20" y="873" font-size="16">thích khác phép đo năng lực và</text>
-<text x="20" y="898" font-size="16">nghề định sẵn. Thẻ không thể hiện</text>
-<text x="20" y="923" font-size="16">khoảng cách lục giác.</text>
+<text x="20" y="873" font-size="16">thích khác năng lực và một</text>
+<text x="20" y="898" font-size="16">nghề duy nhất. Hãy tìm hiểu các</text>
+<text x="20" y="923" font-size="16">hoạt động thực trong công việc.</text>
 </g>
 </svg>
