@@ -1,0 +1,169 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:r1:browser
+> playwright test -c playwright.r1.config.ts
+
+[WebServer] (node:16038) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 1 worker
+
+(node:16058) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  1 tests/r1-reader.spec.ts:13:44 › GFM DOM coverage, typography, responsive and axe at 320 (3.6s)
+(node:16191) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  2 tests/r1-reader.spec.ts:13:44 › GFM DOM coverage, typography, responsive and axe at 390 (3.3s)
+(node:16353) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  3 tests/r1-reader.spec.ts:13:44 › GFM DOM coverage, typography, responsive and axe at 768 (3.3s)
+(node:16489) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  4 tests/r1-reader.spec.ts:13:44 › GFM DOM coverage, typography, responsive and axe at 1440 (3.1s)
+(node:16618) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  5 tests/r1-reader.spec.ts:53:1 › TOC/hash/reload, source anchors, skip link, and return to the actual legacy library with filters (7.2s)
+  ✓  6 tests/r1-reader.spec.ts:74:1 › long figure: keyboard open, zoom, scroll, focus trap, Escape and return focus under reduced motion (4.6s)
+  ✘  7 tests/r1-reader.spec.ts:100:1 › 200%-equivalent desktop reflow: 720 CSS px at DPR2, no clipped text or controls (2.3s)
+(node:16843) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] The request id "/workspace/Kho-ng-gian-Insight/docs/phase-3/drafts/C01/ARTICLE.md" is outside of Vite serving allow list.
+[WebServer]
+[WebServer] - /workspace/Kho-ng-gian-Insight/prototype
+[WebServer]
+[WebServer] Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+[WebServer]
+  ✓  8 tests/r1-reader.spec.ts:113:1 › fixture asset allowlist and direct source access do not open real drafts (54ms)
+
+
+  1) tests/r1-reader.spec.ts:13:44 › GFM DOM coverage, typography, responsive and axe at 320 ───────
+
+    Error: expect(received).toBeTruthy()
+
+    Received: false
+
+      35 |   await expect(page.locator('.reader-equivalent')).toContainText('Mô tả tương đương')
+      36 |   await expect(page.locator('.reader-table-scroll table')).toHaveCount(1)
+    > 37 |   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBeTruthy()
+         |                                                                                             ^
+      38 |   expect(await page.locator('.article-prose').evaluate(el => getComputedStyle(el).fontFamily)).toContain('Be Vietnam Pro')
+      39 |   expect(await page.locator('.article-prose').evaluate(el => parseFloat(getComputedStyle(el).fontSize))).toBeGreaterThanOrEqual(16)
+      40 |   expect((await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze()).violations).toEqual([])
+        at /workspace/Kho-ng-gian-Insight/prototype/tests/r1-reader.spec.ts:37:93
+
+    Error Context: test-results-r1/r1-reader-GFM-DOM-coverage-40132-y-responsive-and-axe-at-320/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results-r1/r1-reader-GFM-DOM-coverage-40132-y-responsive-and-axe-at-320/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results-r1/r1-reader-GFM-DOM-coverage-40132-y-responsive-and-axe-at-320/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests/r1-reader.spec.ts:13:44 › GFM DOM coverage, typography, responsive and axe at 390 ───────
+
+    Error: expect(received).toBeTruthy()
+
+    Received: false
+
+      35 |   await expect(page.locator('.reader-equivalent')).toContainText('Mô tả tương đương')
+      36 |   await expect(page.locator('.reader-table-scroll table')).toHaveCount(1)
+    > 37 |   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBeTruthy()
+         |                                                                                             ^
+      38 |   expect(await page.locator('.article-prose').evaluate(el => getComputedStyle(el).fontFamily)).toContain('Be Vietnam Pro')
+      39 |   expect(await page.locator('.article-prose').evaluate(el => parseFloat(getComputedStyle(el).fontSize))).toBeGreaterThanOrEqual(16)
+      40 |   expect((await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze()).violations).toEqual([])
+        at /workspace/Kho-ng-gian-Insight/prototype/tests/r1-reader.spec.ts:37:93
+
+    Error Context: test-results-r1/r1-reader-GFM-DOM-coverage-cdd9c-y-responsive-and-axe-at-390/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results-r1/r1-reader-GFM-DOM-coverage-cdd9c-y-responsive-and-axe-at-390/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results-r1/r1-reader-GFM-DOM-coverage-cdd9c-y-responsive-and-axe-at-390/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) tests/r1-reader.spec.ts:13:44 › GFM DOM coverage, typography, responsive and axe at 768 ───────
+
+    Error: expect(received).toBeTruthy()
+
+    Received: false
+
+      35 |   await expect(page.locator('.reader-equivalent')).toContainText('Mô tả tương đương')
+      36 |   await expect(page.locator('.reader-table-scroll table')).toHaveCount(1)
+    > 37 |   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBeTruthy()
+         |                                                                                             ^
+      38 |   expect(await page.locator('.article-prose').evaluate(el => getComputedStyle(el).fontFamily)).toContain('Be Vietnam Pro')
+      39 |   expect(await page.locator('.article-prose').evaluate(el => parseFloat(getComputedStyle(el).fontSize))).toBeGreaterThanOrEqual(16)
+      40 |   expect((await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze()).violations).toEqual([])
+        at /workspace/Kho-ng-gian-Insight/prototype/tests/r1-reader.spec.ts:37:93
+
+    Error Context: test-results-r1/r1-reader-GFM-DOM-coverage-fe91d-y-responsive-and-axe-at-768/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results-r1/r1-reader-GFM-DOM-coverage-fe91d-y-responsive-and-axe-at-768/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results-r1/r1-reader-GFM-DOM-coverage-fe91d-y-responsive-and-axe-at-768/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) tests/r1-reader.spec.ts:13:44 › GFM DOM coverage, typography, responsive and axe at 1440 ──────
+
+    Error: expect(received).toBeTruthy()
+
+    Received: false
+
+      35 |   await expect(page.locator('.reader-equivalent')).toContainText('Mô tả tương đương')
+      36 |   await expect(page.locator('.reader-table-scroll table')).toHaveCount(1)
+    > 37 |   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBeTruthy()
+         |                                                                                             ^
+      38 |   expect(await page.locator('.article-prose').evaluate(el => getComputedStyle(el).fontFamily)).toContain('Be Vietnam Pro')
+      39 |   expect(await page.locator('.article-prose').evaluate(el => parseFloat(getComputedStyle(el).fontSize))).toBeGreaterThanOrEqual(16)
+      40 |   expect((await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze()).violations).toEqual([])
+        at /workspace/Kho-ng-gian-Insight/prototype/tests/r1-reader.spec.ts:37:93
+
+    Error Context: test-results-r1/r1-reader-GFM-DOM-coverage-db235--responsive-and-axe-at-1440/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results-r1/r1-reader-GFM-DOM-coverage-db235--responsive-and-axe-at-1440/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results-r1/r1-reader-GFM-DOM-coverage-db235--responsive-and-axe-at-1440/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) tests/r1-reader.spec.ts:100:1 › 200%-equivalent desktop reflow: 720 CSS px at DPR2, no clipped text or controls
+
+    Error: expect(received).toBeTruthy()
+
+    Received: false
+
+      104 |     await page.goto('http://127.0.0.1:4190' + route)
+      105 |     await expect(page.locator('h1')).toBeVisible()
+    > 106 |     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth + 1)).toBeTruthy()
+          |                                                                                               ^
+      107 |     await expect(page.locator('.table-of-contents')).toHaveCSS('position', 'static')
+      108 |     await page.getByRole('navigation', { name: 'Mục lục' }).getByRole('link', { name: 'Gợi ý phản hồi', exact: true }).click()
+      109 |     await expect(page.locator('#goi-y-phan-hoi')).toBeFocused()
+        at /workspace/Kho-ng-gian-Insight/prototype/tests/r1-reader.spec.ts:106:95
+
+    Error Context: test-results-r1/r1-reader-200--equivalent--08537-no-clipped-text-or-controls/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results-r1/r1-reader-200--equivalent--08537-no-clipped-text-or-controls/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results-r1/r1-reader-200--equivalent--08537-no-clipped-text-or-controls/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5 failed
+    tests/r1-reader.spec.ts:13:44 › GFM DOM coverage, typography, responsive and axe at 320 ────────
+    tests/r1-reader.spec.ts:13:44 › GFM DOM coverage, typography, responsive and axe at 390 ────────
+    tests/r1-reader.spec.ts:13:44 › GFM DOM coverage, typography, responsive and axe at 768 ────────
+    tests/r1-reader.spec.ts:13:44 › GFM DOM coverage, typography, responsive and axe at 1440 ───────
+    tests/r1-reader.spec.ts:100:1 › 200%-equivalent desktop reflow: 720 CSS px at DPR2, no clipped text or controls
+  3 passed (40.5s)

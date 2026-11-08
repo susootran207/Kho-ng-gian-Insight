@@ -27,7 +27,7 @@ function FigureViewer({ figure, onDismiss }: { figure: FigureView; onDismiss(): 
   }
   return <dialog ref={dialog} className="reader-figure-dialog" aria-labelledby="reader-figure-dialog-title" onClose={close} onKeyDown={event => {
     if (event.key !== 'Tab') return
-    const targets = [...event.currentTarget.querySelectorAll<HTMLElement>('button:not(:disabled),[href],[tabindex="0"]')]
+    const targets = [...event.currentTarget.querySelectorAll<HTMLElement>('button:not(:disabled),summary,[href],[tabindex="0"]')]
     const first = targets[0], last = targets.at(-1)
     if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus() }
     else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus() }
@@ -35,9 +35,9 @@ function FigureViewer({ figure, onDismiss }: { figure: FigureView; onDismiss(): 
     <div className="reader-viewer-controls"><h2 id="reader-figure-dialog-title">Xem hình lớn</h2><button className="text-link" onClick={() => dialog.current?.close()}>Đóng hình</button></div>
     <div className="reader-zoom-controls"><button onClick={() => setScale(s => Math.min(3, s + .5))} disabled={scale >= 3}>Phóng to</button><button onClick={() => setScale(s => Math.max(1, s - .5))} disabled={scale <= 1}>Thu nhỏ</button><span role="status">{Math.round(scale * 100)}%</span></div>
     <p className="reader-pan-hint">Có thể dùng phím mũi tên để cuộn hình. Nhấn Escape để đóng.</p>
-    <div className="reader-image-viewport" tabIndex={0} role="region" aria-label="Hình phóng lớn, dùng phím mũi tên để cuộn"><img src={assetSource(figure.asset.src)} alt={figure.image.alt!} style={{ width: Math.max(640, figure.asset.width) * scale }} /></div>
+    <div className="reader-image-viewport" tabIndex={0} role="region" aria-label="Hình phóng lớn, dùng phím mũi tên để cuộn"><img src={assetSource(figure.asset.src)} alt={figure.image.alt!} aria-describedby={figure.description.id+'-viewer'} style={{ width: Math.max(640, figure.asset.width) * scale }} /></div>
     <p className="reader-viewer-caption">{plainText(figure.caption)}</p>
-    <p>{plainText(figure.description)}</p>
+    <details className="reader-description"><summary>Mô tả hình bằng chữ</summary><p id={figure.description.id+'-viewer'}>{plainText(figure.description)}</p></details>
   </dialog>
 }
 export function ArticleReader({ document: doc, title, description, publicationLabel, metadata }: { document: ReaderDocument; title: string; description?: string; publicationLabel?: string;metadata?:{topic:string;season:string;readingMinutes:number;illustration?:number} }) {
@@ -70,7 +70,7 @@ export function ArticleReader({ document: doc, title, description, publicationLa
         <div data-source-id={image.id} data-source-start={image.range.start} data-source-end={image.range.end}><img src={assetSource(asset.src)} alt={image.alt!} width={asset.width} height={asset.height} aria-describedby={description.id} />
           <button className="text-link reader-enlarge" onClick={e => setFigure({ image, asset, caption, description, opener: e.currentTarget })}>Xem hình lớn <Arrow diagonal /></button></div>
         <figcaption data-source-id={caption.id} data-source-start={caption.range.start} data-source-end={caption.range.end}>{caption.children?.map(child => <Fragment key={child.id}>{render(child)}</Fragment>)}</figcaption>
-        <p id={description.id} data-source-id={description.id} data-source-start={description.range.start} data-source-end={description.range.end} className="reader-equivalent">{description.children?.map(child => <Fragment key={child.id}>{render(child)}</Fragment>)}</p>
+        <details className="reader-description"><summary>Mô tả hình bằng chữ</summary><p id={description.id} data-source-id={description.id} data-source-start={description.range.start} data-source-end={description.range.end} className="reader-equivalent">{description.children?.map(child => <Fragment key={child.id}>{render(child)}</Fragment>)}</p></details>
       </figure>
     }
     switch (node.type) {

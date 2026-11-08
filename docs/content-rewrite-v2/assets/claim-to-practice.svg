@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="876" viewBox="0 0 320 876" role="img" aria-labelledby="title desc">
+<title id="title">Từ sở thích tới bằng chứng kiểm tra và lựa chọn cách học theo nhiệm vụ.</title>
+<desc id="desc">Bốn phần tách sở thích xem hình, bằng chứng cần để kiểm giả thuyết ghép cách dạy, giới hạn kết luận và cách chọn phương pháp theo nhiệm vụ. Không trình bày kết quả thực nghiệm cá nhân.</desc>
+<rect width="320" height="876" fill="#f7f3e9"/>
+<g fill="#333e32" font-family="DejaVu Sans, sans-serif">
+<text x="20" y="34" font-size="21" font-weight="bold">Đọc một lời khẳng định</text>
+<text x="20" y="63" font-size="16">Từ sở thích đến cách học</text>
+<rect class="content-card" x="16" y="100" width="288" height="132" rx="4" fill="#fffdf7" stroke="#655274" stroke-width="1.5"/>
+<text x="28" y="131" font-size="17" font-weight="bold">1. Tuyên bố</text>
+<text x="28" y="166" font-size="16">Thích xem hình.</text>
+<text x="28" y="192" font-size="16">Đây là lời về sở thích.</text>
+<rect class="content-card" x="16" y="256" width="288" height="170" rx="4" fill="#dce3d2" stroke="#655274" stroke-width="1.5"/>
+<text x="28" y="287" font-size="17" font-weight="bold">2. Bằng chứng cần có</text>
+<text x="28" y="322" font-size="16">So kết quả học của</text>
+<text x="28" y="348" font-size="16">các cách dạy trong mỗi nhóm,</text>
+<text x="28" y="374" font-size="16">không chỉ hỏi sở thích.</text>
+<rect class="content-card" x="16" y="450" width="288" height="142" rx="4" fill="#e9e2ee" stroke="#655274" stroke-width="1.5"/>
+<text x="28" y="481" font-size="17" font-weight="bold">3. Kết luận có giới hạn</text>
+<text x="28" y="516" font-size="16">Sở thích chưa đủ kết luận</text>
+<text x="28" y="542" font-size="16">chỉ học tốt bằng hình.</text>
+<rect class="content-card" x="16" y="616" width="288" height="174" rx="4" fill="#fffdf7" stroke="#655274" stroke-width="1.5"/>
+<text x="28" y="647" font-size="17" font-weight="bold">4. Cách vận dụng</text>
+<text x="28" y="682" font-size="16">Xem nhiệm vụ cần làm gì.</text>
+<text x="28" y="708" font-size="16">Chọn cách thử, xem phản hồi.</text>
+<text x="28" y="734" font-size="16">Điều chỉnh khi cần.</text>
+<text x="20" y="827" font-size="15">Kiểm kết quả học, không chỉ sở thích.</text>
+<text x="20" y="851" font-size="15">Chọn cách phù hợp điều cần làm.</text>
+</g></svg>

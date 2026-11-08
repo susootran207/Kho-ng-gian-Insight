@@ -1,0 +1,235 @@
+
+> khong-gian-noi-tam-prototype@0.1.0 test:academic:browser
+> playwright test -c playwright.academic.config.ts
+
+[WebServer] (node:2383) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 22 tests using 1 worker
+
+(node:2399) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/academic-showcase.spec.ts:11:44 › Built academic artifact: every route, Reader and responsive layout 320 (22.1s)
+  ✓   2 tests/academic-showcase.spec.ts:11:44 › Built academic artifact: every route, Reader and responsive layout 390 (24.5s)
+  ✓   3 tests/academic-showcase.spec.ts:11:44 › Built academic artifact: every route, Reader and responsive layout 768 (25.3s)
+  ✓   4 tests/academic-showcase.spec.ts:11:44 › Built academic artifact: every route, Reader and responsive layout 1024 (20.0s)
+  ✓   5 tests/academic-showcase.spec.ts:11:44 › Built academic artifact: every route, Reader and responsive layout 1440 (14.6s)
+  ✓   6 tests/academic-showcase.spec.ts:45:1 › Built artifact interactions: search, filters, history, Flow, TOC, related, image dialog and privacy (3.7s)
+  ✓   7 tests/garden-interactions.spec.ts:5:1 › Garden: real movement, pointer depth, sticky navigation, flower, companion and lantern flight (19.5s)
+  ✓   8 tests/garden-interactions.spec.ts:37:1 › Reader: chapters, active TOC, reading progress, quiet surface, back to top (3.1s)
+  ✓   9 tests/garden-interactions.spec.ts:45:1 › Reduced motion and manual switch remain consistent across routes (1.4s)
+  ✓  10 tests/garden-interactions.spec.ts:55:1 › Synthesized touch, keyboard focus, mobile TOC and illustration coverage (1.5s)
+  ✓  11 tests/garden-interactions.spec.ts:65:1 › Measured performance: local artifact navigation, resources, frame pacing and layout stability (1.8s)
+  ✓  12 tests/garden-interactions.spec.ts:72:1 › Editorial visual review at five widths, image loading and basic accessibility (7.3s)
+(node:3470) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  13 tests/living-garden.spec.ts:8:1 › Living desktop: visible petals, articulated flowers, gust, following and free drag (150ms)
+(node:3594) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  14 tests/living-garden.spec.ts:20:1 › Ten themed scenes: click, internal motion, pointer depth, offscreen pause and keyboard (178ms)
+(node:3713) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  15 tests/living-garden.spec.ts:23:1 › Synthesized mobile touch: scene taps, Mây drag, scroll gesture and reduced-motion feedback (162ms)
+(node:3831) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  16 tests/living-garden.spec.ts:35:1 › Five widths: no overflow, no nested scene controls, Reader retained and axe (163ms)
+(node:3953) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  17 tests/scene-depth.spec.ts:17:1 › Wisteria desktop: localized hand force, different regions and damped return (150ms)
+(node:4071) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  18 tests/scene-depth.spec.ts:23:1 › Wisteria mobile: synthesized finger sweeps produce local, not global response (133ms)
+(node:4191) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  19 tests/scene-depth.spec.ts:27:35 › Independent painted scene layers, props and settling 390 (150ms)
+(node:4315) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  20 tests/scene-depth.spec.ts:27:35 › Independent painted scene layers, props and settling 768 (168ms)
+(node:4436) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  21 tests/scene-depth.spec.ts:27:35 › Independent painted scene layers, props and settling 1440 (193ms)
+(node:4559) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  22 tests/scene-depth.spec.ts:34:1 › Reduction stops hand springs and scene motion; Reader uses gentler depth (130ms)
+
+
+  1) tests/living-garden.spec.ts:8:1 › Living desktop: visible petals, articulated flowers, gust, following and free drag 
+
+    Error: browserContext.newPage: Executable doesn't exist at /home/agent/.cache/ms-playwright/ffmpeg-1013/ffmpeg-linux
+    ╔═════════════════════════════════════════════════════════════════╗
+    ║ Video rendering requires ffmpeg binary.                         ║
+    ║ Downloading it will not affect any of the system-wide settings. ║
+    ║ Please run the following command:                               ║
+    ║                                                                 ║
+    ║     npx playwright install ffmpeg                               ║
+    ║                                                                 ║
+    ║ <3 Playwright Team                                              ║
+    ╚═════════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results-academic/living-garden-Living-deskt-7159b-ust-following-and-free-drag/error-context.md
+
+  2) tests/living-garden.spec.ts:20:1 › Ten themed scenes: click, internal motion, pointer depth, offscreen pause and keyboard 
+
+    Error: browserContext.newPage: Executable doesn't exist at /home/agent/.cache/ms-playwright/ffmpeg-1013/ffmpeg-linux
+    ╔═════════════════════════════════════════════════════════════════╗
+    ║ Video rendering requires ffmpeg binary.                         ║
+    ║ Downloading it will not affect any of the system-wide settings. ║
+    ║ Please run the following command:                               ║
+    ║                                                                 ║
+    ║     npx playwright install ffmpeg                               ║
+    ║                                                                 ║
+    ║ <3 Playwright Team                                              ║
+    ╚═════════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results-academic/living-garden-Ten-themed-s-45974-ffscreen-pause-and-keyboard/error-context.md
+
+  3) tests/living-garden.spec.ts:23:1 › Synthesized mobile touch: scene taps, Mây drag, scroll gesture and reduced-motion feedback 
+
+    Error: browserContext.newPage: Executable doesn't exist at /home/agent/.cache/ms-playwright/ffmpeg-1013/ffmpeg-linux
+    ╔═════════════════════════════════════════════════════════════════╗
+    ║ Video rendering requires ffmpeg binary.                         ║
+    ║ Downloading it will not affect any of the system-wide settings. ║
+    ║ Please run the following command:                               ║
+    ║                                                                 ║
+    ║     npx playwright install ffmpeg                               ║
+    ║                                                                 ║
+    ║ <3 Playwright Team                                              ║
+    ╚═════════════════════════════════════════════════════════════════╝
+
+      22 | })
+      23 | test('Synthesized mobile touch: scene taps, Mây drag, scroll gesture and reduced-motion feedback',async({browser})=>{
+    > 24 |  const context=await browser.newContext({isMobile:true,hasTouch:true,viewport:{width:390,height:844},recordVideo:{dir:dir+'/video',size:{width:390,height:844}}}),page=await context.newPage();await page.goto('http://127.0.0.1:4181/#/chuyen-de/'+weekly.topics[1].slug);const scene=page.locator('.topic-detail-art .living-scene');await scene.scrollIntoViewIfNeeded();await scene.locator('button').tap();await expect(scene).toHaveAttribute('data-awake','true');const ripple=scene.locator('.scene-ripple').first(),at=await pose(ripple);await page.waitForTimeout(700);expect((await pose(ripple)).transform).not.toBe(at.transform);await page.screenshot({path:dir+'/mobile-water.png'})
+         |                                                                                                                                                                                      ^
+      25 |  const may=page.locator('.floating-may'),cat=may.locator('button');await page.waitForTimeout(1300);const box=(await cat.boundingBox())!,session=await context.newCDPSession(page)
+      26 |  await session.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:box.x+30,y:box.y+30,id:1}]});await session.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:200,y:380,id:1}]});await expect(may).toHaveAttribute('data-dragging','true');expect((await pose(may)).box.x).toBeGreaterThan(100);await page.screenshot({path:dir+'/mobile-drag.png'});await session.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await expect(may).toHaveAttribute('data-dragging','false')
+      27 |  // Swiping the picture, outside its explicit button, scrolls the document.
+        at /workspace/Kho-ng-gian-Insight/prototype/tests/living-garden.spec.ts:24:182
+
+    Error Context: test-results-academic/living-garden-Synthesized--e016b-and-reduced-motion-feedback/error-context.md
+
+  4) tests/living-garden.spec.ts:35:1 › Five widths: no overflow, no nested scene controls, Reader retained and axe 
+
+    Error: browserContext.newPage: Executable doesn't exist at /home/agent/.cache/ms-playwright/ffmpeg-1013/ffmpeg-linux
+    ╔═════════════════════════════════════════════════════════════════╗
+    ║ Video rendering requires ffmpeg binary.                         ║
+    ║ Downloading it will not affect any of the system-wide settings. ║
+    ║ Please run the following command:                               ║
+    ║                                                                 ║
+    ║     npx playwright install ffmpeg                               ║
+    ║                                                                 ║
+    ║ <3 Playwright Team                                              ║
+    ╚═════════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results-academic/living-garden-Five-widths--29011-ols-Reader-retained-and-axe/error-context.md
+
+  5) tests/scene-depth.spec.ts:17:1 › Wisteria desktop: localized hand force, different regions and damped return 
+
+    Error: browserContext.newPage: Executable doesn't exist at /home/agent/.cache/ms-playwright/ffmpeg-1013/ffmpeg-linux
+    ╔═════════════════════════════════════════════════════════════════╗
+    ║ Video rendering requires ffmpeg binary.                         ║
+    ║ Downloading it will not affect any of the system-wide settings. ║
+    ║ Please run the following command:                               ║
+    ║                                                                 ║
+    ║     npx playwright install ffmpeg                               ║
+    ║                                                                 ║
+    ║ <3 Playwright Team                                              ║
+    ╚═════════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results-academic/scene-depth-Wisteria-deskt-c15c1-t-regions-and-damped-return/error-context.md
+
+  6) tests/scene-depth.spec.ts:23:1 › Wisteria mobile: synthesized finger sweeps produce local, not global response 
+
+    Error: browserContext.newPage: Executable doesn't exist at /home/agent/.cache/ms-playwright/ffmpeg-1013/ffmpeg-linux
+    ╔═════════════════════════════════════════════════════════════════╗
+    ║ Video rendering requires ffmpeg binary.                         ║
+    ║ Downloading it will not affect any of the system-wide settings. ║
+    ║ Please run the following command:                               ║
+    ║                                                                 ║
+    ║     npx playwright install ffmpeg                               ║
+    ║                                                                 ║
+    ║ <3 Playwright Team                                              ║
+    ╚═════════════════════════════════════════════════════════════════╝
+
+      22 | })
+      23 | test('Wisteria mobile: synthesized finger sweeps produce local, not global response',async({browser})=>{
+    > 24 |  const context=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,recordVideo:{dir:evidence+'/mobile-video',size:{width:390,height:844}}}),page=await context.newPage();await page.goto('http://127.0.0.1:4181/#/');await page.locator('.garden-art').scrollIntoViewIfNeeded();const blooms=page.locator('.wisteria [data-botanical="bloom"]'),left=await point(blooms.first()),right=await point(blooms.last()),cdp=await context.newCDPSession(page)
+         |                                                                                                                                                                                                  ^
+      25 |  await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:left.x,y:left.y,id:1}]});await page.waitForTimeout(150);const a=await forces(page);expect(a[0]).toBeGreaterThan(a[7]+1);await page.screenshot({path:evidence+'/flowers-mobile-left.png'});for(let i=1;i<=12;i++){await cdp.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:left.x+(right.x-left.x)*i/12,y:left.y+(right.y-left.y)*i/12,id:1}]});await page.waitForTimeout(30)}await page.waitForTimeout(100);const b=await forces(page);expect(b[7]).toBeGreaterThan(b[0]+1);await page.screenshot({path:evidence+'/flowers-mobile-right.png'});await cdp.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await expect.poll(async()=>Math.max(...await forces(page)),{timeout:6000}).toBeLessThan(.08);writeFileSync(evidence+'/flower-touch-forces.json',JSON.stringify({left:a,right:b,settled:await forces(page),input:'Chromium CDP touchStart/touchMove/touchEnd, 390px'},null,2));await context.close()
+      26 | })
+      27 | for(const width of [390,768,1440])test('Independent painted scene layers, props and settling '+width,async({page})=>{
+        at /workspace/Kho-ng-gian-Insight/prototype/tests/scene-depth.spec.ts:24:194
+
+    Error Context: test-results-academic/scene-depth-Wisteria-mobil-9f21e-e-local-not-global-response/error-context.md
+
+  7) tests/scene-depth.spec.ts:27:35 › Independent painted scene layers, props and settling 390 ────
+
+    Error: browserContext.newPage: Executable doesn't exist at /home/agent/.cache/ms-playwright/ffmpeg-1013/ffmpeg-linux
+    ╔═════════════════════════════════════════════════════════════════╗
+    ║ Video rendering requires ffmpeg binary.                         ║
+    ║ Downloading it will not affect any of the system-wide settings. ║
+    ║ Please run the following command:                               ║
+    ║                                                                 ║
+    ║     npx playwright install ffmpeg                               ║
+    ║                                                                 ║
+    ║ <3 Playwright Team                                              ║
+    ╚═════════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results-academic/scene-depth-Independent-pa-37644-yers-props-and-settling-390/error-context.md
+
+  8) tests/scene-depth.spec.ts:27:35 › Independent painted scene layers, props and settling 768 ────
+
+    Error: browserContext.newPage: Executable doesn't exist at /home/agent/.cache/ms-playwright/ffmpeg-1013/ffmpeg-linux
+    ╔═════════════════════════════════════════════════════════════════╗
+    ║ Video rendering requires ffmpeg binary.                         ║
+    ║ Downloading it will not affect any of the system-wide settings. ║
+    ║ Please run the following command:                               ║
+    ║                                                                 ║
+    ║     npx playwright install ffmpeg                               ║
+    ║                                                                 ║
+    ║ <3 Playwright Team                                              ║
+    ╚═════════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results-academic/scene-depth-Independent-pa-77aab-yers-props-and-settling-768/error-context.md
+
+  9) tests/scene-depth.spec.ts:27:35 › Independent painted scene layers, props and settling 1440 ───
+
+    Error: browserContext.newPage: Executable doesn't exist at /home/agent/.cache/ms-playwright/ffmpeg-1013/ffmpeg-linux
+    ╔═════════════════════════════════════════════════════════════════╗
+    ║ Video rendering requires ffmpeg binary.                         ║
+    ║ Downloading it will not affect any of the system-wide settings. ║
+    ║ Please run the following command:                               ║
+    ║                                                                 ║
+    ║     npx playwright install ffmpeg                               ║
+    ║                                                                 ║
+    ║ <3 Playwright Team                                              ║
+    ╚═════════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results-academic/scene-depth-Independent-pa-9e2e5-ers-props-and-settling-1440/error-context.md
+
+  10) tests/scene-depth.spec.ts:34:1 › Reduction stops hand springs and scene motion; Reader uses gentler depth 
+
+    Error: browserContext.newPage: Executable doesn't exist at /home/agent/.cache/ms-playwright/ffmpeg-1013/ffmpeg-linux
+    ╔═════════════════════════════════════════════════════════════════╗
+    ║ Video rendering requires ffmpeg binary.                         ║
+    ║ Downloading it will not affect any of the system-wide settings. ║
+    ║ Please run the following command:                               ║
+    ║                                                                 ║
+    ║     npx playwright install ffmpeg                               ║
+    ║                                                                 ║
+    ║ <3 Playwright Team                                              ║
+    ╚═════════════════════════════════════════════════════════════════╝
+
+    Error Context: test-results-academic/scene-depth-Reduction-stop-3848f-n-Reader-uses-gentler-depth/error-context.md
+
+  10 failed
+    tests/living-garden.spec.ts:8:1 › Living desktop: visible petals, articulated flowers, gust, following and free drag 
+    tests/living-garden.spec.ts:20:1 › Ten themed scenes: click, internal motion, pointer depth, offscreen pause and keyboard 
+    tests/living-garden.spec.ts:23:1 › Synthesized mobile touch: scene taps, Mây drag, scroll gesture and reduced-motion feedback 
+    tests/living-garden.spec.ts:35:1 › Five widths: no overflow, no nested scene controls, Reader retained and axe 
+    tests/scene-depth.spec.ts:17:1 › Wisteria desktop: localized hand force, different regions and damped return 
+    tests/scene-depth.spec.ts:23:1 › Wisteria mobile: synthesized finger sweeps produce local, not global response 
+    tests/scene-depth.spec.ts:27:35 › Independent painted scene layers, props and settling 390 ─────
+    tests/scene-depth.spec.ts:27:35 › Independent painted scene layers, props and settling 768 ─────
+    tests/scene-depth.spec.ts:27:35 › Independent painted scene layers, props and settling 1440 ────
+    tests/scene-depth.spec.ts:34:1 › Reduction stops hand springs and scene motion; Reader uses gentler depth 
+  12 passed (2.6m)

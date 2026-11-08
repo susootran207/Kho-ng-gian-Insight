@@ -1,0 +1,72 @@
+[
+  {
+    "check": "content:manifest -- --check",
+    "exitCode": 0,
+    "seconds": 0.58
+  },
+  {
+    "check": "test:f0",
+    "exitCode": 0,
+    "seconds": 4.93
+  },
+  {
+    "check": "test:r1",
+    "exitCode": 0,
+    "seconds": 7.31
+  },
+  {
+    "check": "test:c1",
+    "exitCode": 0,
+    "seconds": 9.36
+  },
+  {
+    "check": "test:w1",
+    "exitCode": 0,
+    "seconds": 8.73
+  },
+  {
+    "check": "test:d1",
+    "exitCode": 0,
+    "seconds": 7.46
+  },
+  {
+    "check": "test:g1",
+    "exitCode": 0,
+    "seconds": 5.92
+  },
+  {
+    "check": "test:p2",
+    "exitCode": 0,
+    "seconds": 12.37
+  },
+  {
+    "check": "test:w2",
+    "exitCode": 0,
+    "seconds": 8.42
+  },
+  {
+    "check": "build",
+    "exitCode": 0,
+    "seconds": 15.99
+  },
+  {
+    "check": "test:content",
+    "exitCode": 0,
+    "seconds": 2.8
+  },
+  {
+    "check": "test:r1:browser",
+    "exitCode": 0,
+    "seconds": 45.9,
+    "log": "r1-browser-final.log",
+    "initialExitCode": 1
+  },
+  {
+    "check": "test:academic:browser",
+    "exitCode": 0,
+    "expected": 24,
+    "unexpected": 0,
+    "skipped": 0,
+    "log": "browser-final.log"
+  }
+]

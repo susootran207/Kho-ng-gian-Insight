@@ -1,0 +1,440 @@
+{
+  "checkedOn": "2026-11-07",
+  "method": "Connected web open, not an HTTP status probe. Fetch errors do not establish broken URLs. Bibliographies preserved from supplied sources; this is not expert review.",
+  "sources": [
+    {
+      "url": "https://doi.org/10.1002/jcad.70006",
+      "result": "FETCHED",
+      "title": "A 25‐Year Review and Psychometric Synthesis of the Myers–Briggs Type Indicator (MBTI) – Form M - Erford - 2025 - Journal of Counseling & Development - Wiley Online Library (https://doi.org/10.1002/jcad.70006 ; rewritten summary of https://onlinelibrary.wiley.com/doi/10.1002/jcad.70006)",
+      "details": "【turn988154view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://doi.org/10.1002/jcad.70006\",\"lineno\":null}); Redirected to URL: https://onlinelibrary.wiley.com/doi/10.1002/jcad.70006; Total lines: 1057"
+    },
+    {
+      "url": "https://doi.org/10.1002/rev3.3197",
+      "result": "UNAVAILABLE_VIA_WEB_TOOL",
+      "title": "Internal Error ()",
+      "details": "Failed to fetch https://doi.org/10.1002/rev3.3197: (403) Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1007/s10578-024-01667-5",
+      "result": "FETCHED",
+      "title": "Academic Stress Interventions in High Schools: A Systematic Literature Review | Child Psychiatry & Human Development | Springer Nature Link (https://doi.org/10.1007/s10578-024-01667-5 ; rewritten summary of https://link.springer.com/article/10.1007/s10578-024-01667-5)",
+      "details": "【turn988154view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://doi.org/10.1007/s10578-024-01667-5\",\"lineno\":null}); Redirected to URL: https://link.springer.com/article/10.1007/s10578-024-01667-5; Total lines: 479"
+    },
+    {
+      "url": "https://doi.org/10.1007/s10648-021-09595-9",
+      "result": "FETCHED",
+      "title": "Retrieval Practice Consistently Benefits Student Learning: a Systematic Review of Applied Research in Schools and Classrooms | Educational Psychology Review | Springer Nature Link (https://doi.org/10.1007/s10648-021-09595-9 ; rewritten summary of https://link.springer.com/article/10.1007/s10648-021-09595-9)",
+      "details": "【turn988154view3】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://doi.org/10.1007/s10648-021-09595-9\",\"lineno\":null}); Redirected to URL: https://link.springer.com/article/10.1007/s10648-021-09595-9; Total lines: 482"
+    },
+    {
+      "url": "https://doi.org/10.1007/s12671-017-0850-7",
+      "result": "UNAVAILABLE_VIA_WEB_TOOL",
+      "title": "Internal Error ()",
+      "details": "Failed to fetch https://doi.org/10.1007/s12671-017-0850-7: (500) Redirected to https://link.springer.com/10.1007/s12671-017-0850-7 which is not accessible via this tool. (non-retryable error)"
+    },
+    {
+      "url": "https://doi.org/10.1016/S1364-6613(03",
+      "result": "UNAVAILABLE_VIA_WEB_TOOL",
+      "title": "Internal Error ()",
+      "details": "URL https://doi.org/10.1016/S1364-6613%2803 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1016/j.copsyc.2021.08.017",
+      "result": "UNAVAILABLE_VIA_WEB_TOOL",
+      "title": "Internal Error ()",
+      "details": "Failed to fetch https://doi.org/10.1016/j.copsyc.2021.08.017: (403) Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jaac.2020.05.009",
+      "result": "UNAVAILABLE_VIA_WEB_TOOL",
+      "title": "Internal Error ()",
+      "details": "Failed to fetch https://doi.org/10.1016/j.jaac.2020.05.009: (403) Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jad.2023.07.028",
+      "result": "UNAVAILABLE_VIA_WEB_TOOL",
+      "title": "Internal Error ()",
+      "details": "Failed to fetch https://doi.org/10.1016/j.jad.2023.07.028: (403) Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1037/0022-3514.94.4.718",
+      "result": "UNAVAILABLE_VIA_WEB_TOOL",
+      "title": "Internal Error ()",
+      "details": "URL https://doi.org/10.1037/0022-3514.94.4.718 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1037/0033-2909.133.1.65",
+      "result": "UNAVAILABLE_VIA_WEB_TOOL",
+      "title": "Internal Error ()",
+      "details": "Failed to fetch https://doi.org/10.1037/0033-2909.133.1.65: (robots.txt) Fetch denied by robots.txt (OAI-SearchBot)"
+    },
+    {
+      "url": "https://doi.org/10.1037/a0021782",
+      "result": "UNAVAILABLE_VIA_WEB_TOOL",
+      "title": "Internal Error ()",
+      "details": "URL https://doi.org/10.1037/a0021782 is not accessible via this tool."
+    },
+    {
+      "url": "https://doi.org/10.1037/bul0000110",
+      "result": "UNAVAILABLE_VIA_WEB_TOOL",
+      "title": "Internal Error ()",
+      "details": "Failed to fetch https://doi.org/10.1037/bul0000110: (robots.txt) Fetch denied by robots.txt (OAI-SearchBot)"
+    },
+    {
+      "url": "https://doi.org/10.1080/15298860309032",
+      "result": "UNAVAILABLE_VIA_WEB_TOOL",
+      "title": "Internal Error ()",
+      "details": "Failed to fetch https://doi.org/10.1080/15298860309032: (403) Forbidden"
+    },
+    {
+      "url": "https://doi.org/10.1111/j.1539-6053.2009.01038.x",
+      "result": "UNAVAILABLE_VIA_WEB_TOOL",
+      "title": "Internal Error ()",
+      "details": "Failed to fetch https://doi.org/10.1111/j.1539-6053.2009.01038.x: (400) Timeout fetching"
+    },
+    {
+      "url": "https://doi.org/10.1111/sjop.13110",
+      "result": "FETCHED",
+      "title": "Self‐Report Questionnaires to Measure Big Five Personality Traits in Children and Adolescents: A Systematic Review - Vicentini - 2025 - Scandinavian Journal of Psychology - Wiley Online Library (https://doi.org/10.1111/sjop.13110 ; rewritten summary of https://onlinelibrary.wiley.com/doi/10.1111/sjop.13110)",
+      "details": "【turn209896view7】 [wordlim: 200] Crawled: 3 weeks ago; Content type: text/html; Source: open({\"ref_id\":\"https://doi.org/10.1111/sjop.13110\",\"lineno\":null}); Redirected to URL: https://onlinelibrary.wiley.com/doi/10.1111/sjop.13110; Total lines: 939"
+    },
+    {
+      "url": "https://doi.org/10.1111/spc3.12434",
+      "result": "FETCHED",
+      "title": "Evaluating the validity of <fc>Myers‐Briggs Type Indicator</fc> theory: A teaching tool and window into intuitive psychology - Stein - 2019 - Social and Personality Psychology Compass - Wiley Online Library (https://doi.org/10.1111/spc3.12434 ; rewritten summary of https://compass.onlinelibrary.wiley.com/doi/10.1111/spc3.12434)",
+      "details": "【turn643180view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://doi.org/10.1111/spc3.12434\",\"lineno\":null}); Redirected to URL: https://compass.onlinelibrary.wiley.com/doi/10.1111/spc3.12434; Total lines: 367"
+    },
+    {
+      "url": "https://doi.org/10.1177/001872675400700202",
+      "result": "UNAVAILABLE_VIA_WEB_TOOL",
+      "title": "Internal Error ()",
+      "details": "Failed to fetch https://doi.org/10.1177/001872675400700202: TimeoutError"
+    },
+    {
+      "url": "https://doi.org/10.1177/0539018405058216",
+      "result": "UNAVAILABLE_VIA_WEB_TOOL",
+      "title": "Internal Error ()",
+      "details": "Failed to fetch https://doi.org/10.1177/0539018405058216: (400) Timeout fetching"
+    },
+    {
+      "url": "https://doi.org/10.1177/1529100612453266",
+      "result": "FETCHED",
+      "title": "Improving Students’ Learning With Effective Learning Techniques - John Dunlosky, Katherine A. Rawson, Elizabeth J. Marsh, Mitchell J. Nathan, Daniel T. Willingham, 2013 (https://doi.org/10.1177/1529100612453266 ; rewritten summary of https://journals.sagepub.com/doi/10.1177/1529100612453266)",
+      "details": "【turn643180view3】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://doi.org/10.1177/1529100612453266\",\"lineno\":null}); Redirected to URL: https://journals.sagepub.com/doi/10.1177/1529100612453266; Total lines: 3326"
+    },
+    {
+      "url": "https://doi.org/10.1186/1471-244X-10-113",
+      "result": "FETCHED",
+      "title": "Perceived barriers and facilitators to mental health help-seeking in young people: a systematic review | BMC Psychiatry | Springer Nature Link (https://doi.org/10.1186/1471-244X-10-113 ; rewritten summary of https://link.springer.com/article/10.1186/1471-244X-10-113)",
+      "details": "【turn643180view4】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://doi.org/10.1186/1471-244X-10-113\",\"lineno\":null}); Redirected to URL: https://link.springer.com/article/10.1186/1471-244X-10-113; Total lines: 431"
+    },
+    {
+      "url": "https://doi.org/10.1186/s12888-017-1221-6",
+      "result": "FETCHED",
+      "title": "The Vietnamese version of the Perceived Stress Scale (PSS-10): Translation equivalence and psychometric properties among older women | BMC Psychiatry | Springer Nature Link (https://doi.org/10.1186/s12888-017-1221-6 ; rewritten summary of https://link.springer.com/article/10.1186/s12888-017-1221-6)",
+      "details": "【turn643180view5】 [wordlim: 200] Crawled: 2 weeks ago; Content type: text/html; Source: open({\"ref_id\":\"https://doi.org/10.1186/s12888-017-1221-6\",\"lineno\":null}); Redirected to URL: https://link.springer.com/article/10.1186/s12888-017-1221-6; Total lines: 443"
+    },
+    {
+      "url": "https://doi.org/10.1371/journal.pone.0272460",
+      "result": "FETCHED",
+      "title": "\"Give me a break!\" A systematic review and meta-analysis on the efficacy of micro-breaks for increasing well-being and performance | PLOS One (https://doi.org/10.1371/journal.pone.0272460 ; rewritten summary of https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0272460)",
+      "details": "【turn643180view6】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://doi.org/10.1371/journal.pone.0272460\",\"lineno\":null}); Redirected to URL: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0272460; Total lines: 976"
+    },
+    {
+      "url": "https://doi.org/10.3102/003465430298487",
+      "result": "UNAVAILABLE_VIA_WEB_TOOL",
+      "title": "Internal Error ()",
+      "details": "Failed to fetch https://doi.org/10.3102/003465430298487: (400) Timeout fetching"
+    },
+    {
+      "url": "https://doi.org/10.3389/fpsyg.2018.01538",
+      "result": "FETCHED",
+      "title": "Frontiers | The Modality-Specific Learning Style Hypothesis: A Mini-Review (https://doi.org/10.3389/fpsyg.2018.01538 ; rewritten summary of https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01538/full)",
+      "details": "【turn932459view0】 [wordlim: 200] Crawled: 4 days ago; Content type: text/html; Source: open({\"ref_id\":\"https://doi.org/10.3389/fpsyg.2018.01538\",\"lineno\":null}); Redirected to URL: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2018.01538/full; Total lines: 849"
+    },
+    {
+      "url": "https://doi.org/10.3389/fpsyg.2019.03087",
+      "result": "FETCHED",
+      "title": "Frontiers | The Power of Feedback Revisited: A Meta-Analysis of Educational Feedback Research (https://doi.org/10.3389/fpsyg.2019.03087 ; rewritten summary of https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.03087/full)",
+      "details": "【turn932459view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://doi.org/10.3389/fpsyg.2019.03087\",\"lineno\":null}); Redirected to URL: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2019.03087/full; Total lines: 1264"
+    },
+    {
+      "url": "https://doi.org/10.3389/fpsyg.2021.700298",
+      "result": "FETCHED",
+      "title": "Frontiers | Emotion Differentiation and Youth Mental Health: Current Understanding and Open Questions (https://doi.org/10.3389/fpsyg.2021.700298 ; rewritten summary of https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.700298/full)",
+      "details": "【turn932459view2】 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: open({\"ref_id\":\"https://doi.org/10.3389/fpsyg.2021.700298\",\"lineno\":null}); Redirected to URL: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.700298/full; Total lines: 1940"
+    },
+    {
+      "url": "https://doi.org/10.3389/fpsyg.2024.1428732",
+      "result": "FETCHED",
+      "title": "Frontiers | Is it really a neuromyth? A meta-analysis of the learning styles matching hypothesis (https://doi.org/10.3389/fpsyg.2024.1428732 ; rewritten summary of https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1428732/full)",
+      "details": "【turn932459view3】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://doi.org/10.3389/fpsyg.2024.1428732\",\"lineno\":null}); Redirected to URL: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1428732/full; Total lines: 1757"
+    },
+    {
+      "url": "https://doi.org/10.3390/children10061016",
+      "result": "UNAVAILABLE_VIA_WEB_TOOL",
+      "title": "Internal Error ()",
+      "details": "Failed to fetch https://doi.org/10.3390/children10061016: (429) Too Many Requests"
+    },
+    {
+      "url": "https://doi.org/10.5498/wjp.v7.i1.60",
+      "result": "FETCHED",
+      "title": "Consequences of bullying victimization in childhood and adolescence: A systematic review and meta-analysis (https://doi.org/10.5498/wjp.v7.i1.60 ; rewritten summary of https://www.wjgnet.com/2220-3206/full/v7/i1/60.htm)",
+      "details": "【turn932459view5】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://doi.org/10.5498/wjp.v7.i1.60\",\"lineno\":null}); Redirected to URL: https://www.wjgnet.com/2220-3206/full/v7/i1/60.htm; Total lines: 891"
+    },
+    {
+      "url": "https://doi.org/10.5664/jcsm.5866",
+      "result": "FETCHED",
+      "title": "Recommended Amount of Sleep for Pediatric Populations: A Consensus Statement of the American Academy of Sleep Medicine | Journal of Clinical Sleep Medicine | Springer Nature Link (https://doi.org/10.5664/jcsm.5866 ; rewritten summary of https://link.springer.com/article/10.5664/jcsm.5866)",
+      "details": "【turn932459view6】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://doi.org/10.5664/jcsm.5866\",\"lineno\":null}); Redirected to URL: https://link.springer.com/article/10.5664/jcsm.5866; Total lines: 344"
+    },
+    {
+      "url": "https://medlineplus.gov/lab-tests/mental-health-screening/",
+      "result": "FETCHED",
+      "title": "Mental Health Screening: MedlinePlus Medical Test (https://medlineplus.gov/lab-tests/mental-health-screening/)",
+      "details": "【turn932459view7】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://medlineplus.gov/lab-tests/mental-health-screening/\",\"lineno\":null}); Total lines: 247"
+    },
+    {
+      "url": "https://nationalcareers.service.gov.uk/careers-advice/career-choices-at-16",
+      "result": "FETCHED",
+      "title": "Post 16 options | Get careers information and advice (https://nationalcareers.service.gov.uk/careers-advice/career-choices-at-16)",
+      "details": "【turn462008view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://nationalcareers.service.gov.uk/careers-advice/career-choices-at-16\",\"lineno\":null}); Total lines: 120"
+    },
+    {
+      "url": "https://www.16personalities.com/articles/our-theory",
+      "result": "FETCHED",
+      "title": "Our Framework | 16Personalities (https://www.16personalities.com/articles/our-theory)",
+      "details": "【turn462008view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.16personalities.com/articles/our-theory\",\"lineno\":null}); Total lines: 361"
+    },
+    {
+      "url": "https://www.cci.health.wa.gov.au/~/media/CCI/Mental-Health-Professionals/Procrastination/Procrastination---Information-Sheets/Procrastination-Information-Sheet---04---Practical-Strategies-to-Stop-Procrastinating.pdf",
+      "result": "FETCHED",
+      "title": "Practical Strategies to Stop Procrastination (https://www.cci.health.wa.gov.au/~/media/CCI/Mental-Health-Professionals/Procrastination/Procrastination---Information-Sheets/Procrastination-Information-Sheet---04---Practical-Strategies-to-Stop-Procrastinating.pdf)",
+      "details": "【turn462008view2】 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 1; Source: open({\"ref_id\":\"https://www.cci.health.wa.gov.au/~/media/CCI/Mental-Health-Professionals/Procrastination/Procrastination---Information-Sheets/Procrastination-Information-Sheet---04---Practical-Strategies-to-Stop-Procrastinating.pdf\",\"lineno\":null}); Total lines: 101"
+    },
+    {
+      "url": "https://www.cdc.gov/healthy-youth/connecting-conversations/index.html",
+      "result": "FETCHED",
+      "title": "Conversation Tips for Connecting Conversations | Adolescent and School Health | CDC (https://www.cdc.gov/healthy-youth/connecting-conversations/index.html)",
+      "details": "【turn462008view3】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.cdc.gov/healthy-youth/connecting-conversations/index.html\",\"lineno\":null}); Total lines: 137"
+    },
+    {
+      "url": "https://www.cdc.gov/youth-behavior/school-connectedness/index.html",
+      "result": "FETCHED",
+      "title": "School Connectedness Helps Students Thrive | Reducing Health Risks Among Youth | CDC (https://www.cdc.gov/youth-behavior/school-connectedness/index.html)",
+      "details": "【turn462008view4】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.cdc.gov/youth-behavior/school-connectedness/index.html\",\"lineno\":null}); Total lines: 114"
+    },
+    {
+      "url": "https://www.childline.org.uk/info-advice/friends-relationships-sex/friends/friendship-problems/",
+      "result": "FETCHED",
+      "title": "Friendship problems | Childline (https://www.childline.org.uk/info-advice/friends-relationships-sex/friends/friendship-problems/)",
+      "details": "【turn462008view5】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.childline.org.uk/info-advice/friends-relationships-sex/friends/friendship-problems/\",\"lineno\":null}); Total lines: 241"
+    },
+    {
+      "url": "https://www.childline.org.uk/info-advice/friends-relationships-sex/friends/peer-pressure/",
+      "result": "FETCHED",
+      "title": "Peer Pressure: What it is and How to say no​ | Childline (https://www.childline.org.uk/info-advice/friends-relationships-sex/friends/peer-pressure/)",
+      "details": "【turn462008view6】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.childline.org.uk/info-advice/friends-relationships-sex/friends/peer-pressure/\",\"lineno\":null}); Total lines: 174"
+    },
+    {
+      "url": "https://www.childline.org.uk/info-advice/your-feelings/feelings-emotions/being-assertive/",
+      "result": "FETCHED",
+      "title": "Being assertive | Childline (https://www.childline.org.uk/info-advice/your-feelings/feelings-emotions/being-assertive/)",
+      "details": "【turn462008view7】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.childline.org.uk/info-advice/your-feelings/feelings-emotions/being-assertive/\",\"lineno\":null}); Total lines: 169"
+    },
+    {
+      "url": "https://www.cmu.edu/common-cold-project/measures-by-study/psychological-and-social-constructs/stress-measures/perceived-stress.html",
+      "result": "FETCHED",
+      "title": "Perceived Stress - The Common Cold Project - Carnegie Mellon University (https://www.cmu.edu/common-cold-project/measures-by-study/psychological-and-social-constructs/stress-measures/perceived-stress.html)",
+      "details": "【turn771306view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.cmu.edu/common-cold-project/measures-by-study/psychological-and-social-constructs/stress-measures/perceived-stress.html\",\"lineno\":null}); Total lines: 281"
+    },
+    {
+      "url": "https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/scales/",
+      "result": "FETCHED",
+      "title": "Scales - Laboratory for the Study of Stress, Immunity, and Disease - Department of Psychology - Carnegie Mellon University (https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/scales/)",
+      "details": "【turn771306view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/scales/\",\"lineno\":null}); Total lines: 157"
+    },
+    {
+      "url": "https://www.colby.edu/wp-content/uploads/2019/06/John_et_al_2008.pdf",
+      "result": "FETCHED",
+      "title": "Paradigm Shift to the Big-Five Trait Taxonomy: (https://www.colby.edu/wp-content/uploads/2019/06/John_et_al_2008.pdf)",
+      "details": "【turn771306view2】 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 83; Source: open({\"ref_id\":\"https://www.colby.edu/wp-content/uploads/2019/06/John_et_al_2008.pdf\",\"lineno\":null}); Total lines: 2359"
+    },
+    {
+      "url": "https://www.mind.org.uk/for-young-people/feelings-and-experiences/exam-stress/",
+      "result": "FETCHED",
+      "title": "Info on exam stress - for 11-18 year olds | Mind (https://www.mind.org.uk/for-young-people/feelings-and-experiences/exam-stress/)",
+      "details": "【turn771306view3】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.mind.org.uk/for-young-people/feelings-and-experiences/exam-stress/\",\"lineno\":null}); Total lines: 420"
+    },
+    {
+      "url": "https://www.mind.org.uk/for-young-people/how-to-get-help-and-support/where-to-look-for-mental-health-support/",
+      "result": "FETCHED",
+      "title": "Where to get mental health support - for 11-18 year olds | Mind (https://www.mind.org.uk/for-young-people/how-to-get-help-and-support/where-to-look-for-mental-health-support/)",
+      "details": "【turn771306view4】 [wordlim: 200] Crawled: last week; Content type: text/html; Source: open({\"ref_id\":\"https://www.mind.org.uk/for-young-people/how-to-get-help-and-support/where-to-look-for-mental-health-support/\",\"lineno\":null}); Total lines: 661"
+    },
+    {
+      "url": "https://www.nami.org/kids-teens-and-young-adults/teens/how-to-talk-to-my-parents-or-guardian/",
+      "result": "FETCHED",
+      "title": "How to Talk to My Parents or Guardian | NAMI (https://www.nami.org/kids-teens-and-young-adults/teens/how-to-talk-to-my-parents-or-guardian/)",
+      "details": "【turn771306view5】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.nami.org/kids-teens-and-young-adults/teens/how-to-talk-to-my-parents-or-guardian/\",\"lineno\":null}); Total lines: 603"
+    },
+    {
+      "url": "https://www.nhlbi.nih.gov/health/insomnia/diagnosis",
+      "result": "FETCHED",
+      "title": "Insomnia - Diagnosis | NHLBI, NIH (https://www.nhlbi.nih.gov/health/insomnia/diagnosis)",
+      "details": "【turn771306view6】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.nhlbi.nih.gov/health/insomnia/diagnosis\",\"lineno\":null}); Total lines: 143"
+    },
+    {
+      "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/body-clock",
+      "result": "FETCHED",
+      "title": "Sleep Deprivation and Deficiency - What Makes You Sleep? | NHLBI, NIH (https://www.nhlbi.nih.gov/health/sleep-deprivation/body-clock)",
+      "details": "【turn771306view7】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.nhlbi.nih.gov/health/sleep-deprivation/body-clock\",\"lineno\":null}); Total lines: 148"
+    },
+    {
+      "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+      "result": "FETCHED",
+      "title": "Sleep Deprivation and Deficiency - Healthy Sleep Habits | NHLBI, NIH (https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits)",
+      "details": "【turn519187view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits\",\"lineno\":null}); Total lines: 138"
+    },
+    {
+      "url": "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-and-young-people/",
+      "result": "FETCHED",
+      "title": "Physical activity guidelines for children and young people - NHS (https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-and-young-people/)",
+      "details": "【turn519187view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-and-young-people/\",\"lineno\":null}); Total lines: 79"
+    },
+    {
+      "url": "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-disorders-in-children/",
+      "result": "FETCHED",
+      "title": "Anxiety disorders in children - NHS (https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-disorders-in-children/)",
+      "details": "【turn519187view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-disorders-in-children/\",\"lineno\":null}); Total lines: 93"
+    },
+    {
+      "url": "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-in-children/",
+      "result": "FETCHED",
+      "title": "Anxiety in children - NHS (https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-in-children/)",
+      "details": "【turn519187view3】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-in-children/\",\"lineno\":null}); Total lines: 123"
+    },
+    {
+      "url": "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/help-your-child-with-anger-issues/",
+      "result": "FETCHED",
+      "title": "Helping your child with anger issues - NHS (https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/help-your-child-with-anger-issues/)",
+      "details": "【turn519187view4】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/help-your-child-with-anger-issues/\",\"lineno\":null}); Total lines: 109"
+    },
+    {
+      "url": "https://www.nimh.nih.gov/health/publications/children-and-mental-health",
+      "result": "FETCHED",
+      "title": "Children and Mental Health: Is This Just a Stage? - National Institute of Mental Health (NIMH) (https://www.nimh.nih.gov/health/publications/children-and-mental-health)",
+      "details": "【turn519187view5】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.nimh.nih.gov/health/publications/children-and-mental-health\",\"lineno\":null}); Total lines: 161"
+    },
+    {
+      "url": "https://www.ocf.berkeley.edu/~johnlab/bfi.html",
+      "result": "FETCHED",
+      "title": "Big Five Inventory - Berkeley Personality Lab (https://www.ocf.berkeley.edu/~johnlab/bfi.html)",
+      "details": "【turn519187view6】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.ocf.berkeley.edu/~johnlab/bfi.html\",\"lineno\":null}); Total lines: 92"
+    },
+    {
+      "url": "https://www.oecd.org/en/publications/teenage-career-uncertainty_e89c3da9-en.html",
+      "result": "FETCHED",
+      "title": "Teenage career uncertainty | OECD (https://www.oecd.org/en/publications/teenage-career-uncertainty_e89c3da9-en.html)",
+      "details": "【turn519187view7】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.oecd.org/en/publications/teenage-career-uncertainty_e89c3da9-en.html\",\"lineno\":null}); Total lines: 3989"
+    },
+    {
+      "url": "https://www.onetcenter.org/dl_files/IP_Manual.pdf",
+      "result": "FETCHED",
+      "title": "O*NET Interest Profiler Manual - Version 1.0 (https://www.onetcenter.org/dl_files/IP_Manual.pdf)",
+      "details": "【turn577446view0】 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 139; Source: open({\"ref_id\":\"https://www.onetcenter.org/dl_files/IP_Manual.pdf\",\"lineno\":null}); Total lines: 4269"
+    },
+    {
+      "url": "https://www.onetcenter.org/license_tools.html",
+      "result": "FETCHED",
+      "title": "O*NET® Career Exploration Tools Content License at O*NET Resource Center (https://www.onetcenter.org/license_tools.html)",
+      "details": "【turn577446view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.onetcenter.org/license_tools.html\",\"lineno\":null}); Total lines: 116"
+    },
+    {
+      "url": "https://www.schn.health.nsw.gov.au/factsheets/abdominal-pain-and-stomach-ache",
+      "result": "FETCHED",
+      "title": "Abdominal pain and stomach ache factsheet (https://www.schn.health.nsw.gov.au/factsheets/abdominal-pain-and-stomach-ache)",
+      "details": "【turn577446view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.schn.health.nsw.gov.au/factsheets/abdominal-pain-and-stomach-ache\",\"lineno\":null}); Total lines: 174"
+    },
+    {
+      "url": "https://www.stopbullying.gov/bullying/what-is-bullying",
+      "result": "FETCHED",
+      "title": "What Is Bullying | StopBullying.gov (https://www.stopbullying.gov/bullying/what-is-bullying)",
+      "details": "【turn577446view3】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.stopbullying.gov/bullying/what-is-bullying\",\"lineno\":null}); Total lines: 62"
+    },
+    {
+      "url": "https://www.stopbullying.gov/kids/what-you-can-do",
+      "result": "FETCHED",
+      "title": "What Kids Can Do | StopBullying.gov (https://www.stopbullying.gov/kids/what-you-can-do)",
+      "details": "【turn577446view4】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.stopbullying.gov/kids/what-you-can-do\",\"lineno\":null}); Total lines: 68"
+    },
+    {
+      "url": "https://www.stopbullying.gov/prevention/on-the-spot",
+      "result": "FETCHED",
+      "title": "Respond to Bullying | StopBullying.gov (https://www.stopbullying.gov/prevention/on-the-spot)",
+      "details": "【turn577446view5】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.stopbullying.gov/prevention/on-the-spot\",\"lineno\":null}); Total lines: 76"
+    },
+    {
+      "url": "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf",
+      "result": "FETCHED",
+      "title": " (https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf)",
+      "details": "【turn577446view6】 [wordlim: 200] Crawled: today; Content type: application/pdf; Number of pages: 240; Source: open({\"ref_id\":\"https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf\",\"lineno\":null}); Total lines: 16066"
+    },
+    {
+      "url": "https://www.themyersbriggs.com/en-US/Support/MBTI-Facts",
+      "result": "FETCHED",
+      "title": "MBTI® Facts | The Myers-Briggs Company (https://www.themyersbriggs.com/en-US/Support/MBTI-Facts)",
+      "details": "【turn577446view7】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.themyersbriggs.com/en-US/Support/MBTI-Facts\",\"lineno\":null}); Total lines: 589"
+    },
+    {
+      "url": "https://www.unicef.org/child-rights-convention/convention-text",
+      "result": "FETCHED",
+      "title": "Convention on the Rights of the Child text | UNICEF (https://www.unicef.org/child-rights-convention/convention-text)",
+      "details": "【turn240006view0】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.unicef.org/child-rights-convention/convention-text\",\"lineno\":null}); Total lines: 457"
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+      "result": "FETCHED",
+      "title": "Physical activity (https://www.who.int/news-room/fact-sheets/detail/physical-activity)",
+      "details": "【turn240006view1】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.who.int/news-room/fact-sheets/detail/physical-activity\",\"lineno\":null}); Total lines: 171"
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/stress",
+      "result": "FETCHED",
+      "title": "Stress (https://www.who.int/news-room/questions-and-answers/item/stress)",
+      "details": "【turn240006view2】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.who.int/news-room/questions-and-answers/item/stress\",\"lineno\":null}); Total lines: 157"
+    },
+    {
+      "url": "https://www.youngminds.org.uk/young-person/coping-with-life/family/",
+      "result": "FETCHED",
+      "title": "Family | Mental Health Advice For Young People | Young Minds (https://www.youngminds.org.uk/young-person/coping-with-life/family/)",
+      "details": "【turn240006view3】 [wordlim: 200] Crawled: 2 days ago; Content type: text/html; Source: open({\"ref_id\":\"https://www.youngminds.org.uk/young-person/coping-with-life/family/\",\"lineno\":null}); Total lines: 484"
+    },
+    {
+      "url": "https://www.youngminds.org.uk/young-person/coping-with-life/problems-at-school/",
+      "result": "FETCHED",
+      "title": "Problems at school | Mental health advice | Young Minds (https://www.youngminds.org.uk/young-person/coping-with-life/problems-at-school/)",
+      "details": "【turn240006view4】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.youngminds.org.uk/young-person/coping-with-life/problems-at-school/\",\"lineno\":null}); Total lines: 711"
+    },
+    {
+      "url": "https://www.youngminds.org.uk/young-person/coping-with-life/social-media-and-mental-health/",
+      "result": "FETCHED",
+      "title": "Social Media and Mental Health | Tips and Advice | Young Minds (https://www.youngminds.org.uk/young-person/coping-with-life/social-media-and-mental-health/)",
+      "details": "【turn240006view5】 [wordlim: 200] Crawled: yesterday; Content type: text/html; Source: open({\"ref_id\":\"https://www.youngminds.org.uk/young-person/coping-with-life/social-media-and-mental-health/\",\"lineno\":null}); Total lines: 511"
+    },
+    {
+      "url": "https://www.youngminds.org.uk/young-person/supporting-a-friend-with-their-mental-health/",
+      "result": "FETCHED",
+      "title": "Supporting a Friend With Their Mental Health | Young Minds (https://www.youngminds.org.uk/young-person/supporting-a-friend-with-their-mental-health/)",
+      "details": "【turn240006view6】 [wordlim: 200] Crawled: today; Content type: text/html; Source: open({\"ref_id\":\"https://www.youngminds.org.uk/young-person/supporting-a-friend-with-their-mental-health/\",\"lineno\":null}); Total lines: 542"
+    }
+  ],
+  "corrections": [
+    {
+      "originalManifestUrl": "https://doi.org/10.1016/S1364-6613(03",
+      "finalAcademicUrl": "https://doi.org/10.1016/S1364-6613(03)00028-7",
+      "reason": "Original manifest regex truncated a balanced parenthesis; bibliography already contained full DOI.",
+      "retryResult": "Full DOI attempted separately through connected web; 403 Forbidden. Not evidence that the DOI is incorrect."
+    }
+  ]
+}

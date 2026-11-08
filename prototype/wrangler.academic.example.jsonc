@@ -1,0 +1,12 @@
+// DRAFT ONLY. Reconcile with existing Worker configuration before use.
+// Assets-only example: do not use to replace an existing main script/bindings.
+{
+  "name": "wispy-silence-8006",
+  "account_id": "REPLACE_WITH_VERIFIED_ACCOUNT_ID_FOR_susootran207",
+  "compatibility_date": "2026-11-07",
+  "workers_dev": true,
+  "preview_urls": true,
+  "assets": {
+    "directory": "./dist-academic"
+  }
+}

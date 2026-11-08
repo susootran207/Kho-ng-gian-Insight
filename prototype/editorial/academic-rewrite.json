@@ -1,0 +1,2221 @@
+{
+  "schemaVersion": 1,
+  "mode": "academic-content-rewrite-v2",
+  "baseManifestSha256": "02dd5209a6de66a42988b5c1db2698a4a1234782c706ae98eb60a6b23ca78978",
+  "articles": [
+    {
+      "id": "KGNT-C01",
+      "slug": "hom-nay-minh-cam-thay-gi",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C01.md",
+        "sha256": "36acaccd04d796e61f5ad36874c4bf6a7ad7dfab3558f97fe55fa2eea97c513d"
+      },
+      "contentHash": "36acaccd04d796e61f5ad36874c4bf6a7ad7dfab3558f97fe55fa2eea97c513d",
+      "revisionHash": "5e55899ab6ab4ad8c266a80fead4cabcaa9a34dd5d8a741ac6dc21a253323697",
+      "metadata": {
+        "title": "Hôm nay mình đang cảm thấy gì?",
+        "collection": "core",
+        "topic": "Cảm xúc và bản thân",
+        "season": "Đầu năm",
+        "keywords": [
+          "cảm xúc",
+          "nhận diện"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Gọi tên ba cảm xúc trong ví dụ",
+          "understand": "Phân biệt cảm xúc và hành động",
+          "apply": "Mô tả cảm xúc của nhân vật từ tình huống"
+        },
+        "topicIds": [
+          "T01"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C02"
+        ]
+      },
+      "referenceUrls": [
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health",
+        "https://doi.org/10.3389/fpsyg.2021.700298",
+        "https://doi.org/10.1177/0539018405058216",
+        "https://doi.org/10.1037/1089-2680.2.3.271"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C01/REFERENCES.md",
+          "sha256": "08c1a3065658090133e4e6ba41cf7d4139151633fa77ba5619149f93a8103c77"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C01/CLAIM-AUDIT.md",
+          "sha256": "cf4920f65ad8785a381bc6a0724284a7ce9f7a7d7190993774f34d1c4be598b5"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C01/BLOOM-REVIEW.md",
+          "sha256": "41289bff64c145e9af553531223fa2f3a0996af615a3f9dd6d80331a0145e9ea"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C01/VISUAL-REVIEW.md",
+          "sha256": "d6c1c13502dfd602e64872417b2cfba6390f93391926f252a5b1002730d42173"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C01/EDITORIAL-REVIEW.md",
+          "sha256": "d3ffa063655dde06073229bd69901763dcffe715c08579ecefe6f10e7c9a6633"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/experience-map.svg",
+          "sha256": "ba4ecb9f9b0e12700af6b93d322a890392d5a1047f597255fde2dc8c591f8ef7",
+          "id": "C01-V1",
+          "revision": "academic-content-v2",
+          "alt": "Bốn vùng quan sát cảm xúc, suy nghĩ, cơ thể và hành vi trong cùng bối cảnh.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C02",
+      "slug": "lo-lang-truoc-gio-hoc",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C02.md",
+        "sha256": "9730ee8dc524e4e773bbffd219688073cd0e3a83ad599a0b1d4fc0166e71ddaf"
+      },
+      "contentHash": "9730ee8dc524e4e773bbffd219688073cd0e3a83ad599a0b1d4fc0166e71ddaf",
+      "revisionHash": "6c84e01ba363a8ac270acc44d5df476b12b52ef81339f88dd76279879de49c9d",
+      "metadata": {
+        "title": "Khi lo lắng ghé đến trước giờ học",
+        "collection": "core",
+        "topic": "Cảm xúc và bản thân",
+        "season": "Giữa học kỳ",
+        "keywords": [
+          "lo lắng",
+          "trường học"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện hai biểu hiện lo lắng",
+          "understand": "Phân biệt lo lắng tình huống với kết luận chẩn đoán",
+          "apply": "Chọn một bước ứng phó và người hỗ trợ cho nhân vật"
+        },
+        "topicIds": [
+          "T01"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C03"
+        ]
+      },
+      "referenceUrls": [
+        "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-disorders-in-children/",
+        "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-in-children/",
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C02/REFERENCES.md",
+          "sha256": "19f5699561813a128b591f2c8f6e48f098dbdf90c2f62fb4232092a6a26d9b8e"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C02/CLAIM-AUDIT.md",
+          "sha256": "1190a83606c034e78a643d19cdf4e601dabdcb5a5fac24695825fc1b78de2c25"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C02/BLOOM-REVIEW.md",
+          "sha256": "4a3c2e488a7af682c91e917551626ad28e493b5faf8690eb1ac7c65ea4d6071a"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C02/VISUAL-REVIEW.md",
+          "sha256": "dd4476e3a1b5921ac14c2854d9c1ac4dcf49a8e4f91291109eee8398dd9b2931"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C02/EDITORIAL-REVIEW.md",
+          "sha256": "ab245ff4ff96bb724f426858a07d8019fc32108466507a332b719f5f00648f46"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/before-class-options.svg",
+          "sha256": "47b3d9d64cde37a8126863c32dd00edb184461a02d298723195eaf27a99a94e3",
+          "id": "C02-V1",
+          "revision": "academic-content-v2",
+          "alt": "Nhận biết điều đang lo, chọn bước tham gia và người có thể hỗ trợ.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C03",
+      "slug": "dung-ve-phia-minh",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C03.md",
+        "sha256": "81c25c4fdeda3a407757a46f22bff9445c35b19100684ebe411ea37f6f879c57"
+      },
+      "contentHash": "81c25c4fdeda3a407757a46f22bff9445c35b19100684ebe411ea37f6f879c57",
+      "revisionHash": "bda1d21a0098bb766e22d5819bc21d85a344a1aec46dbf1535a16532af62ea9a",
+      "metadata": {
+        "title": "Một sai sót không kể hết về bạn",
+        "collection": "core",
+        "topic": "Cảm xúc và bản thân",
+        "season": "Sau thi",
+        "keywords": [
+          "sai sót",
+          "tự trắc ẩn"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện lời tự phê bình",
+          "understand": "Phân biệt sự việc với phán xét toàn bộ bản thân",
+          "apply": "Viết lại một nhận xét về sai sót của nhân vật"
+        },
+        "topicIds": [
+          "T02"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C04"
+        ]
+      },
+      "referenceUrls": [
+        "https://doi.org/10.1007/s12671-017-0850-7",
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health",
+        "https://doi.org/10.1080/15298860309032"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C03/REFERENCES.md",
+          "sha256": "b62760c374cd36473fcabbe8d6d9e42bb1e2aec29a26582f941eb76e8d0f57d3"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C03/CLAIM-AUDIT.md",
+          "sha256": "6a3d5628bbbc047296ed32c74825fca6a44a72def83b286c4d2bd30ad3e97282"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C03/BLOOM-REVIEW.md",
+          "sha256": "8ca09d6bf9ab523628368f9a416e85e97cc6f503c4bbb5eb8b03cd0a1df72200"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C03/VISUAL-REVIEW.md",
+          "sha256": "94ebdd3d7c6c92f9c3bd08be1499c43008a6bd45ab31d07a98e9034423034d2c"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C03/EDITORIAL-REVIEW.md",
+          "sha256": "29fac7266308f6a9e347c66ec2ad4edcd1bff8fd5d3cf73e12f21dcf40702153"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/mistake-and-response.svg",
+          "sha256": "1f8ab14066eee54c2b2d8835a7e100a7cdfbe797a31ac2801fd0786c6f2cee01",
+          "id": "C03-V1",
+          "revision": "academic-content-v2",
+          "alt": "Tách sai sót cụ thể khỏi lời kết tội bản thân và chọn việc sửa.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C04",
+      "slug": "con-gian-truoc-loi-noi",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C04.md",
+        "sha256": "2ce2d5a683efd813de96b46cf0e10e7f9184f59c6ba3633cc7f6e3fa4aba4a36"
+      },
+      "contentHash": "2ce2d5a683efd813de96b46cf0e10e7f9184f59c6ba3633cc7f6e3fa4aba4a36",
+      "revisionHash": "3b905e474b951732f71d3e137eb3d91dbbcf2cc0de24902f090e172a191d456b",
+      "metadata": {
+        "title": "Khi cơn giận đến trước lời nói",
+        "collection": "core",
+        "topic": "Cảm xúc và bản thân",
+        "season": "Giữa học kỳ",
+        "keywords": [
+          "cơn giận",
+          "điều tiết"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện tín hiệu cơn giận",
+          "understand": "Phân biệt cảm xúc giận với hành vi gây hại",
+          "apply": "Chọn cách tạm dừng an toàn trong tình huống"
+        },
+        "topicIds": [
+          "T01"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C01"
+        ]
+      },
+      "referenceUrls": [
+        "https://doi.org/10.1037/bul0000110",
+        "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/help-your-child-with-anger-issues/",
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C04/REFERENCES.md",
+          "sha256": "2c9439c6a28303eca382d96b958e4d54f46ca607958470964228adc6933f66fc"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C04/CLAIM-AUDIT.md",
+          "sha256": "9b09a7bc744be7c15c13a57eb766c479a42ea49ccc4b0d9cb656950a58f39456"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C04/BLOOM-REVIEW.md",
+          "sha256": "1f6538a74128411e784e037d93d7f4a2174cde381f787d0baa4c398637fc2b42"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C04/VISUAL-REVIEW.md",
+          "sha256": "8b2952cc9604fb6433b0040a37729990f5a8b78b730d2f422966a4669a6be136"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C04/EDITORIAL-REVIEW.md",
+          "sha256": "e5d4ede19e7d920c672d9f60478470253e3b2aa5fbc8e73c21bcbd154e39cb03"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/pause-and-choose.svg",
+          "sha256": "8290f857d2e1a0049f95f111d297856c5eb202a8731861cb3685e9edf259d112",
+          "id": "C04-V1",
+          "revision": "academic-content-v2",
+          "alt": "Nhận biết cơn giận, tạm dừng an toàn và chọn cách trao đổi.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C05",
+      "slug": "khi-mua-thi-den-gan",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C05.md",
+        "sha256": "06f2d43b651627d9ad65dcc4b6e4f478a69addd19d704503f9c31180e5436644"
+      },
+      "contentHash": "06f2d43b651627d9ad65dcc4b6e4f478a69addd19d704503f9c31180e5436644",
+      "revisionHash": "d3dbf9600126b6e7ac21897961c0fa93a19c037950619593ef99f59155059ad6",
+      "metadata": {
+        "title": "Khi mùa thi đến gần",
+        "collection": "core",
+        "topic": "Học tập và thi cử",
+        "season": "Mùa thi",
+        "keywords": [
+          "thi cử",
+          "kỳ vọng"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Liệt kê hai nguồn áp lực thi",
+          "understand": "Giải thích liên hệ học–nghỉ–hỗ trợ",
+          "apply": "Lập kế hoạch một buổi học có thể điều chỉnh"
+        },
+        "topicIds": [
+          "T03"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C06"
+        ]
+      },
+      "referenceUrls": [
+        "https://doi.org/10.1177/1529100612453266",
+        "https://doi.org/10.1007/s10578-024-01667-5",
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health",
+        "https://doi.org/10.5664/jcsm.5866",
+        "https://doi.org/10.1037/1528-3542.7.2.336"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C05/REFERENCES.md",
+          "sha256": "b633ce724d4338cb654b68a31f782e58fd0433d998e0d8d87adbb29b74403e4e"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C05/CLAIM-AUDIT.md",
+          "sha256": "195a1b2677b5b433407bbda58615261d7f12bafcbd2727a774f6d1f4996d3d91"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C05/BLOOM-REVIEW.md",
+          "sha256": "c8248620dbbfd2d336dc7950e8e403590352c20b83f241adc7e024d6740678fd"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C05/VISUAL-REVIEW.md",
+          "sha256": "499135d98819949fb7a4741899b13fdb2d4ca96c985667d5eda34954a49c64d1"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C05/EDITORIAL-REVIEW.md",
+          "sha256": "af2404ed353ed8459be9c3d85d1a32efa401e4c0e0892956339b2a4a0cde1eb0"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/study-plan.svg",
+          "sha256": "c27e874896f8e26aae3d3fcf135f2011530ea65c955edd5a0dd02212b77a1737",
+          "id": "C05-V1",
+          "revision": "academic-content-v2",
+          "alt": "Kế hoạch ôn có ưu tiên, điều kiện học, thời gian nghỉ và chỗ điều chỉnh.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C06",
+      "slug": "chua-bat-dau-hoc",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C06.md",
+        "sha256": "442a774aea4fbe0e0d7cf868338dcd30d6cc9daa523b543ecebc5261c4817c01"
+      },
+      "contentHash": "442a774aea4fbe0e0d7cf868338dcd30d6cc9daa523b543ecebc5261c4817c01",
+      "revisionHash": "724b09bc23827d9ba2ff2cc6df749b894dfab4c6fdfb8dc0373859cdfde4997a",
+      "metadata": {
+        "title": "Biết cần học, nhưng vẫn chưa bắt đầu",
+        "collection": "core",
+        "topic": "Học tập và thi cử",
+        "season": "Giữa học kỳ",
+        "keywords": [
+          "trì hoãn",
+          "bắt đầu"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện hành vi trì hoãn",
+          "understand": "Phân biệt trì hoãn với thiếu thời gian hoặc nguồn lực",
+          "apply": "Chia nhiệm vụ giả định thành bước khởi đầu"
+        },
+        "topicIds": [
+          "T03"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C07"
+        ]
+      },
+      "referenceUrls": [
+        "https://www.cci.health.wa.gov.au/~/media/CCI/Mental-Health-Professionals/Procrastination/Procrastination---Information-Sheets/Procrastination-Information-Sheet---04---Practical-Strategies-to-Stop-Procrastinating.pdf",
+        "https://doi.org/10.3390/children10061016",
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health",
+        "https://doi.org/10.1037/0033-2909.133.1.65"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C06/REFERENCES.md",
+          "sha256": "761c69979760d3fa5b2ef677954c1138608495026c83f78ed28e52fa56790193"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C06/CLAIM-AUDIT.md",
+          "sha256": "04f5496aeff7fb033408b1abaafa245616b059a4fff35936e8a39de141dbb53a"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C06/BLOOM-REVIEW.md",
+          "sha256": "211646e2918ac117e0bbefde00a4c707d4f5acb222ca978fe8ff74bbb4be615a"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C06/VISUAL-REVIEW.md",
+          "sha256": "94494b69b93861ff7b19b9f7e310013be8c550c075eb9194ff85ccd27cb8ef19"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C06/EDITORIAL-REVIEW.md",
+          "sha256": "dedbd0d02c45e5c0dd75aa0610e95599fe7b6b88ba9bdbfc25fbe3abe34aae9c"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/first-step.svg",
+          "sha256": "c464f053bc8b47839015021f5da643c55d8e936b3a77bb34c970748eac15eabf",
+          "id": "C06-V1",
+          "revision": "academic-content-v2",
+          "alt": "Ba câu hỏi để chọn một bước khởi đầu có thể thực hiện.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C07",
+      "slug": "hoc-va-nho-lau",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C07.md",
+        "sha256": "8f8796ce0cd348260b9ad08fc6367428abc4650cbcd70fec7adf9b5a388f8f47"
+      },
+      "contentHash": "8f8796ce0cd348260b9ad08fc6367428abc4650cbcd70fec7adf9b5a388f8f47",
+      "revisionHash": "540ecec673690c166c43df5240bc25dc164d3f041c76086aa3ce420c0fb99a44",
+      "metadata": {
+        "title": "Học nhiều chưa chắc đã nhớ lâu",
+        "collection": "core",
+        "topic": "Học tập và thi cử",
+        "season": "Mùa thi",
+        "keywords": [
+          "truy hồi",
+          "ôn cách quãng"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Gọi tên truy hồi và ôn cách quãng",
+          "understand": "Phân biệt truy hồi với chỉ đọc lại",
+          "apply": "Lập lịch thử ôn một nội dung"
+        },
+        "topicIds": [
+          "T03"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C08"
+        ]
+      },
+      "referenceUrls": [
+        "https://doi.org/10.1007/s10648-021-09595-9",
+        "https://doi.org/10.1177/1529100612453266",
+        "https://doi.org/10.1037/a0021782"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C07/REFERENCES.md",
+          "sha256": "5ad89b67cf90071be03ae8ed8c649af61a263a0f554b328166488a0954178b43"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C07/CLAIM-AUDIT.md",
+          "sha256": "974886a01f676be70facf5ce380685fafa90b90f35bbe4df4964ed0007f51b12"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C07/BLOOM-REVIEW.md",
+          "sha256": "c9434df20270b9bae3647c16c170bef821e239cb44a8ff4ebb8fce7c58703bcd"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C07/VISUAL-REVIEW.md",
+          "sha256": "2c677981727e09393c586a4dea6561a1f19fa187d3a0d9f2b6d53af8c2ccc407"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C07/EDITORIAL-REVIEW.md",
+          "sha256": "9a5d1aae0359cff09cc55b32dfa27d9a6aaec61e56d48175d342d47a107f0285"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/return-to-learn.svg",
+          "sha256": "cc8b3bfb0348b43044569e7fa6bc10ce3957eaee7061559dc78200ec4acbb90b",
+          "id": "C07-V1",
+          "revision": "academic-content-v2",
+          "alt": "Gặp lại nội dung qua các buổi, thử nhớ và kiểm tra phần còn vướng.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C08",
+      "slug": "sau-bai-kiem-tra",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C08.md",
+        "sha256": "ad6686f770434d0b6f1ddf0350a6ec96438f19a9dbfd9cd3e65b89d0511a46c6"
+      },
+      "contentHash": "ad6686f770434d0b6f1ddf0350a6ec96438f19a9dbfd9cd3e65b89d0511a46c6",
+      "revisionHash": "a2e2de34f8926806f17535b62d51cceeae17d72fe5ccda54709927d05bc0910d",
+      "metadata": {
+        "title": "Sau một bài kiểm tra không như mong đợi",
+        "collection": "core",
+        "topic": "Học tập và thi cử",
+        "season": "Sau thi",
+        "keywords": [
+          "điểm số",
+          "phản hồi"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện phản hồi có thể hành động",
+          "understand": "Phân biệt điểm số với thông tin cải thiện",
+          "apply": "Chọn một điều chỉnh từ bài làm giả định"
+        },
+        "topicIds": [
+          "T02"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C05"
+        ]
+      },
+      "referenceUrls": [
+        "https://doi.org/10.3102/003465430298487",
+        "https://doi.org/10.3389/fpsyg.2019.03087"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C08/REFERENCES.md",
+          "sha256": "7bfff27fed8cc14cbeac532c62bbaf01d2430dc6b300567f99db687632225607"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C08/CLAIM-AUDIT.md",
+          "sha256": "288194718edf2ca3182b62ef50bfacbf8990119dc836fbb5ab2246cba3ac03b6"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C08/BLOOM-REVIEW.md",
+          "sha256": "d1b12429f5f9d8f45630e2e220c774067f00ff91cd8dfa08650fe56c8e4c038c"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C08/VISUAL-REVIEW.md",
+          "sha256": "b2cbade595f08b458d9447d932c3044a402a99222cd05ce58ee2a9d0c11285fb"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C08/EDITORIAL-REVIEW.md",
+          "sha256": "d1bec978555cb71f65ac02a97485e052f7b338b68d35bc7f07e89c55335457ba"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/read-feedback.svg",
+          "sha256": "62123396a9d47bce1b897834c937cb49c3c6f5c791525b63dcc718d407858acc",
+          "id": "C08-V1",
+          "revision": "academic-content-v2",
+          "alt": "Từ yêu cầu và phản hồi cụ thể tới một bước sửa bài.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C09",
+      "slug": "o-giua-lop",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C09.md",
+        "sha256": "f70b597a808a748277e7e6664a7c703002a8ca4937b3b6e472bf6a83b46152b6"
+      },
+      "contentHash": "f70b597a808a748277e7e6664a7c703002a8ca4937b3b6e472bf6a83b46152b6",
+      "revisionHash": "58ddddff48a7ee6f2bce7e7d6ad64e18216909e9852f9f881fd380d1f602a7f6",
+      "metadata": {
+        "title": "Ở giữa lớp, vẫn thấy một mình",
+        "collection": "core",
+        "topic": "Bạn bè và trường lớp",
+        "season": "Đầu năm",
+        "keywords": [
+          "cô đơn",
+          "kết nối"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện tình huống cô đơn",
+          "understand": "Phân biệt cô đơn với ở một mình",
+          "apply": "Chọn một bước kết nối an toàn"
+        },
+        "topicIds": [
+          "T04"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C10"
+        ]
+      },
+      "referenceUrls": [
+        "https://www.cdc.gov/youth-behavior/school-connectedness/index.html",
+        "https://doi.org/10.1016/j.jaac.2020.05.009",
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C09/REFERENCES.md",
+          "sha256": "a28c1f9ad73cccb9ec7ccb6d8e8d5732deb4485760927d50123bcd2cce7a399c"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C09/CLAIM-AUDIT.md",
+          "sha256": "b2871f101bbc944d27cf8e339ec9936dedda5afad4af4c44d606073d82c7abcd"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C09/BLOOM-REVIEW.md",
+          "sha256": "3fff5db4d5a4ed97203c482f1fc18bea002d2a3e7a0426b8086c912651207e2d"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C09/VISUAL-REVIEW.md",
+          "sha256": "2f951c691eaf9023cd38bf99f36985a94d97a5d01ec4adb5be095537705e705d"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C09/EDITORIAL-REVIEW.md",
+          "sha256": "bb5fd3365ff05806b79be685bb20574f0fa86905f96d94b24fbdb9b9bd843e34"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/connection-options.svg",
+          "sha256": "c08725694b987a8d502153ec4e1e90411af86a948dc8b1265efdbbd48258f43e",
+          "id": "C09-V1",
+          "revision": "academic-content-v2",
+          "alt": "Ở cùng nhóm và ngồi riêng không tự cho biết mức cô đơn.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C10",
+      "slug": "bat-dong-tinh-ban",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C10.md",
+        "sha256": "17e6ba5541bc90a56734c075c9ea5ad9b1b43b2e31f7a2bd1d9da426f22b5a53"
+      },
+      "contentHash": "17e6ba5541bc90a56734c075c9ea5ad9b1b43b2e31f7a2bd1d9da426f22b5a53",
+      "revisionHash": "adfe5c8cedeee887531504ccb50d48f8bd4f67d5649ed89769074467456da839",
+      "metadata": {
+        "title": "Một bất đồng có làm mất tình bạn?",
+        "collection": "core",
+        "topic": "Bạn bè và trường lớp",
+        "season": "Giữa học kỳ",
+        "keywords": [
+          "bất đồng",
+          "lắng nghe"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện bất đồng trong hội thoại",
+          "understand": "Phân biệt bất đồng với bắt nạt",
+          "apply": "Thử câu nói nhu cầu trong tình huống"
+        },
+        "topicIds": [
+          "T04"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C11"
+        ]
+      },
+      "referenceUrls": [
+        "https://www.childline.org.uk/info-advice/friends-relationships-sex/friends/friendship-problems/",
+        "https://www.stopbullying.gov/prevention/on-the-spot",
+        "https://www.stopbullying.gov/bullying/what-is-bullying"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C10/REFERENCES.md",
+          "sha256": "e177326c3b314967e03767cef11780c50ec2f7f8d589ffc40c652653ce4bebc0"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C10/CLAIM-AUDIT.md",
+          "sha256": "d32f628fccce8d7c9663e390faa33990c86cb97899087a522d43510e63b9ecf9"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C10/BLOOM-REVIEW.md",
+          "sha256": "ea89fbcf829e07dcd41a1a941d36dc2e42998e32a9c2c17a694c75fc5f873727"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C10/VISUAL-REVIEW.md",
+          "sha256": "d127004bfca5015cbd0cfa45336c30fccb3d4f521b183e38b516b7a4953bca0b"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C10/EDITORIAL-REVIEW.md",
+          "sha256": "878ef27b8f12b7693047997658b53d473c8af6e716f683ac0bd68a3b598e5c2a"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/disagreement-dialogue.svg",
+          "sha256": "142c123b6821f3d270989e81c0cc38c2aad821cb1bb8e67ef88b1723cfbb369c",
+          "id": "C10-V1",
+          "revision": "academic-content-v2",
+          "alt": "Một lượt trao đổi có sự việc, đề nghị và câu hỏi nghe lại ý bạn.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C11",
+      "slug": "treu-choc-va-bat-nat",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C11.md",
+        "sha256": "de2fe3ac336ed4ec06f4d535c3ddc846b31a6f71781b63d87575f53e2e425622"
+      },
+      "contentHash": "de2fe3ac336ed4ec06f4d535c3ddc846b31a6f71781b63d87575f53e2e425622",
+      "revisionHash": "3e123882e9560d75820787918680f2c60466af92da96fa7c91d7d7cc08b2c9a2",
+      "metadata": {
+        "title": "Khi lời trêu chọc không còn là đùa",
+        "collection": "core",
+        "topic": "Bạn bè và trường lớp",
+        "season": "Đầu năm",
+        "keywords": [
+          "bắt nạt",
+          "an toàn"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện dấu hiệu bắt nạt",
+          "understand": "Phân biệt bắt nạt và bất đồng",
+          "apply": "Chọn cách tìm người hỗ trợ an toàn"
+        },
+        "topicIds": [
+          "T05"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C12"
+        ]
+      },
+      "referenceUrls": [
+        "https://doi.org/10.5498/wjp.v7.i1.60",
+        "https://www.stopbullying.gov/prevention/on-the-spot",
+        "https://www.stopbullying.gov/kids/what-you-can-do",
+        "https://www.stopbullying.gov/bullying/what-is-bullying",
+        "https://www.stopbullying.gov/bullying/roles-kids-play"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C11/REFERENCES.md",
+          "sha256": "f472a3f65109574915c8bf35ae3cf01910b01d4f81fce38be5d36a9c87347794"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C11/CLAIM-AUDIT.md",
+          "sha256": "fd3b592bfc5b70ae9952f156f2b3c78fd31eebf0b77b1b3deeef8a87747cb34c"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C11/BLOOM-REVIEW.md",
+          "sha256": "207af53162bafb22e70ec58f758bf21b256f9256203f6a72c3aecfed02615523"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C11/VISUAL-REVIEW.md",
+          "sha256": "7377685beed7f5a485a1fee600b3679b82cc52d59629f04e7db8e7cf5b7ffb71"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C11/EDITORIAL-REVIEW.md",
+          "sha256": "42d6da38bc2e65c2187da211d77c2b2e7a171cb7bff17ad6433946ed53ead9eb"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/support-without-confronting.svg",
+          "sha256": "b6a37b27b04e6f81207017da60bb4518a77cb0db00642eed06ca5e8346b141a0",
+          "id": "C11-V1",
+          "revision": "academic-content-v2",
+          "alt": "Vai trò tìm người lớn hỗ trợ của người bị nhắm đến và người chứng kiến.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C12",
+      "slug": "noi-khong-ton-trong",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C12.md",
+        "sha256": "86ed9e758f0df393a3f5f78c5210f97e3a844ecc344d79b8f0a784f3bbc0067c"
+      },
+      "contentHash": "86ed9e758f0df393a3f5f78c5210f97e3a844ecc344d79b8f0a784f3bbc0067c",
+      "revisionHash": "6325e60634330f31ee138cb450b34b950fae1f554de4e53a4f9bf3d76c63774f",
+      "metadata": {
+        "title": "Nói “không” mà vẫn tôn trọng nhau",
+        "collection": "core",
+        "topic": "Bạn bè và trường lớp",
+        "season": "Giữa học kỳ",
+        "keywords": [
+          "ranh giới",
+          "áp lực bạn bè"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện ranh giới cá nhân",
+          "understand": "Giải thích áp lực đồng trang lứa",
+          "apply": "Soạn một câu từ chối và phương án rời tình huống"
+        },
+        "topicIds": [
+          "T05"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C09"
+        ]
+      },
+      "referenceUrls": [
+        "https://www.childline.org.uk/info-advice/your-feelings/feelings-emotions/being-assertive/",
+        "https://www.childline.org.uk/info-advice/friends-relationships-sex/friends/peer-pressure/"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C12/REFERENCES.md",
+          "sha256": "dcbdc50282c7f327d08e8e349db9184fddb43bef4e59b2fea44d21f5e3e4fe50"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C12/CLAIM-AUDIT.md",
+          "sha256": "8f7379aadedbfc9766a1b117632b6b09671df2f1aa2e73b28545ca7849ebe154"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C12/BLOOM-REVIEW.md",
+          "sha256": "a1d742643077fd3497ee871b6bae564f46e2746727237600fab0f7b37e20797d"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C12/VISUAL-REVIEW.md",
+          "sha256": "8838892e7f6d83261cae14a41e2ad67cb5427d47a71fe887330083c995876bc0"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C12/EDITORIAL-REVIEW.md",
+          "sha256": "786cb8a6ab789cb701a37ff825d3a962f96877604e4231bb91c9b38eb75342b9"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/no-with-an-exit.svg",
+          "sha256": "6abf17aabef32907d422333b6c2eecf21176fd21b7e2c20da5b3f7e68ebd3d7b",
+          "id": "C12-V1",
+          "revision": "academic-content-v2",
+          "alt": "Giới hạn rõ, lời từ chối và cách dừng hoặc tìm hỗ trợ.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C13",
+      "slug": "ky-vong-o-nha",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C13.md",
+        "sha256": "d91484c8960c77c4fdd171ae5dfc7682c894817d5241b977a164c901a15ae6f5"
+      },
+      "contentHash": "d91484c8960c77c4fdd171ae5dfc7682c894817d5241b977a164c901a15ae6f5",
+      "revisionHash": "6ecae2a0d42e913a866b5b3cadebbe3650053397bb0f61d72821eed5adc538b6",
+      "metadata": {
+        "title": "Khi kỳ vọng ở nhà làm mình thấy nặng",
+        "collection": "core",
+        "topic": "Gia đình và hỗ trợ",
+        "season": "Mùa thi",
+        "keywords": [
+          "gia đình",
+          "kỳ vọng"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện nguồn kỳ vọng",
+          "understand": "Phân biệt nhu cầu và mong đợi",
+          "apply": "Chuẩn bị lời trao đổi hoặc chọn người hỗ trợ khác"
+        },
+        "topicIds": [
+          "T06"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C14"
+        ]
+      },
+      "referenceUrls": [
+        "https://www.mind.org.uk/for-young-people/feelings-and-experiences/exam-stress/",
+        "https://doi.org/10.1016/j.jad.2023.07.028",
+        "https://www.youngminds.org.uk/young-person/coping-with-life/family/"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C13/REFERENCES.md",
+          "sha256": "d0d81eba4e0efc85125f07257146c7eac4f7e4576819f899559f3999d31c41ef"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C13/CLAIM-AUDIT.md",
+          "sha256": "21a95b19dd79b57bd7e344150fa00b91ce7a0429c970468220c71f75ab6ca84e"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C13/BLOOM-REVIEW.md",
+          "sha256": "0b4d8872d143e8cb841e1c0d84ae2bf27d6b97de4823e752721e4032da3dc987"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C13/VISUAL-REVIEW.md",
+          "sha256": "6e94e5a744348ee7d5ccaa42a2c727a96398cb8b9be48d9c3336b403e77aaf01"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C13/EDITORIAL-REVIEW.md",
+          "sha256": "679f27abd9e8326f7f62483b574bf817177b4e6386ffdaf8eb3f4edfc78c2333"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/expectations-and-support.svg",
+          "sha256": "881e1a1ac82be334efae1b99b953a3202db9612edcf5e98b9fcb582364b8c8b8",
+          "id": "C13-V1",
+          "revision": "academic-content-v2",
+          "alt": "Mong đợi, điều kiện học và lựa chọn người giúp theo mức an toàn.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C14",
+      "slug": "tro-chuyen-voi-nguoi-lon",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C14.md",
+        "sha256": "48dae4b3d4892901e5dc26aa2a4d0a7d35c0e98bdb668ef12bf19f5716654e17"
+      },
+      "contentHash": "48dae4b3d4892901e5dc26aa2a4d0a7d35c0e98bdb668ef12bf19f5716654e17",
+      "revisionHash": "583bb409c65c7fe2d819f9fc59fb60c5563adf52e5ffae232c4bb0952fc2d910",
+      "metadata": {
+        "title": "Bắt đầu một cuộc trò chuyện khó với người lớn",
+        "collection": "core",
+        "topic": "Gia đình và hỗ trợ",
+        "season": "Đầu năm",
+        "keywords": [
+          "người lớn",
+          "hỗ trợ"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Kể tên bước chuẩn bị trò chuyện",
+          "understand": "Giải thích lựa chọn người và thời điểm",
+          "apply": "Soạn lời mở đầu và phương án thay thế"
+        },
+        "topicIds": [
+          "T06"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C15"
+        ]
+      },
+      "referenceUrls": [
+        "https://www.cdc.gov/healthy-youth/connecting-conversations/index.html",
+        "https://doi.org/10.1186/1471-244X-10-113",
+        "https://www.nami.org/kids-teens-and-young-adults/teens/how-to-talk-to-my-parents-or-guardian/",
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C14/REFERENCES.md",
+          "sha256": "37b268284065b9df491a3dfeed6faaa80767e23bf82894ca4d5ef57f162e1c88"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C14/CLAIM-AUDIT.md",
+          "sha256": "ab9cba05a922e386214a2971a4bfda240b7a4c1bcd1de30c734dd4f798c7e75f"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C14/BLOOM-REVIEW.md",
+          "sha256": "34ef271592edf4de55911971e24e822d05ec9f75c1206303f548766d40890ce3"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C14/VISUAL-REVIEW.md",
+          "sha256": "f98e3f0e343f7869db6bcb4f66e60f75d58feeddede3685e71515623c52253b5"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C14/EDITORIAL-REVIEW.md",
+          "sha256": "d67cc2aa0b41974640f0838779e33dd984fab40e7f22e45d3ae1a2fd8bc5df77"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/conversation-options.svg",
+          "sha256": "7b5af5fd76eaa5fe787ddd9ba53753d161a2ccdce314d4afdec6997089e132a9",
+          "id": "C14-V1",
+          "revision": "academic-content-v2",
+          "alt": "Chuẩn bị lời mở đầu và các cách tiếp tục khi cuộc trao đổi chưa phù hợp.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C15",
+      "slug": "tim-them-su-giup-do",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C15.md",
+        "sha256": "c83b63a2a1427c8820ef668d81726dab1396a8248f23e5bd37382c425d7cee76"
+      },
+      "contentHash": "c83b63a2a1427c8820ef668d81726dab1396a8248f23e5bd37382c425d7cee76",
+      "revisionHash": "a061bc16d918301d1790e44d6a9e4d834d8f45e1185d70605d1f9e1da0a0729c",
+      "metadata": {
+        "title": "Khi nào mình nên tìm thêm sự giúp đỡ?",
+        "collection": "core",
+        "topic": "Gia đình và hỗ trợ",
+        "season": "Giữa học kỳ",
+        "keywords": [
+          "trợ giúp",
+          "sinh hoạt"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện ảnh hưởng sinh hoạt trong ví dụ",
+          "understand": "Phân biệt vai trò giáo viên, tư vấn và nhân viên y tế",
+          "apply": "Chọn bước liên hệ phù hợp trong tình huống"
+        },
+        "topicIds": [
+          "T06"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C16"
+        ]
+      },
+      "referenceUrls": [
+        "https://doi.org/10.1186/1471-244X-10-113",
+        "https://www.mind.org.uk/for-young-people/how-to-get-help-and-support/where-to-look-for-mental-health-support/",
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C15/REFERENCES.md",
+          "sha256": "068ed9a9811d0a5ba7eaddf6ad0cac0355524b447de68372f95eb51bd3d62a71"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C15/CLAIM-AUDIT.md",
+          "sha256": "9fd63ce6c7a321460f1fc97f8437e4b46ac739ec7a1b28d28165b19c3c4f7e88"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C15/BLOOM-REVIEW.md",
+          "sha256": "aac472e0812052ae019cd942ea58ed5e9e08451cb4f976f1336a7079fd0eed3d"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C15/VISUAL-REVIEW.md",
+          "sha256": "ecbb7ad763330b0df2582266ecdc33895bb6b4ecad88d6c40179e5c87e36a415"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C15/EDITORIAL-REVIEW.md",
+          "sha256": "d06d6907a5b5d78bd6059e25269e0f67af40adf79fd6ca73ea66e993b27e39ed"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/support-role-map.svg",
+          "sha256": "cccf928f7cad75bad9aabafe17d984b2b0ae29299264da9226912f86c5b20ba2",
+          "id": "C15-V1",
+          "revision": "academic-content-v2",
+          "alt": "Ba vai trò hỗ trợ việc học, tham vấn và sức khỏe có thể phối hợp.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C16",
+      "slug": "khi-ban-rat-buon",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C16.md",
+        "sha256": "16871edeba3aebf95b3007a0fadbd7868a1ac49c42399a8c8701a02477ba8f41"
+      },
+      "contentHash": "16871edeba3aebf95b3007a0fadbd7868a1ac49c42399a8c8701a02477ba8f41",
+      "revisionHash": "5f3f39e89bf1793ed6e132a650826f12ca8e0a7ebff485cd4d1bc0b377dfe1ed",
+      "metadata": {
+        "title": "Khi một người bạn nói rằng bạn ấy đang rất buồn",
+        "collection": "core",
+        "topic": "Gia đình và hỗ trợ",
+        "season": "Giữa học kỳ",
+        "keywords": [
+          "lắng nghe",
+          "giới hạn"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện phản hồi lắng nghe",
+          "understand": "Giải thích giới hạn trách nhiệm của bạn bè",
+          "apply": "Chọn phản hồi và người lớn cần nhờ trong tình huống"
+        },
+        "topicIds": [
+          "T05"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C13"
+        ]
+      },
+      "referenceUrls": [
+        "https://www.childline.org.uk/info-advice/friends-relationships-sex/friends/friendship-problems/",
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health",
+        "https://www.youngminds.org.uk/young-person/supporting-a-friend-with-their-mental-health/"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C16/REFERENCES.md",
+          "sha256": "09550d24bc8402c19b0e7c6dc029de03eebbc2b573abac98f08eef492a9d5ff5"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C16/CLAIM-AUDIT.md",
+          "sha256": "0aee8e603ee1fff3f8a2617c77cf91ce295585dc4a64493a008ced06e49a062a"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C16/BLOOM-REVIEW.md",
+          "sha256": "943ebff84e074c90064acd8cdbe39bc569db46d0d3f86baeda04acb2837a8eb8"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C16/VISUAL-REVIEW.md",
+          "sha256": "027efa618160455d16e1568dc3fa3c491fc90a1d51b2732c4db85462b30768ef"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C16/EDITORIAL-REVIEW.md",
+          "sha256": "4ab229f65630dca3d023abfdc56822cefdd0b359418013ea5ab4827082b99673"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/listen-and-share-support.svg",
+          "sha256": "d060b285db89aade20d4029011fe4c4d00fc1fe749aa35dc037a72f5e0aee301",
+          "id": "C16-V1",
+          "revision": "academic-content-v2",
+          "alt": "Lắng nghe bạn, giữ giới hạn và tìm người lớn khi an toàn bị đe dọa.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C17",
+      "slug": "dem-dai-minh-chua-ngu",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C17.md",
+        "sha256": "2f285f09f13074fa8501eef3bad667ec5ea87fe6314e2c1ca20b61e3feae5d03"
+      },
+      "contentHash": "2f285f09f13074fa8501eef3bad667ec5ea87fe6314e2c1ca20b61e3feae5d03",
+      "revisionHash": "f63197f214a1b10f062f3b777f5c253291cb4f3ff18c11199bb25b01ad681b63",
+      "metadata": {
+        "title": "Đêm dài, mình chưa ngủ",
+        "collection": "core",
+        "topic": "Giấc ngủ và nhịp sống",
+        "season": "Giữa học kỳ",
+        "keywords": [
+          "giấc ngủ",
+          "nhịp sinh học"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện yếu tố liên quan giấc ngủ",
+          "understand": "Giải thích khác biệt nhịp sinh học và thói quen",
+          "apply": "Chọn một điều chỉnh và dấu hiệu cần trao đổi"
+        },
+        "topicIds": [
+          "T07"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C18"
+        ]
+      },
+      "referenceUrls": [
+        "https://www.nhlbi.nih.gov/health/insomnia/diagnosis",
+        "https://www.nhlbi.nih.gov/health/sleep-deprivation/healthy-sleep-habits",
+        "https://www.nhlbi.nih.gov/health/sleep-deprivation/body-clock",
+        "https://doi.org/10.5664/jcsm.5866",
+        "https://www.nhlbi.nih.gov/health/sleep-deprivation/health-effects"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C17/REFERENCES.md",
+          "sha256": "fb19cb82b6f6caec9fc20daafd7555ea2afb78f0e6782fea5fc8a1f09f6e046f"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C17/CLAIM-AUDIT.md",
+          "sha256": "010f0afcf8b793f48df6fa5770f9e0f0627f21669beb7c0c0cec90c5e01ebff7"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C17/BLOOM-REVIEW.md",
+          "sha256": "a490a775cc382a2aa7ef45aa3b1b82701a932d558e45c6c57ab8d7b6143dfb93"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C17/VISUAL-REVIEW.md",
+          "sha256": "7ac2890303c2d64005214354a2c157031ee05eb287b515c8617638fcdde7bd24"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C17/EDITORIAL-REVIEW.md",
+          "sha256": "cad2232a2a26d6aeab511f5e85fa77499024d7d02aea3282b450820ef512214c"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/sleep-context.svg",
+          "sha256": "cc2db4157e675bb5ae85f2d90046fe6ee4754e67eef1ba471f58a51411a1bca6",
+          "id": "C17-V1",
+          "revision": "academic-content-v2",
+          "alt": "Nhu cầu ngủ, lịch sinh hoạt, môi trường và các câu hỏi điều chỉnh.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C18",
+      "slug": "nghi-mot-chut",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C18.md",
+        "sha256": "3f2dc4ddfe2e1d2ee56efd2194975c3e9ec5417722bb94095cf2c4ea60767fca"
+      },
+      "contentHash": "3f2dc4ddfe2e1d2ee56efd2194975c3e9ec5417722bb94095cf2c4ea60767fca",
+      "revisionHash": "35c83fe58af4d387fee74a2866e76a768e1114c85a3f2370391de101873b3532",
+      "metadata": {
+        "title": "Nghỉ một chút có phải là lười?",
+        "collection": "core",
+        "topic": "Giấc ngủ và nhịp sống",
+        "season": "Mùa thi",
+        "keywords": [
+          "nghỉ ngơi",
+          "phục hồi"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện hình thức nghỉ",
+          "understand": "Phân biệt nghỉ với né tránh kéo dài theo tình huống",
+          "apply": "Chọn khoảng nghỉ và điều chỉnh nhiệm vụ"
+        },
+        "topicIds": [
+          "T02"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C19"
+        ]
+      },
+      "referenceUrls": [
+        "https://doi.org/10.1371/journal.pone.0272460",
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health",
+        "https://www.unicef.org/child-rights-convention/convention-text"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C18/REFERENCES.md",
+          "sha256": "56e64648492f16d31f66877a9e1837bc3aca28e2c2491957bc142a4e3befba19"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C18/CLAIM-AUDIT.md",
+          "sha256": "8d94e614eb592620abdb978db2104165c8c1b208d138acb450c9cad569032599"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C18/BLOOM-REVIEW.md",
+          "sha256": "7565c937c795a0bbf9364f3ffb7e20997f00ef4fb1d05cc8739503555674596f"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C18/VISUAL-REVIEW.md",
+          "sha256": "679c4cadc404fa1322dbac6a1450a9687132ad6a591718ab032e5b3fa3730876"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C18/EDITORIAL-REVIEW.md",
+          "sha256": "2a70df21c29b10eac4f2c3a7cd9693f9fdfe3138e71765eefbb7ddf794380925"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/rest-options.svg",
+          "sha256": "aa2472aebf711abf70229b4a76dc5adc6b8812d4dd1998e8167da8fbc8c06d62",
+          "id": "C18-V1",
+          "revision": "academic-content-v2",
+          "alt": "Chọn cách nghỉ theo nhu cầu và xem lại việc học sau đó.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C19",
+      "slug": "tin-hieu-co-the",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C19.md",
+        "sha256": "8123e3174425ed70dfe8681cbec9fa6bfc329ba706188bfe156a2bf33108e716"
+      },
+      "contentHash": "8123e3174425ed70dfe8681cbec9fa6bfc329ba706188bfe156a2bf33108e716",
+      "revisionHash": "670dd91421c3baa5e8955fc1030e357e340dd7135be56a5e9218ab399a15176e",
+      "metadata": {
+        "title": "Cơ thể đang nhắc mình điều gì?",
+        "collection": "core",
+        "topic": "Giấc ngủ và nhịp sống",
+        "season": "Giữa học kỳ",
+        "keywords": [
+          "cơ thể",
+          "căng thẳng"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện tín hiệu cơ thể",
+          "understand": "Giải thích một tín hiệu có thể có nhiều nguyên nhân",
+          "apply": "Chọn bước nghỉ hoặc tìm trợ giúp trong tình huống"
+        },
+        "topicIds": [
+          "T07"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C20"
+        ]
+      },
+      "referenceUrls": [
+        "https://www.nhs.uk/mental-health/children-and-young-adults/advice-for-parents/anxiety-disorders-in-children/",
+        "https://www.schn.health.nsw.gov.au/factsheets/abdominal-pain-and-stomach-ache"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C19/REFERENCES.md",
+          "sha256": "7c86ada24a54cb3907a95d78b4b3744bb73d993aa84b5b4b228be69ed8e3d7bd"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C19/CLAIM-AUDIT.md",
+          "sha256": "700c2ab1831abea672a585a1c107fd64d7f188e6e2050e72baf7d7ed8103187a"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C19/BLOOM-REVIEW.md",
+          "sha256": "b6f2a85af159eb8f0e740d7ac14be5ee340ccb143abca457c673db3b163d132a"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C19/VISUAL-REVIEW.md",
+          "sha256": "9a479eac1fbed337edb1e4a73e2494996d7b06d6289969535f3352dc7c6c5615"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C19/EDITORIAL-REVIEW.md",
+          "sha256": "7a389925271e03ea8d8f1823d574b63164161fcd5fc6398e7b5abb23045595a0"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/body-signal-context.svg",
+          "sha256": "64958cd5dee7adea33b3c676af8ff566141a0ab542ade326b269b9250e5ec126",
+          "id": "C19-V1",
+          "revision": "academic-content-v2",
+          "alt": "Mô tả tín hiệu cơ thể, nguyên nhân còn mở và người có thể giúp.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C20",
+      "slug": "van-dong-giua-ngay-hoc",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C20.md",
+        "sha256": "63510ea45a4b26156015026ea52135644710fb850c9d53831e0e0e8d524b06ce"
+      },
+      "contentHash": "63510ea45a4b26156015026ea52135644710fb850c9d53831e0e0e8d524b06ce",
+      "revisionHash": "cc8493762cf905be6ace52d4872ccabb7348a2a2fcec9e06c57187295aa00f50",
+      "metadata": {
+        "title": "Một khoảng vận động giữa ngày học",
+        "collection": "core",
+        "topic": "Giấc ngủ và nhịp sống",
+        "season": "Giữa học kỳ",
+        "keywords": [
+          "vận động",
+          "sức khỏe"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Kể tên vận động vừa sức",
+          "understand": "Giải thích vận động hỗ trợ nhưng không thay điều trị",
+          "apply": "Chọn hoạt động có thể điều chỉnh theo khả năng"
+        },
+        "topicIds": [
+          "T07"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C17"
+        ]
+      },
+      "referenceUrls": [
+        "https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-children-and-young-people/",
+        "https://www.nimh.nih.gov/health/publications/children-and-mental-health",
+        "https://www.who.int/news-room/fact-sheets/detail/physical-activity"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C20/REFERENCES.md",
+          "sha256": "d6c7e27c21256e36628e03a1dc6d004695bc75a0469cf27c510c49dfbc5fedd6"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C20/CLAIM-AUDIT.md",
+          "sha256": "1ef69635d4d76d817f05e9302f0ebb57e73a26accf393c1519e0bd1d4c6c6f64"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C20/BLOOM-REVIEW.md",
+          "sha256": "f35f263021e6c8545d420e99e12243b9575246e7fa8961f3d4a382d3eadf6ae8"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C20/VISUAL-REVIEW.md",
+          "sha256": "ee5e1fa6476c3c363140e5083497d9f2bdeacba523793f5c926d21d2ef500d12"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C20/EDITORIAL-REVIEW.md",
+          "sha256": "9ad8f8e08228ad93f048ce20def691fb74d65906725de0b32d44ed7af885bc20"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/movement-options.svg",
+          "sha256": "5cd38da86c36dee3c48c968b1d333befb1a57af7a40dae2cbb603f5d635eb296",
+          "id": "C20-V1",
+          "revision": "academic-content-v2",
+          "alt": "Xem điều kiện, chọn vận động phù hợp và điều chỉnh khi cần.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C21",
+      "slug": "so-sanh-tren-mang",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C21.md",
+        "sha256": "0d84b80ffd0c7445c41bff1641ece178932a4eddc1b746ccd70a9e71467082a8"
+      },
+      "contentHash": "0d84b80ffd0c7445c41bff1641ece178932a4eddc1b746ccd70a9e71467082a8",
+      "revisionHash": "298d85ec5b577326c024036d7c3fe2c6914dcb0001cad8afe91cb0b2b1fdf667",
+      "metadata": {
+        "title": "Lướt mạng rồi thấy mình kém hơn",
+        "collection": "core",
+        "topic": "Đời sống số và chuyển tiếp",
+        "season": "Giữa học kỳ",
+        "keywords": [
+          "mạng xã hội",
+          "so sánh"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện so sánh xã hội",
+          "understand": "Giải thích tính chọn lọc của nội dung mạng",
+          "apply": "Chọn một điều chỉnh cách sử dụng"
+        },
+        "topicIds": [
+          "T08"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C22"
+        ]
+      },
+      "referenceUrls": [
+        "https://doi.org/10.1177/001872675400700202",
+        "https://doi.org/10.1016/j.copsyc.2021.08.017",
+        "https://www.youngminds.org.uk/young-person/coping-with-life/social-media-and-mental-health/"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C21/REFERENCES.md",
+          "sha256": "e1e98e566e2cd4ff2d147a9c0fb3eeb43ec73bb86ed686b92261db0e82abfafc"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C21/CLAIM-AUDIT.md",
+          "sha256": "d6b621c5fb9a790e31d7d922d1eca640d8eee12de9ed5bb8001e12c7c81d4ea6"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C21/BLOOM-REVIEW.md",
+          "sha256": "1e2ced89d7bcefc66d48b613dcbbac10c00f3e1f34ecc7ed850b1533a9075ec0"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C21/VISUAL-REVIEW.md",
+          "sha256": "95d9ee125ed32df5b05fb7616199c4f95b1b199dc76156099ca5c25fca99c41d"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C21/EDITORIAL-REVIEW.md",
+          "sha256": "90e6f36c5a228b1a5368d8107c2bdddb1787b485ee020975b00396f2e124bc79"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/post-and-missing-context.svg",
+          "sha256": "a69c4cde0f5d8d823845bd20a5600d09249dc2a68a9b58f00132f307518c17a7",
+          "id": "C21-V1",
+          "revision": "academic-content-v2",
+          "alt": "Điều bài đăng cho thấy, phần chưa biết và kết luận đang thêm vào.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C22",
+      "slug": "dien-thoai-va-chu-y",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C22.md",
+        "sha256": "a22a0985e37b88b642478dad384a7dc8c239c8fae549310b3c3c89ae8dea659e"
+      },
+      "contentHash": "a22a0985e37b88b642478dad384a7dc8c239c8fae549310b3c3c89ae8dea659e",
+      "revisionHash": "5601129c83c5a4a82cde8a5ec6106911fd2784dcf14c3061d77225d942f5a7eb",
+      "metadata": {
+        "title": "Điện thoại cứ kéo mình ra khỏi trang vở",
+        "collection": "core",
+        "topic": "Đời sống số và chuyển tiếp",
+        "season": "Mùa thi",
+        "keywords": [
+          "điện thoại",
+          "chú ý"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện tác nhân ngắt quãng",
+          "understand": "Giải thích chuyển đổi chú ý trong tình huống",
+          "apply": "Thiết kế khoảng học ít gián đoạn"
+        },
+        "topicIds": [
+          "T08"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C23"
+        ]
+      },
+      "referenceUrls": [
+        "https://doi.org/10.1016/S1364-6613(03)00028-7",
+        "https://www.youngminds.org.uk/young-person/coping-with-life/social-media-and-mental-health/"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C22/REFERENCES.md",
+          "sha256": "fa6c4aabdfef49dff24ac885f926aba565113a4d11b2b94d014a6a3b499ee296"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C22/CLAIM-AUDIT.md",
+          "sha256": "578fd65f135ba7fe36e043631abb7ff9c384c620a53236b36bd4824e9b2292ed"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C22/BLOOM-REVIEW.md",
+          "sha256": "7da1a34a3b5c7a3410ad05400ace70686846b632c34351c4c84de3ef06d33e02"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C22/VISUAL-REVIEW.md",
+          "sha256": "5092b89afdd71ea2a79d3bed849b74eb63fdf27d8f8af534e5b175eb53b6b81f"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C22/EDITORIAL-REVIEW.md",
+          "sha256": "349f2832eef694161b42ba1a35018b38690d9c24672fb9871b46a10e0342a809"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/study-and-contact.svg",
+          "sha256": "c2fe2dc556c95186c36ed54a1335400653fad848f9c64cdb500ecb25b2ae8e88",
+          "id": "C22-V1",
+          "revision": "academic-content-v2",
+          "alt": "Giữ liên lạc cần thiết, giảm ngắt và đánh dấu chỗ quay lại học.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C23",
+      "slug": "lop-moi-truong-moi",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C23.md",
+        "sha256": "cfac5a7675278844da280f1e0e0e9004255e7c28c4088679206ae2fe042885fe"
+      },
+      "contentHash": "cfac5a7675278844da280f1e0e0e9004255e7c28c4088679206ae2fe042885fe",
+      "revisionHash": "f368c4ea2248d49ea3a3633ddfaf1f7ea4808843a98b7713d1e5585d98f1f7e0",
+      "metadata": {
+        "title": "Lớp mới, trường mới, mình bắt đầu từ đâu?",
+        "collection": "core",
+        "topic": "Đời sống số và chuyển tiếp",
+        "season": "Đầu năm",
+        "keywords": [
+          "chuyển trường",
+          "thích nghi"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện khó khăn chuyển tiếp",
+          "understand": "Giải thích khác biệt nhịp thích nghi",
+          "apply": "Chọn bước làm quen và nguồn hỗ trợ"
+        },
+        "topicIds": [
+          "T04"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C24"
+        ]
+      },
+      "referenceUrls": [
+        "https://doi.org/10.1002/rev3.3197",
+        "https://www.youngminds.org.uk/young-person/coping-with-life/problems-at-school/"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C23/REFERENCES.md",
+          "sha256": "1939db5fd06c20c591fd391f364801eb9608bc8667e89dbb5721319ef35c08d1"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C23/CLAIM-AUDIT.md",
+          "sha256": "ed797c319258ef75d2ff6c6eab8bd1bbe7fb7b8c81ece1cafdc06b5add111b02"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C23/BLOOM-REVIEW.md",
+          "sha256": "955634124ece1bf2700a74fe27821ae2313d84b62b7beec18524ef826cd7d2c9"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C23/VISUAL-REVIEW.md",
+          "sha256": "1552c1411c364e0b183fd03051a235f89622bc75a7eac2c53dde503de8824720"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C23/EDITORIAL-REVIEW.md",
+          "sha256": "51dc278d61f894caf68907e5e20c75c8f1fe36c8c10b85a669c300e41e297388"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/new-school-map.svg",
+          "sha256": "760d6ddeb67d5f0262ced624e4e21c3b5784be4411872f05c6e6ca4b5d2124e7",
+          "id": "C23-V1",
+          "revision": "academic-content-v2",
+          "alt": "Bản đồ câu hỏi về nơi chốn, cách làm việc và người có thể hỏi.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-C24",
+      "slug": "kham-pha-tuong-lai",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/C24.md",
+        "sha256": "04d1cc05f6b8925b5d161704cddf5af5e131c45bea9d41e7316984058c2664c1"
+      },
+      "contentHash": "04d1cc05f6b8925b5d161704cddf5af5e131c45bea9d41e7316984058c2664c1",
+      "revisionHash": "9d156f28c560f46c176f284ab3c03daa5e059dd6d47c4519cb3bd6e5ffa53a04",
+      "metadata": {
+        "title": "Chưa biết mình muốn trở thành ai cũng được",
+        "collection": "core",
+        "topic": "Đời sống số và chuyển tiếp",
+        "season": "Sau thi",
+        "keywords": [
+          "tương lai",
+          "giá trị"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Gọi tên sở thích và giá trị trong ví dụ",
+          "understand": "Phân biệt khám phá với cam kết nghề nghiệp",
+          "apply": "Chọn hoạt động thử và cách nhìn lại"
+        },
+        "topicIds": [
+          "T08"
+        ],
+        "relatedArticleIds": [
+          "KGNT-C21"
+        ]
+      },
+      "referenceUrls": [
+        "https://nationalcareers.service.gov.uk/careers-advice/career-choices-at-16",
+        "https://www.oecd.org/en/publications/teenage-career-uncertainty_e89c3da9-en.html"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/C24/REFERENCES.md",
+          "sha256": "62f1ba8891c1bbbe935a38eacbce410c46afc8e8c5730827213283381a240c2f"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/C24/CLAIM-AUDIT.md",
+          "sha256": "6e21e588f492d46ae65800d2f54f835d1184bb7c7537069e03d99ace2ebf7e6c"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/C24/BLOOM-REVIEW.md",
+          "sha256": "8bd78735f9c28ab806d1600b0642571ecea86ad1f2433a3946662af6bb544387"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C24/VISUAL-REVIEW.md",
+          "sha256": "56348288d706ecf75ed711552d6dfb3acd08b129f267eaa028ce21c016ae1548"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/C24/EDITORIAL-REVIEW.md",
+          "sha256": "a928e4a11e5be3d3a63b2f5b487cd338c41f2c23000cca0911848315042172ff"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/exploration-and-reflection.svg",
+          "sha256": "2bbb29f46fa088842990df7be5ebe4886b75262d9c48127063b17cc935924033",
+          "id": "C24-V1",
+          "revision": "academic-content-v2",
+          "alt": "Tìm điều muốn biết, thử phù hợp, nhìn lại và chọn bước tiếp.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-E01",
+      "slug": "mbti-va-16-kieu-tinh-cach",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/E01.md",
+        "sha256": "655177c2bc23a705dfb6a79d6a048e686cc67b113bb9111481eacf111ceb8007"
+      },
+      "contentHash": "655177c2bc23a705dfb6a79d6a048e686cc67b113bb9111481eacf111ceb8007",
+      "revisionHash": "08d992b8aaf940b88e261b3bbdf206fb9c6a4a0ff1b6fec04b89825628f54830",
+      "metadata": {
+        "title": "MBTI và 16 kiểu tính cách: hiểu và đọc kết quả thế nào?",
+        "collection": "extension",
+        "topic": "Công cụ tâm lý và khám phá bản thân",
+        "season": "Sau thi",
+        "keywords": [
+          "MBTI",
+          "16 kiểu tính cách"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện tên công cụ và kết quả phân loại",
+          "understand": "Phân biệt MBTI chính thức với bài 16 tính cách khác",
+          "apply": "Xem xét một kết luận gắn nhãn trong ví dụ"
+        },
+        "topicIds": [
+          "T09"
+        ],
+        "relatedArticleIds": [
+          "KGNT-E02"
+        ]
+      },
+      "referenceUrls": [
+        "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf",
+        "https://doi.org/10.1002/jcad.70006",
+        "https://www.themyersbriggs.com/en-US/Support/MBTI-Facts",
+        "https://www.16personalities.com/articles/our-theory",
+        "https://doi.org/10.1111/spc3.12434",
+        "https://www.myersbriggs.org/my-mbti-personality-type/the-mbti-preferences/"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/E01/REFERENCES.md",
+          "sha256": "e8db1d4c39d87f044af5ce23d0b1052c65ac8a9f03ff422f762686224e3a954a"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/E01/CLAIM-AUDIT.md",
+          "sha256": "2c472ed646102cf5d9f626ac105359164d9e01f13ddd16b31a44a776210043cc"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/E01/BLOOM-REVIEW.md",
+          "sha256": "cfb69b60564f8cd8566f5959a54cd2c7f13a9734663e0ccb422b7f1045ae1950"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/E01/VISUAL-REVIEW.md",
+          "sha256": "074f2f95719f8baa2370f4423a7c5e8ac1999df874568930cf05c6d895153e29"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/E01/EDITORIAL-REVIEW.md",
+          "sha256": "9533cadf3063c28854a2f983fb6719b363d59ed191f525423b96d0915f00fa3d"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/tool-result-conclusion.svg",
+          "sha256": "776d845db20c1023e44024f9fe8605544f965c066072c5e8944faa5dadecb823",
+          "id": "E01-V1",
+          "revision": "academic-content-v2",
+          "alt": "Ba câu hỏi về công cụ tính cách, kết quả và kết luận có thể rút ra.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-E02",
+      "slug": "big-five",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/E02.md",
+        "sha256": "20349c7f2cfaa525f710675fa15466183ca85336398cc3a3559a9b13c6ad6618"
+      },
+      "contentHash": "20349c7f2cfaa525f710675fa15466183ca85336398cc3a3559a9b13c6ad6618",
+      "revisionHash": "b607059ddf7e78fb2157450075144d1a8dc3beddd9cc037d6ae19ec873590fb0",
+      "metadata": {
+        "title": "Big Five: hiểu đặc điểm nhân cách mà không đóng khung bản thân",
+        "collection": "extension",
+        "topic": "Công cụ tâm lý và khám phá bản thân",
+        "season": "Sau thi",
+        "keywords": [
+          "Big Five",
+          "nhân cách"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Gọi tên năm chiều sau khi xác minh thuật ngữ",
+          "understand": "Phân biệt chiều liên tục và loại người",
+          "apply": "Mô tả nhân vật không gắn nhãn cố định"
+        },
+        "topicIds": [
+          "T09"
+        ],
+        "relatedArticleIds": [
+          "KGNT-E03"
+        ]
+      },
+      "referenceUrls": [
+        "https://www.ocf.berkeley.edu/~johnlab/bfi.html",
+        "https://www.colby.edu/wp-content/uploads/2019/06/John_et_al_2008.pdf",
+        "https://doi.org/10.1037/0022-3514.94.4.718",
+        "https://doi.org/10.1111/sjop.13110"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/E02/REFERENCES.md",
+          "sha256": "1c0d801ea09c833fca9bf78703a84be568df81ceced39b92585882015508f2c4"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/E02/CLAIM-AUDIT.md",
+          "sha256": "44ef99b4425461218ae282d2ff59bb497fb10d760d63bd989b4d7fe807725ab4"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/E02/BLOOM-REVIEW.md",
+          "sha256": "355fe52cd1d0ed4941352299a92dfd11dce98e37cb1968bc36699e935f0b6d96"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/E02/VISUAL-REVIEW.md",
+          "sha256": "f766e65271c599582abc8fb0a4d737097e2c2cadf09c90acb66f56faf2e011c2"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/E02/EDITORIAL-REVIEW.md",
+          "sha256": "775add7c557ae57c7abece66568f5a7ef08fda999339f78bc429b3aa743e619b"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/five-dimensions.svg",
+          "sha256": "b450d2f9091c2a3f3a2d81ff05f7108797e6a162c951993bf1474e8446a41c03",
+          "id": "E02-V1",
+          "revision": "academic-content-v2",
+          "alt": "Năm chiều Big Five với nhiều mức biểu hiện, không có điểm cá nhân.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-E03",
+      "slug": "holland-riasec",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/E03.md",
+        "sha256": "d40824874a4a79c0589f7e740a9b512ce57d4cdc89f00839a7a4942bc7259ac3"
+      },
+      "contentHash": "d40824874a4a79c0589f7e740a9b512ce57d4cdc89f00839a7a4942bc7259ac3",
+      "revisionHash": "c65efcb9a0a9e9040cd6e9d6c6af175fbaa3543b1485f8e2b6b0d758e7b8b324",
+      "metadata": {
+        "title": "Holland RIASEC: khám phá sở thích nghề nghiệp",
+        "collection": "extension",
+        "topic": "Công cụ tâm lý và khám phá bản thân",
+        "season": "Sau thi",
+        "keywords": [
+          "RIASEC",
+          "sở thích nghề nghiệp"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Gọi tên sáu nhóm sở thích",
+          "understand": "Phân biệt sở thích, năng lực và nghề định sẵn",
+          "apply": "Chọn hoạt động khám phá từ tình huống"
+        },
+        "topicIds": [
+          "T09"
+        ],
+        "relatedArticleIds": [
+          "KGNT-E04"
+        ]
+      },
+      "referenceUrls": [
+        "https://www.onetcenter.org/license_tools.html",
+        "https://www.onetcenter.org/dl_files/IP_Manual.pdf"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/E03/REFERENCES.md",
+          "sha256": "c41565b0ac2a234ea632a4067152cf140eccbccf1c75e6159147801c256e77b7"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/E03/CLAIM-AUDIT.md",
+          "sha256": "b85957c893bc9ad978729ebc6836ec9acdadc21745abffc31a2ea3b0778037a0"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/E03/BLOOM-REVIEW.md",
+          "sha256": "bbe4b7a69d77cc49e2eb10f506ba32e8743f707229ed1c555a547d013f619404"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/E03/VISUAL-REVIEW.md",
+          "sha256": "f9fef3114cede9242dd6a2378ca471fc6b41a1fc6b43fed327847549abebc7d1"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/E03/EDITORIAL-REVIEW.md",
+          "sha256": "7a47aef4386a6ade0662a78d53d46b7c9cd7d3df391e1a3a8fa3b1e4981faa17"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/six-interest-directions.svg",
+          "sha256": "364ae4305b587a0393d042741ebc2d9b10de4ed78429608a9a50b13f13d0d592",
+          "id": "E03-V1",
+          "revision": "academic-content-v2",
+          "alt": "Sáu hướng sở thích RIASEC cùng các loại hoạt động để khám phá.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-E04",
+      "slug": "stress-va-cong-cu-sang-loc",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/E04.md",
+        "sha256": "e571f8c07480308551cf22c6e8fd7c730137365325c319c5bb09fde635da57e3"
+      },
+      "contentHash": "e571f8c07480308551cf22c6e8fd7c730137365325c319c5bb09fde635da57e3",
+      "revisionHash": "6dccf1fff0175ee43b6da1c6aa84a8a6eda07280cec51bc80e9e25d11f2485c7",
+      "metadata": {
+        "title": "Stress và công cụ sàng lọc: một con số nói được gì?",
+        "collection": "extension",
+        "topic": "Công cụ tâm lý và khám phá bản thân",
+        "season": "Mùa thi",
+        "keywords": [
+          "stress",
+          "sàng lọc"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện các loại công cụ",
+          "understand": "Phân biệt sàng lọc, đo stress và chẩn đoán",
+          "apply": "Chọn câu hỏi cần hỏi khi gặp kết quả giả định"
+        },
+        "topicIds": [
+          "T09"
+        ],
+        "relatedArticleIds": [
+          "KGNT-E05"
+        ]
+      },
+      "referenceUrls": [
+        "https://www.testingstandards.net/uploads/7/6/6/4/76643089/standards_2014edition.pdf",
+        "https://www.cmu.edu/common-cold-project/measures-by-study/psychological-and-social-constructs/stress-measures/perceived-stress.html",
+        "https://doi.org/10.1186/s12888-017-1221-6",
+        "https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/scales/",
+        "https://medlineplus.gov/lab-tests/mental-health-screening/",
+        "https://www.who.int/news-room/questions-and-answers/item/stress"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/E04/REFERENCES.md",
+          "sha256": "8eb8a5f0648e15ac1828d84f79b3e820a096b750a32e197c403f7576c05688c1"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/E04/CLAIM-AUDIT.md",
+          "sha256": "41091d82ce1e5e7369bfdd7839c1a3044052225ff010bd774d8a31bc80bccf3e"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/E04/BLOOM-REVIEW.md",
+          "sha256": "160bdffdb62a3345934aa4830e1dd79d5af9405d2a3e695ccc3b6e4ab44d689d"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/E04/VISUAL-REVIEW.md",
+          "sha256": "7d35f01b1992566bde5a4c926e3acdad1df55a7b87b0c41523445ca41d037485"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/E04/EDITORIAL-REVIEW.md",
+          "sha256": "eb97f7d87df6e236872be7dee14cd052be2cf9a0b393a8b5f04c98bcdf5e7605"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/score-context-support.svg",
+          "sha256": "eff61c21f13953f626d1c3fc65f442c7fcbf4c34039bc81bcd80fd620264094d",
+          "id": "E04-V1",
+          "revision": "academic-content-v2",
+          "alt": "Các câu hỏi về điều được đo, bằng chứng và cách giải thích điểm.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    },
+    {
+      "id": "KGNT-E05",
+      "slug": "phong-cach-hoc-tap",
+      "revision": "academic-content-v2",
+      "source": {
+        "path": "docs/content-rewrite-v2/articles/E05.md",
+        "sha256": "5fa8fecce32774b01e7478b696b445c2ea3d7fe3470f3fc1d606857abc8587e0"
+      },
+      "contentHash": "5fa8fecce32774b01e7478b696b445c2ea3d7fe3470f3fc1d606857abc8587e0",
+      "revisionHash": "355b14347f4b985b556c6b00e5319589801fad09a9f52645c863981f090db4a6",
+      "metadata": {
+        "title": "Phong cách học tập: phân biệt sở thích với bằng chứng khoa học",
+        "collection": "extension",
+        "topic": "Công cụ tâm lý và khám phá bản thân",
+        "season": "Mùa thi",
+        "keywords": [
+          "phong cách học",
+          "sở thích học"
+        ],
+        "audience": [
+          "THCS",
+          "THPT"
+        ],
+        "bloom": {
+          "remember": "Nhận diện tuyên bố về kiểu học",
+          "understand": "Phân biệt sở thích với giả thuyết ghép cách dạy theo kiểu học",
+          "apply": "Chọn phương pháp theo nhiệm vụ thay vì nhãn"
+        },
+        "topicIds": [
+          "T09"
+        ],
+        "relatedArticleIds": [
+          "KGNT-E01"
+        ]
+      },
+      "referenceUrls": [
+        "https://doi.org/10.3389/fpsyg.2018.01538",
+        "https://doi.org/10.3389/fpsyg.2024.1428732",
+        "https://doi.org/10.1177/1529100612453266",
+        "https://doi.org/10.1111/j.1539-6053.2009.01038.x"
+      ],
+      "dossiers": {
+        "REFERENCES": {
+          "path": "docs/phase-3/drafts/E05/REFERENCES.md",
+          "sha256": "0177cf236a2ec9ff4b9e330153a24c84c46cbf1f02fe6583801ddf737d75fd48"
+        },
+        "CLAIM-AUDIT": {
+          "path": "docs/phase-3/drafts/E05/CLAIM-AUDIT.md",
+          "sha256": "2ecc3df655f8161ed1e402606aee59b531b8b6d220f548a6eecfa633277ff391"
+        },
+        "BLOOM-REVIEW": {
+          "path": "docs/phase-3/drafts/E05/BLOOM-REVIEW.md",
+          "sha256": "022c48be819767327c6dfda6ea4f1aeda6dd3f5d51098ad1ce3946eedececa9f"
+        },
+        "VISUAL-REVIEW": {
+          "path": "docs/phase-3/drafts/E05/VISUAL-REVIEW.md",
+          "sha256": "f118d2fdebd68b51bc25bbdf4b4d931973bec684d4fd2cc2b4143acef8b075a7"
+        },
+        "EDITORIAL-REVIEW": {
+          "path": "docs/phase-3/drafts/E05/EDITORIAL-REVIEW.md",
+          "sha256": "99c9a3bc98db676abb9c384a04d404e50d1de988f9abeb92c35003685c2c96d1"
+        }
+      },
+      "assets": [
+        {
+          "path": "docs/content-rewrite-v2/assets/claim-to-practice.svg",
+          "sha256": "60a5cb8c9221a95978b319f7b03e3c4392e4579ab3deb852b6b97129930146b4",
+          "id": "E05-V1",
+          "revision": "academic-content-v2",
+          "alt": "Từ sở thích tới bằng chứng kiểm tra và lựa chọn cách học theo nhiệm vụ.",
+          "rights": null
+        }
+      ],
+      "status": "draft",
+      "publication": null,
+      "publishedAt": null
+    }
+  ]
+}
